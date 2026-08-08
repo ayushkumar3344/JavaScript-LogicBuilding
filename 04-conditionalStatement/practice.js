@@ -255,3 +255,354 @@
 
 
 
+
+
+
+
+//  Ternary Operator Practice work -------------------------->
+
+
+
+// Question 1 :-> Check if a number is positive or negative using the ternary operator.
+// Solution :->
+
+// let response = Number(prompt('Enter any Number'));
+
+// const stored = response >= 0 ? 'Positive' : 'Negative'
+// console.log(stored);
+
+
+
+// Question 2 :-> Check if a number is even or odd.
+// Solution :->
+
+// let number = Number(prompt('Enter Number Here :'));
+
+// const response = number % 2 === 0 ? "Even" : 'Odd'
+// console.log(response);
+
+
+
+// Question 3 :-> Check whether a person is eligible to vote (18+).
+// Solution :->
+
+// let age = Number(prompt('Enter your Age Here :'));
+
+// const response = age >= 18 ? 'Eligible for Voting' : 'Not Eligible for Voting'
+// console.log(response);
+ 
+
+
+// Question 4 :-> Find the greater of two numbers.
+// Solution :->
+
+// let num1 = Number(prompt('Enter Number 1'));
+// let num2 = Number(prompt('Enter Number 2'));
+
+// const response = num1 > num2 ? `${num1} is greater` : `${num2} is greater`
+// console.log(response);
+
+
+
+// Question 5 :-> Check if a number is divisible by 5.
+// Solution :->
+
+// let number = Number(prompt('Enter your Number here :'));
+
+// const response = number % 5 === 0 ? `Yes, ${number} is devide by 5` : `No , ${number} is not devide by 5`
+// console.log(response);
+
+
+
+// Question 6 :-> Check whether a student has passed or failed (40 marks).
+// Solution :->
+
+// let marks = Number(prompt('Enter your Marks here :'));
+
+// const response = marks >= 40 ? 'Pass' : 'Fail'
+// console.log(response);
+
+
+
+// Question 7 :-> Check if a character is a vowel or consonant.
+// Solution :->
+
+// let vowel = String(prompt('Enter any One character here :'));
+
+// const response = vowel === 'a'  || vowel === 'e'  || vowel === 'i'  || vowel === 'o'  || vowel === 'u'  ? 'Vowel' : 'Consonant'
+// console.log(response);
+
+
+
+// Question 8 :-> Check whether a number lies between 10 and 50.
+// Solution :->
+
+// let number = Number(prompt('Enter your Number here :'));
+
+// const response = number >= 10 && number <= 50 ? `yes ${number} is inside the number between 10 - 50` : `No ${number} is outsided`
+// console.log(response);
+
+
+
+// Question 9 :-> Check whether a temperature is Hot (>35°C) or Normal.
+// Solution :->
+
+// let temperature = Number(prompt('Enter your current calcious here :'));
+
+// const response = temperature > 35 ? 'Above' : 'Below'
+// console.log(response);
+
+
+
+// -------------------------------------------------------------------------------------->
+// -------------------------------------------------------------------------------------->
+
+// --------------------------------------------->
+// Switch Case Condition inside the javascript
+// --------------------------------------------->
+
+
+
+// Question 1 :-> Day of the Week
+// Take a number (1–7) and print the corresponding day.
+// Example:
+// 1 → Monday
+// 7 → Sunday
+
+// Solution :->
+// let day = Number(prompt('Enter Your Day No here :'));
+
+// switch(day){
+
+//     case 1 : console.log('Sunday');
+//     break;
+//     case 2 : console.log('Monday');
+//     break;
+//     case 3 : console.log('Tuesday');
+//     break;
+//     case 4 : console.log('Wednesday');
+//     break;
+//     case 5 : console.log('Thursday');
+//     break;
+//     case 6 : console.log('Friday');
+//     break;
+//     case 7 : console.log('Saturday');
+//     break;
+
+//     default : console.log('Empty Number is Typed Here');
+
+// }
+
+
+
+// Question 2 :-> Take a number (1–12) and print the month name.
+// Example:
+// 1 → January
+// 12 → December
+
+// Solution : 
+// let num = Number(prompt('Enter the Number Here :'));
+
+// switch(num){
+
+//     case 1 : console.log('January');
+//     break;
+    
+//     case 2 : console.log('Feburary');
+//     break;
+
+//     case 3 : console.log('March');
+//     break;
+    
+//     case 4 : console.log('June');
+//     break;
+
+//     case 5 : console.log('July');
+//     break;
+
+//     case 6 : console.log('August');
+//     break;
+
+//     case 7 : console.log('September');
+//     break;
+
+//     case 8 : console.log('October');
+//     break;
+
+//     case 9 : console.log('November');
+//     break;
+
+//     case 10 : console.log('December');
+//     break;
+
+//     default : console.log('Empty Number');
+    
+
+// }
+
+
+
+// Question 3 :-> Traffic Light (Indicator)
+// Print:
+// red → Stop
+// yellow → Ready
+// green → Go
+
+// Solution :->
+// let signal = String(prompt('Enter your Single Light Color Here :'));
+
+// switch(signal){
+
+//     case ('red') : console.log('Stop');
+//     break;
+
+//     case ('yellow') : console.log('Run');
+//     break;
+
+//     case ('green') : console.log('Go Now');
+//     break;
+
+//     default : console.log('Sorry No Signal Typed here');
+    
+// }
+
+
+
+// Question 4 :-> Grade System
+// Solution :-> 
+
+// let grade = String(prompt('Enter your Grade here :'));
+
+// switch(grade){
+
+//     case "A" : console.log('Excellent');
+//     break;
+
+//     case "B" : console.log("Very Good");
+//     break;
+
+//     case "C" : console.log("Good");
+//     break;
+
+//     case "D" : console.log("Average");
+//     break;
+
+//     case "E" : console.log("Fail");
+//     break;
+
+//     default : console.log("Invalid Grade");
+
+// }
+
+
+
+// Question 5 :-> Calculator
+// Solution :-> 
+
+// let num1 = 10;
+// let num2 = 20;
+// let operator = String(prompt('Enter Your Operator symbol here :'));
+
+// switch(operator){
+
+//     case "+" : console.log(num1 + num2);
+//     break;
+
+//     case "-" : console.log(num1 - num2);
+//     break;
+
+//     case "*" : console.log(num1 * num2);
+//     break;
+
+//     case "**" : console.log(num1 ** num2);
+//     break;
+
+//     case "%" : console.log(num1 % num2);
+//     break;
+
+//     default : console.log("Invalid operator");
+
+// }
+
+
+
+// Question 6 :-> Browser Detection
+// Solution :-> 
+
+
+// let browser = String(prompt('Enter Browser Name :'));
+
+// switch(browser){
+
+//     case "chrome" : console.log('Chrome')
+//     break;
+     
+//     case "safari" : console.log('Safari');
+//     break;
+
+//     case "firefox" : console.log('Firefox');
+//     break;
+
+//     case "operamini" : console.log('OperaMini Browser');
+//     break;
+
+//     default : console.log('Sorry Browser Not Support');
+    
+
+// }
+
+
+
+// Question 7 :-> Fruit Price
+// Example:
+// Apple → ₹120/kg
+// Banana → ₹60/kg
+// Mango → ₹150/kg
+// Orange → ₹90/kg
+
+// Solution :-> 
+
+// let fruit = String(prompt('Enter your fruit name I Will Show you the prize - (Apple/Bnana/Mango/Litchi)'))
+
+// switch(fruit){
+
+//     case "apple" : console.log("Apple Buy");
+//     break;
+
+//     case "bnana" : console.log("Bnana Buy");
+//     break;
+
+//     case "Mango" : console.log("Mango Buy");
+//     break;
+
+//     case "litchi" : console.log("Lithchi Buy");
+//     break;
+
+//     default : console.log("Sorry we dont have that Item");
+
+// }
+
+
+
+// Question 7 :-> Fruit Price
+// Even or Odd (Using switch(true))
+
+// Solution :-> 
+// let number = 22;
+
+
+// switch(true){
+
+//     case number % 2 === 0 : console.log("Even");
+//     break;
+
+//     default : console.log("Odd");
+    
+
+// }
+
+
+
+
+
+
