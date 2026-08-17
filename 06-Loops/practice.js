@@ -150,34 +150,66 @@
 
 
 
-// Q1 -> Kisi number ka factorial find karo.
+// Q1> Kisi number ka factorial find karo.
 // Example:
 // 5 → 120
-// Sol ->
-// let number = Number(prompt('If you want the factorial of any number please type here :'));
-// let factor = 1;
+// Sol> 
+// let num = Number(prompt('Enter any number here :'));
+// let factorial = 1;
 
-// for(let i=1 ; i<=number ; i++ ){
-//     factor = factor * i;
+// for (let i = 1; i <= num; i++) {
+//     factorial = factorial * i;
 // }
 
-// console.log(`Total Number of factorial ${number} is : ${factor}`);
+// console.log(factorial);
 
 
 
-
-// Q2 -> Kisi number ke total digits count karo.
+// Q2> Kisi number ka factorial find karo.
 // Example:
-// 53892 → 5 digits
-// Sol ->
-// let num = 578945096;
-// let countLength = 0;
+// 5 → 120
+// Sol> 
 
-// for(let i=1 ; i<=num ; i++){
-//     countLength++;
-// }
 
-// console.log(`The total Length of ${num} is : ${countLength}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
