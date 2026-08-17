@@ -110,6 +110,81 @@
 
 
 
+// Q6 -> User ke diye hue number n tak numbers ka sum find karo.
+// Sol ->
+// let n = Number(prompt('Enter any number here :'));
+// let sum = 0;
+
+// for(let i=1 ; i<=n ; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+
+
+// Q7 -> Kisi number ka multiplication table print karo.
+// Sol ->
+// let userNum = Number(prompt('Enter any number here :'));
+
+// for(let i=1 ; i<=10 ; i++){
+//     console.log(userNum + '*' + i + '=' + (userNum * i));
+// }
+
+
+
+// Q8 -> 1 se 10 tak har number ka square print karo.
+// Sol ->
+// for(let i=1 ; i<=10 ; i++){
+//     console.log(i * i);
+    
+// }
+
+
+
+// ---------------------------------------------------------------------------------->
+// ---------------------------------------------------------------------------------->
+// ---------------------------------------------------------------------------------->
+
+
+// Level 2: Number Logic Practice Question Answers : -->
+
+
+
+// Q1 -> Kisi number ka factorial find karo.
+// Example:
+// 5 → 120
+// Sol ->
+// let number = Number(prompt('If you want the factorial of any number please type here :'));
+// let factor = 1;
+
+// for(let i=1 ; i<=number ; i++ ){
+//     factor = factor * i;
+// }
+
+// console.log(`Total Number of factorial ${number} is : ${factor}`);
+
+
+
+
+// Q2 -> Kisi number ke total digits count karo.
+// Example:
+// 53892 → 5 digits
+// Sol ->
+// let num = 578945096;
+// let countLength = 0;
+
+// for(let i=1 ; i<=num ; i++){
+//     countLength++;
+// }
+
+// console.log(`The total Length of ${num} is : ${countLength}`);
+
+
+
+
+
+
+
 
 
 
