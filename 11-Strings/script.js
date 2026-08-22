@@ -41,7 +41,7 @@
 
 // console.log(country.replaceAll("india","Goutam"));
 
-
+c
 
 
 
