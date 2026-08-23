@@ -147,46 +147,123 @@
 
 
 // #PRACTICE TASKS OF STRING ------------->
+ 
 
 
 
+// 🟢 Beginner Level ------------->
 
 
 
+// 1> Example : Find the length of the string "JavaScript is amazing".
+// Solution :
+// const sentence = "JavaScript is amazing";
+// console.log(sentence.length); // 21
+
+
+// 2> Example : Convert "hello world" into uppercase..
+// Solution :
+// const data = "hello world";
+// console.log(data.toUpperCase());
+
+
+// 3> Example : Convert "JAVASCRIPT IS FUN" into lowercase.
+// Solution :
+// const sentence = "JAVASCRIPT IS FUN";
+// console.log(sentence.toLowerCase());
+
+
+// 4> Example : Remove the extra spaces from " Hello JavaScript ".
+// Solution :
+// const language = " Hello JavaScript ";
+// console.log(language);
+// console.log(language.trim());
+
+
+// 5> Example : Check whether "I love JavaScript" contains the word "JavaScript".
+// Solution :
+// const content = "I love JavaScript";
+// console.log(content);
+// console.log(content.includes("JavaScript"));
+
+
+// 6> Example : Check whether "frontend developer" starts with "frontend".
+// Solution :
+// const content = "frontend developer";
+// console.log(content);
+// console.log(content.startsWith('frontend'));
+
+
+// 7> Example : Check whether "myresume.pdf" ends with ".pdf".
+// Solution :
+// const fileName = "myresume.pdf";
+// console.log(fileName);
+// console.log(fileName.endsWith('.pdf'));
 
 
 
+// 🟡 Intermediate Level ------------------>
+
+
+// 1> Example : Find the index of "Developer" in "JavaScript Developer".
+// Solution :
+// const languageName = "JavaScript Developer";
+// console.log(languageName);
+// console.log(languageName.indexOf('Developer'));
+
+
+// 2> Example : Find the first and last character of "Hello World".
+// Solution :
+// const data = "Hello World";
+// console.log(data);
+// console.log(data.charAt('0'));
+// console.log(data.charAt('10'));
+
+
+// 3> Example : Extract "JavaScript" from "JavaScript is a programming language" using slice().
+// Solution :
+// const sentence = "JavaScript is a programming language";
+// console.log(sentence);
+// console.log(sentence.slice('0','10'));
+
+
+// 4> Example : Extract "Developer" from "Frontend Developer" using substring().
+// Solution :
+// const developerRole = "Frontend Developer";
+// console.log(developerRole);
+// console.log(developerRole.substring('9','18'));
+
+
+// 5> Example : "I love Python" ko "I love JavaScript" mein convert karo using replace().
+// Solution :
+// const data = "I love Python";
+// console.log(data);
+// console.log(data.replace('Python','JavaScript'));
+
+
+// 6> Example : "JavaScript is easy. JavaScript is powerful." mein saare JavaScript words ko "JS" se replace karo.
+// Solution :
+// const data = "JavaScript is easy. JavaScript is powerful."
+// console.log(data);
+// console.log(data.replaceAll('JavaScript','JS'));
+
+
+// 7> Example : "apple,banana,mango,orange" ko ek array of fruits mein convert karo using split().
+// Solution :
+// const fruits = "apple,banana,mango,orange";
+// console.log(fruits);
+// console.log(fruits.split(','));
+
+
+// 8> Example : Ek array ["HTML", "CSS", "JavaScript"] ko ek single string mein convert karo using join().
+// Solution :
+// const fruitArray = ["HTML", "CSS", "JavaScript"];
+// console.log(fruitArray);
+// console.log(fruitArray.join(" "));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 🔴 Challenge Level ---------------------------------->
 
 
 
