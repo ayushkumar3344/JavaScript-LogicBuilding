@@ -266,6 +266,64 @@
 // 🔴 Challenge Level ---------------------------------->
 
 
+// 1> Example : Remove the extra spaces from " Ayush Kumar " and then convert the result to uppercase.
+// Solution :
+// const fullName = " Ayush Kumar ";
+// console.log(fullName);
+// console.log(fullName.trim().toUpperCase());
+
+
+// 2> Example : For the string "I am learning JavaScript", check:
+// Does it contain "JavaScript"?
+// Does it start with "I"?
+// Does it end with "Script"?
+// Solution :
+// const sentence = "I am learning JavaScript"
+// console.log(sentence.__proto__);
+// console.log(sentence.includes('JavaScript'));
+// console.log(sentence.startsWith('I'));
+// console.log(sentence.endsWith('Script'));
+
+
+// 3> Example : Convert "hello javascript developer" into "HELLO JAVASCRIPT DEVELOPER".
+// Solution :
+// const sentence = "hello javascript developer";
+// console.log(sentence);
+// console.log(sentence.toUpperCase());
+
+
+// 4> Example : Convert "HTML CSS JavaScript React Node" into an array of individual words and print each word separately.
+// Solution :
+// const data = "HTML CSS JavaScript React Node";
+// console.log(data);
+// console.log(data.split(' '));
+
+
+// 5> Example : Final Challenge:
+// Take a sentence from the user using prompt() and:
+// -> Find the total number of characters.
+// -> Convert it to uppercase.
+// -> Convert it to lowercase.
+// -> Print the first character.
+// -> Print the last character.
+// -> Check whether it contains "JavaScript".
+// -> Remove all spaces.
+// -> Convert the sentence into an array of words.
+// -> Find the total number of words.
+
+// Solution :->
+// const userResponse = new String(prompt('Enter your feedback here :'))
+// console.log(userResponse);
+// console.log(userResponse.length);
+// console.log(userResponse.toUpperCase());
+// console.log(userResponse.toLowerCase());
+// console.log(userResponse.charAt(0));
+// console.log(userResponse.at(-1));
+// console.log(userResponse.includes('JavaScript'));
+// console.log(userResponse.trim());
+// console.log(userResponse.split(' '));
+// console.log(userResponse);
+
 
 
 
