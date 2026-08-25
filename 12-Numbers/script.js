@@ -1,21 +1,21 @@
 // +++++++++++++++++++++ Numbers ++++++++++++++++++++++++
 
-// const score = 400;
-// // console.log(score);
 
+// const score = 100
+// console.log(score);
+// console.log(typeof score);   // Typeof Score is Number 
 
-// const balance = new Number(100);
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(2));
+// const run = new Number(400);
+// console.log(run);
 
-// const otherNumber = 23.94577;
-// console.log(otherNumber);
-// // console.log(otherNumber.toFixed(2));
-// console.log(otherNumber.toPrecision(4));
+// -->Methods
+// console.log(run.toString().length);
+// console.log(run.toFixed(2));
 
+// const otherNumber = 29.4985;
+// console.log(otherNumber.toPrecision(3));
 
-
-// const hundreds = 10000000;
+// const hundreds = 1000000;
 // console.log(hundreds.toLocaleString('en-IN'));
 
 
