@@ -112,6 +112,20 @@
 
 
 
+// ------------> Functions of Numbers Done Successfully //
+// const userMarks = 45.57;
+// const balance = 1000000;
+// console.log(userMarks.toString());
+// console.log(userMarks.toFixed(2));
+// console.log(userMarks.toPrecision(3));
+// console.log(balance.toLocaleString("en-IN"));
+// console.log(userMarks.toExponential());
+
+
+
+
+
+
 
 
 
