@@ -67,9 +67,10 @@
 // console.log(String(marksNum).length);
 
 
-
-
-
+// 6> -------------- parseFloat() Method;
+// const userNum = "65.896";
+// console.log(parseInt(userNum));
+// console.log(Number.parseFloat(userNum));
 
 
 
