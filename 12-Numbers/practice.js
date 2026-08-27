@@ -125,55 +125,173 @@
 
 
 
+// +++++++++++++++++++ #PRACTICE START HERE +++++++++++++++++++++++
+
+
+
+// 🟢 Beginner Level --->
+
+
+// Q1 -> Check whether a number is positive, negative, or zero
+// Sol ->
+// const userNum = Number(prompt('Enter any number Here :'));
+// if(userNum > 0){
+//     console.log("Positive");
+// } else if (userNum < 0){
+//     console.log("Negative");
+// } else {
+//     console.log("Zero");
+// }
+
+
+// Q2 -> Check whether a number is even or odd?
+// Sol ->
+// const num = Number(prompt('Enter any number here :'));
+// if(num % 2 === 0){
+//     console.log("even",num);
+// } else {
+//     console.log("Odd",num);
+// }
+
+
+// Q3 -> Convert a string into a number?
+// Sol ->
+// const num = "78";
+// console.log(typeof num);
+// const result = Number(num);
+// console.log(result, typeof result);
+
+
+// Q4 -> Check whether a value is an integer.
+// Sol ->
+// const marks = 98.9;
+// console.log(Number.isInteger(marks));
 
 
 
 
+// 🟡 Intermediate Level ---------->
+
+
+// Q1 -> Check whether a value is NaN
+// Sol ->
+// const userMarks = Number(prompt("Enter any number here :"));
+// console.log(Number.isNaN(userMarks));
+
+
+// Q2 -> Convert a decimal string into a floating-point number
+// Sol ->
+// const num = '56.7834';
+// console.log(num, typeof num);
+// console.log(Number.parseFloat(num), typeof Number.parseFloat(num));
+
+
+// Q3 -> Convert a string into an integer?
+// Sol ->
+// const num = "3864";
+// console.log(Number.parseInt(num));
+
+
+// Q4 -> Round a decimal number to 2 decimal places
+// Sol ->
+// const numPercentage = 56.304245;
+// console.log(numPercentage);
+// console.log(numPercentage.toFixed(2));
+
+
+
+// 🟠 Advanced Level ---------->
+
+
+// Q1 -> Check whether a number is a safe integer.
+// Sol ->
+// const userNum = 852498735442;
+// console.log(Number.isSafeInteger(userNum));
+
+
+// Q2 -> Display JavaScript's maximum safe integer.
+// Sol ->
+// console.log(Number.MAX_SAFE_INTEGER);
+
+
+// Q3 -> Display JavaScript's maximum possible numeric value
+// Sol ->
+// console.log(Number.MAX_VALUE);
+
+
+// Q4 -> Create a simple marks calculator
+// Sol ->
+// let math = 75;
+// let english = 67;
+// let sanskrit = 39;
+
+// const total = math + english + sanskrit;
+// console.log(total,"Total Number");
+
+// const percentage = total / 3;
+// console.log(percentage.toFixed(2), "Percentage");
+
+
+
+// Q5 -> Create a shopping bill calculator
+// Question:
+// A product costs ₹499.99 and GST is 18%. Calculate the final price.
+// Sol ->
+// let productCost = 499.99;
+// let gst = 18
+
+// let gstAmount = productCost * gst / 100;
+// let total = productCost + gstAmount;
+
+// console.log(gstAmount.toFixed(2), "Its out gst amount");
+// console.log(total.toFixed(2), "Total of all product prize");
 
 
 
 
+// -------> #Projects Based Question Answers <-------
+
+// Q1 -> Number Validator
+// Create a program that checks whether the entered value is:
+// A number
+// An integer
+// A safe integer
+// NaN
+// Sol ->
+// const userNum = Number(prompt("Enter any number here :"));
+// console.log(userNum, typeof userNum === "number");
+// console.log(userNum, Number.isInteger(userNum));
+// console.log(userNum, Number.isSafeInteger(userNum));
+// console.log(userNum, Number.isNaN(userNum));
 
 
 
+// Q2 -> Student Result Calculator
+// Create a program that takes marks of 5 subjects and calculates:
+// Total
+// Percentage
+// Average
+// Pass/Fail
+// Sol ->
+// let english = 47;
+// let math = 87;
+// let science = 63;
+// let sanskrit = 59;
+// let hindi = 94;
 
+// const total = english + math + science + sanskrit + hindi;
+// const percentage = (total / 500) * 100;
+// const Average = total / 5;
 
+// console.log("Total :",total);
+// console.log("Percentage :",percentage.toFixed(2) + "%");
+// console.log("Average :",Average.toFixed(2));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// if(percentage > 50){
+//     console.log("Pass");
+// } else {
+//     console.log("Fail");
+// }
 
 
 
