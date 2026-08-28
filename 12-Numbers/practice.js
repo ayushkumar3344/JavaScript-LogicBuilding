@@ -334,8 +334,19 @@
 
 
 
+// Q5 -> Number Guessing Game
+// Create a program that converts USD into INR.
+// Sol ->
+// const correctNumber = 66;
+// let userGuess = Number(prompt('Hello : Buddy Guess any Number between (1 - 100)'));
 
-
+// if(userGuess === correctNumber){
+//     console.log(`Yes ${userGuess} is a correct Number`);
+// } else if(userGuess < correctNumber){
+//     console.log("Too Low");
+// } else{
+//     console.log("Too High");
+// }
 
 
 
