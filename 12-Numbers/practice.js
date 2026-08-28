@@ -295,8 +295,29 @@
 
 
 
+// Q3 -> ATM Withdrawal Validator
+// Create a program that checks:
+// Amount must be a number
+// Amount must be an integer
+// Amount must be greater than 0
+// Amount must not exceed balance
+// Sol ->
+// let balance = 10000;
+// let withDraw = Number(prompt("Enter withdrawel amount here :"));
 
-
+// if(Number.isNaN(withDraw)){
+//     console.log("Invalid Amount");
+// } else if(!Number.isInteger(withDraw)){
+//     console.log("Amount Must be an integer");
+// } else if(withDraw <= 0){
+//     console.log("Enter a Valid Amount");
+// } else if(withDraw > balance){
+//     console.log("Insufficient Balance");
+// } else{
+//     balance = balance - withDraw;
+//     console.log("WithDraw Sussessfuly");
+//     console.log("Current Balance is :",balance);   
+// }
 
 
 
