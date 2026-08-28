@@ -321,6 +321,16 @@
 
 
 
+// Q4 -> Currency Converter
+// Create a program that converts USD into INR.
+// Sol ->
+// let usd = 100;
+// let exchangeRate = 87;
+
+// let inr = usd * exchangeRate;
+
+// console.log("USD :", usd);
+// console.log("INR :", inr.toFixed(2));
 
 
 
