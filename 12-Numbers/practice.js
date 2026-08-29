@@ -425,7 +425,12 @@
 // console.log(Math.floor(userNum));
 
 
-
+// 8. Always Round Up
+// Given a decimal number such as 7.21, always round it up to the nearest integer.
+// Solutions :
+// const userNum = 7.21;
+// let result = Math.ceil(userNum);
+// console.log(result);
 
 
 
