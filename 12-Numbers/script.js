@@ -77,6 +77,22 @@
 // +++++++++++++++++++++ Maths ++++++++++++++++++++++++
 
 
+console.log(Math);
+console.log(Math.abs(-32));  // It Help to convert Negative(-) Values to Positive(+)
+console.log(Math.round(3.7)); // It Remove after Decimal Values to Increase before Decimal Value. Start Working from after 5.
+console.log(Math.ceil(7.4)); // It Remove after Decimal Values to Increase before Decimal Value. Start Working from after 1.
+console.log(Math.floor(6.3)); // if you cange any value after decimal the value before decimal always same.
+console.log(Math.min(3,7,5,1,7,4,9,2)); // Its help to find the Smallest number given in Array;
+console.log(Math.max(3,7,5,1,7,4,9,2)); // Its help to find the Largest number given in Array;
+
+// Most Important Math Function Property is :
+console.log(Math.floor((Math.random() * 10) + 1));  // Random number Generator formula 
+
+
+const min = 10;
+const max = 23;
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min));  // Random number Generator formula 
 
 
 
