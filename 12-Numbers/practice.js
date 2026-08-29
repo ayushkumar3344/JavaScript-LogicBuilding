@@ -359,7 +359,7 @@
 // 🧮 JavaScript Math — 20 Practice Tasks
 
 
-// 🟢 Beginner Level
+// 🟢 Beginner Level ---------------------------------->
 
 
 // Q1. Find the Square Root
@@ -434,7 +434,7 @@
 
 
 
-
+// 🟡 Intermediate Level ----------------------------------->
 
 
 
