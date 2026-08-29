@@ -353,6 +353,133 @@
 
 
 
+// +++++++++++++++ #MATH PRACTICE QUESTIONS & SOLUTIONS +++++++++++++++++
+
+
+// 🧮 JavaScript Math — 20 Practice Tasks
+
+
+// 🟢 Beginner Level
+
+
+// Q1. Find the Square Root
+// Create a program that takes a number and finds its square root using a Math function.
+// Solutions :
+// const userNum = Number(prompt('Enter Any number here :'));
+// const result = Math.floor(Math.sqrt(userNum));
+// console.log(result);
+
+
+// Q2. Find the Power
+// Take two numbers, base and exponent, and calculate the result of base^exponent.
+// Solutions :
+// const userNum = Number(prompt("Enter any number :"));
+// const power = Number(prompt("How many time you want to multiply your number :"));
+// const result = Math.floor(Math.pow(userNum,power));
+// console.log(result);
+
+
+// Q3. Find the Larger Number
+// Given two numbers, find the larger number using a Math function.
+// Solutions :
+// let num1 = 34;
+// let num2 = 42;
+// let num3 = 85;
+// let num4 = 64;
+
+// const result = Math.max(num1,num2,num3,num4);
+// console.log(result);
+
+
+// Q4. Find the Smallest Number
+// Given three numbers, find the smallest number using a Math function.
+// Solutions :
+// let num1 = 34;
+// let num2 = 42;
+// let num3 = 85;
+// let num4 = 64;
+
+// const response = Math.min(num1,num2,num3,num4);
+// console.log(response);
+
+
+// Q5. Generate a Random Number
+// Generate a random number between 1 and 100.
+// Solutions :
+// let randomNumber = Math.floor(Math.random() * 100) + 1
+// console.log(randomNumber);
+
+
+// Q6. Round a Number
+// Given a decimal number such as 12.67, round it to the nearest integer.
+// Solutions :
+// const num = 12.67;
+// let result = Math.round(12.67);
+// console.log(result);
+
+
+// 7. Always Round Down
+// Given a decimal number such as 15.89, always round it down to the nearest integer.
+// Solutions :
+// const userNum = 15.89;
+// console.log(Math.floor(userNum));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
