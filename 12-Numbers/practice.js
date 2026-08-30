@@ -437,18 +437,31 @@
 // 🟡 Intermediate Level ----------------------------------->
 
 
+// 1. Generate a Random Number in a Range
+// Create a program that generates a random integer between 50 and 150.
+// Solutions :
+// let min = 50;
+// let max = 150;
+// const  result = Math.floor(Math.random() * (max - min + 1)) + min
+// console.log(result);
+
+
+// 2. Calculate the Absolute Value
+// Given a number such as -45, find its absolute value.
+// Solutions :
+// const userNum = Number(prompt("Enter Any number here :"));
+// console.log(Math.abs(userNum))
+
+
+// 3. Calculate the Area of a Circle
+// Take the radius of a circle and calculate its area using Math.PI.
+// Solutions :
+// console.log(Math.PI);
 
 
 
 
-
-
-
-
-
-
-
-
+// 🔴 Advanced Level --------------------------------------->
 
 
 
