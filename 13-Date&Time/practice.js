@@ -185,24 +185,86 @@
 
 
 
+// -----------------> Practice Questions Task <----------------------
 
 
+// 🟢 Beginner Level ----------->
 
 
+// 1. Display Current Date and Time
+// Create a program that displays the current date and time using Date().
+// Sol :
+// const currentDate = new Date();
+// console.log(currentDate);
 
 
+// 2. Display Individual Date Values
+// Create a program that prints the current:
+// Year
+// Month
+// Day
+// Date
+// Hours
+// Minutes
+// Seconds
+// Sol :
+// let currentWeather = new Date();
+// console.log(currentWeather);
+// console.log(currentWeather.getUTCFullYear());
+// console.log(currentWeather.getMonth());
+// console.log(currentWeather.getDay());
+// console.log(currentWeather.getDate());
+// console.log(currentWeather.getHours());
+// console.log(currentWeather.getMinutes());
+// console.log(currentWeather.getSeconds());
 
 
+// 3. Display a Custom Date
+// Create a Date object for 15 August 2026 and display it.
+// Sol :
+// const customDate = new Date(2026, 7, 15);
+// console.log(customDate);
 
 
+// 4. Get the Current Year
+// Write a program that prints the current year using getFullYear().
+// Sol :
+// const currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.getFullYear());
 
 
+// 5. Find the Current Month
+// Use getMonth() to display the current month. Remember that JavaScript months start from 0.
+// Sol :
+// const currentDate = new Date();
+// console.log(currentDate.getMonth());
 
 
+// 6. Find Day of the Week
+// Use getDay() to determine which day of the week today is.
+// Sol :
+// const currentWeather = new Date();
+// const day = currentWeather.getDay();
+
+// let days = [
+//     "Sunday",
+//     "Monday",
+//     "Tuesday",
+//     "Wednesday",
+//     "Thursday",
+//     "Friday",
+//     "Saturday"
+// ]
+
+// console.log(days[day]);
 
 
-
-
+// 7. Create a Digital Clock
+// Create a digital clock that displays the current time in this format:
+// Sol :
+// const currentTime = new Date();
+// console.log(currentTime.toLocaleTimeString());
 
 
 
