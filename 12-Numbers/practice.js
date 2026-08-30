@@ -464,10 +464,11 @@
 // 🔴 Advanced Level --------------------------------------->
 
 
-
-
-
-
+// 1. Generate a Random OTP
+// Generate a 6-digit random OTP using Math.random() and appropriate Math functions.
+// Solutions :
+// const otp = Math.floor(100000 + Math.random() * 900000)
+// console.log(`OTP is ${otp}`);
 
 
 
