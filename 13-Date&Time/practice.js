@@ -53,16 +53,49 @@
 
 
 
+// -------------------------------------------------------------------------------------------
+// const dateLive = new Date();
+// console.log(dateLive);
+
+// Using all  set Methods of Date -->
 
 
+// 1. setDate();
+// sol ->
+// dateLive.setDate(24);
+// console.log(dateLive.getDate());
 
 
+// 2. setDate();
+// sol ->
+// const dateLive = new Date();
+// console.log(dateLive);
+// dateLive.setMonth(3);
+// console.log(dateLive);
 
 
+// 3.setFullYear();
+// sol ->
+// const dateLive = new Date();
+// console.log(dateLive);
+// console.log(dateLive.setFullYear(2030));
+// console.log(dateLive);
 
 
+// 4.setHours();
+// sol ->
+// const dateLive = new Date();
+// console.log(dateLive);
+// dateLive.setHours(5,34,51);
+// console.log(dateLive);
 
 
+// 5.setHours();
+// sol ->
+// const dateLive = new Date();
+// console.log(dateLive);
+// dateLive.setMinutes(20);
+// console.log(dateLive);
 
 
 
