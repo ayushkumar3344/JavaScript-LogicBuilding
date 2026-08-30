@@ -102,6 +102,94 @@
 
 
 
+// -------------------------------------------------------------------------------------------
+
+// Using all  🌎 UTC Methods of Date -->
+
+
+// 1. getUTCDate();
+// sol ->
+// const currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.getUTCDate());
+
+
+// 2. getUTCMonth();
+// sol ->
+// const currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.getUTCMonth() + 1);
+
+
+// 3. getUTCFullYear();
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.getUTCFullYear());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
