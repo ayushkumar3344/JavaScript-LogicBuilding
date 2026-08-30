@@ -130,22 +130,57 @@
 
 
 
+// -------------------------------------------------------------------------------------------
+
+// Using all  📝 Formatting Methods of Date -->
 
 
+// 1. toString();
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.toString());
 
 
+// 2. toDateString()
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.toDateString());
 
 
+// 3. toTimeString()
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.toTimeString());
 
 
+// 4. toISOString()
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate);
+// console.log(currentDate.toISOString());
 
 
+// 5. toLocaleDateString()
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate.toDateString());
+// console.log(currentDate.toLocaleDateString());
 
 
+// 6. toTimeString()
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate.toTimeString());
 
 
-
-
+// 7. toLocalTimeString()
+// sol ->
+// let currentDate = new Date();
+// console.log(currentDate.toTimeString());
+// console.log(currentDate.toLocaleTimeString());
 
 
 
