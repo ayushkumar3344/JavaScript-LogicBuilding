@@ -281,6 +281,7 @@
 // console.log(`Your current Age is ${nowAge}`);
 
 
+
 // 2. Calculate Age
 // Ask the user for their birth year and calculate their current age using Date().
 // Sol :
@@ -302,6 +303,28 @@
 
 
 
+// 3. Days Until Birthday
+// Ask the user for their date of birth and calculate how many days are left until their next birthday.
+// Sol :
+// let today = new Date();
+
+// let birthday = new Date(
+//     today.getFullYear(),
+//     11,
+//     25
+// );
+
+// if (birthday < today) {
+//     birthday.setFullYear(today.getFullYear() + 1);
+// }
+
+// let difference = birthday.getTime() - today.getTime();
+
+// let days = Math.ceil(
+//     difference / (1000 * 60 * 60 * 24)
+// );
+
+// console.log("Days until birthday:", days);
 
 
 
