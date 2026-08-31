@@ -269,6 +269,56 @@
 
 
 
+// 🟡 Intermediate Level   ----------->
+
+
+// 1. Calculate Age
+// Ask the user for their birth year and calculate their current age using Date().
+// Sol :
+// const userBirthYear = prompt("Enter your birth year here :");
+// let currentDate = new Date().getFullYear();
+// let nowAge = currentDate - userBirthYear;
+// console.log(`Your current Age is ${nowAge}`);
+
+
+// 2. Calculate Age
+// Ask the user for their birth year and calculate their current age using Date().
+// Sol :
+// let birthDate = new Date(2004,6,26);
+// let today = new Date();
+
+// let age = today.getFullYear() - birthDate.getFullYear();
+// console.log(age);
+
+// let monthDifference = today.getMonth() - birthDate.getMonth()
+// console.log(monthDifference);
+
+
+// if(monthDifference < 0  || (monthDifference === 0 && today.getDate() < birthDate.getDate() )){
+//     age--;
+// } 
+
+// console.log("Age : ", age);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
