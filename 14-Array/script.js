@@ -50,6 +50,121 @@
 
 
 
+// ---------------------------------------------------->
+// Array Methods Practice --------------------->
+
+
+// 1> push() --> It help to add more items in given array.
+// Sol : 
+// const fruits = ['Graphes', 'Bnana', 'Mango', 'Orange'];
+// const count = fruits.push('Litchi', 'Pineapple', 'SitaFal')
+// console.log(fruits);
+// console.log(count);
+
+
+// 2> pop() --> It help to remove last datatype in given array.
+// Sol :
+// const cities = ['Ayush', 'Rahul', 'Preeti', 'Jyoti', 'Pooja'];
+// const result = cities.pop();
+// console.log(cities);
+
+
+// 3> shift() --> It help to remove first datatype in given array.
+// Sol :
+// const cities = ['Palampur', 'Hamirpur', 'JoginderNagar', 'Jaipur', 'Jaisinghpur'];
+// console.log(cities);
+// const newCities = cities.shift();
+// console.log(cities);
+
+
+// 4> unshift() --> It help to add more items on starting in given array.
+// Sol :
+// const states = ['Himachal Pradesg', 'Uttrakhand', 'Punjab', 'Ladakh'];
+// console.log(states);
+// const result = states.unshift('Jammu & Kshmir', 'Lahaul Spiti');
+// console.log(states);
+
+
+// 5> slice() --> It help to cut item according to index but not accept last index in given array.
+// Sol :
+// const fullName = ['Ayush', 'Shivam', 'Rahul', 'Raghav', 'Vishnu', 'Partigya'];
+// console.log(fullName.slice(1,4));
+
+
+// 6> splice() --> It help to cut item according to index it accept last index in given array.
+// Sol :
+// const fullName = ['Ayush', 'Shivam', 'Rahul', 'Raghav', 'Vishnu', 'Partigya'];
+// console.log(fullName.splice(1,4));
+
+
+// 7> includes() --> this method identify this value is present on givent array or not.
+// Sol :
+// const fullname = ['Ayush', 'Rahul', 'Madhav', 'Ravi', 'Gopal'];
+// console.log(fullname.includes('Ayush'));
+
+
+// 8> indexOf() --> this method help to find the current index of given array DataType.
+// Sol :
+// const cities = ['Palampur', 'Hamirpur', 'Rampur', 'Shimla', 'JawalaJi', 'Kedarnath']
+// console.log(cities.indexOf('Shimla'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
