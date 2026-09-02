@@ -119,3 +119,113 @@
 // studentNames.pop();
 // studentNames.pop();
 // console.log("New Array is :",studentNames);
+
+
+
+// Next 10 Practice Question Start :
+
+// Q11> Given an array of cities, remove the first city and then add a new city at the beginning.
+// Sol :
+// const cities = ['Palampur', 'Jaipur', 'Hamirpur', 'Rampur', 'Daharampur', 'Gopalpur'];
+// cities.shift();
+// cities.unshift('JaisinghPur');
+// console.log(cities);
+
+
+// Q12> Given an array of numbers, replace two elements starting from index 1 with two new numbers.
+// Sol :
+// const numbers = [45,87,63,83,64,24,85];
+// const newData = numbers.splice(1,2,788,959);
+// console.log("New Array is :" , numbers);
+
+
+// Q13> Create a copy of an existing array and add a new element to the copied array without modifying the original array.
+// Sol :
+// const numbers = [45,87,63,83,64,24,85];
+// const newNumbers = [...numbers];
+// newNumbers.push(45,64);
+// console.log("First Array :" , numbers);
+// console.log( "NewArray:", newNumbers);
+
+
+// Q14> You have two arrays:
+// ["HTML", "CSS"]
+// ["JavaScript", "React"]
+// Create one new array containing all four elements.
+// Sol :
+// const array1 = ["HTML", "CSS"];
+// const array2 = ["JavaScript", "React"];
+// const newArray = [...array1,...array2];
+// console.log(newArray);
+
+
+// Q15> Given a nested array:
+// [[1, 2], [3, 4], [5, 6]]
+// Convert it into a single-level array.
+// Sol :
+// let dataArray = [[1, 2], [3, 4], [5, 6]];
+// let output = dataArray.flat();
+// console.log("Simple Array is :", output);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
