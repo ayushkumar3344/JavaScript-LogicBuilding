@@ -115,17 +115,48 @@
 
 
 
+// ---------------------- #JavaScript Video 2 ----------------------------------------
+
+
+// const marvel_Heroes = ['SpiderMan', 'Flash', 'IronMan', 'Thor'];
+// const indian_Heroes = ['Saktiman', 'FlyingJatt', 'SuperMan'];
+
+// // const newArr = marvel_Heroes.concat(indian_Heroes);
+// // console.log(newArr);
+
+
+// // #Spreat Operator :->
+
+// const all_new_heroes = [...marvel_Heroes,...indian_Heroes];
+// // console.log(all_new_heroes);
+// const another_Array = [1, 2, 3, [4, 5, 6], 4, 5, [10, 12 , 14], 6];
+
+// const realAnother_array = another_Array.flat(Infinity)
+// console.log(realAnother_array);
+
+
+// console.log(Array.from('Ayush'));
+// console.log(Array.from({
+//     fullName : 'Vinod',
+// }));    // Interesting...........
+
+
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+
+// console.log(Array.of(score1, score2, score3));
+
+// console.log(all_new_heroes);
 
 
 
+// Imortant methods convert normal data into array Format -->
 
-
-
-
-
-
-
-
+// ...Array1     <--Spread Operator.
+// flat()        <--Convert nested Array into Normal simple Readable array.
+// from()        <--convert simple string into an array. 
+// of()          <--it help to convert simple declared variables into an array format.
 
 
 
