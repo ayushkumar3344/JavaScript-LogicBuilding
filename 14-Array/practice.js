@@ -168,11 +168,38 @@
 // console.log("Simple Array is :", output);
 
 
+// Q16> Given a deeply nested array containing numbers, convert it into a completely single-level array.
+// Sol :
+// const nestedArray = [[1, 2], [3, 4], [5, 6]]
+// const output = nestedArray.flat(Infinity);
+// console.log(output);
 
 
+// Q17> Create an array containing 5 repeated values using a built-in Array technique.
+// Sol :
+// const array = Array.of('hello','hello','hello','hello','hello');
+// console.log(array);
 
 
+// Q18> Given an array of names, check whether "Ayush" exists. If it exists, find its position as well.
+// Sol :
+// const names = ['Ayush', 'Shivam','Partik','Rahul','Priya','Gopal'];
+// const output = names.includes('Ayush');
+// console.log(output,"Index of Ayush is :",names.indexOf('Ayush'));
 
+
+// Q19> You have an array of shopping items. Add two items at the end, remove the first item, add one item at the beginning, remove one item from the middle, and finally create a separate copy of the resulting array.
+// Sol :
+// const cartItems = ['Teeth Brush','Soap','SuitCase','Kitchen Grousery','Tool kit','Toys'];
+// const additems = cartItems.push('Clothes','Cycle');
+// const removeFirst = cartItems.shift();
+// const addStatingItem = cartItems.unshift('Toy Gun');
+// const removeMiddleItem = cartItems.splice(2,2);
+
+// const resultArray = [...cartItems];
+
+// console.log("Original Array :",cartItems);
+// console.log("Copy Array",resultArray);
 
 
 
