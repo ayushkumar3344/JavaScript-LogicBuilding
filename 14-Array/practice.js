@@ -48,32 +48,74 @@
 
 
 
+// ---------> 20 Array Task Questions For Logic Building <--------
 
 
+// Q1> Create an array of five fruits. Add one new fruit at the end of the array.
+// Sol :
+// const fruits = ['Apple', 'Mango', 'Graphes', 'PineApple', 'Litchi'];
+// fruits.push('Bnana')
+// console.log(fruits);
 
 
+// Q2> Create an array of five numbers. Remove the last number from the array and display the removed value.
+// Sol :
+// const numbers = [0, 1, 2, 3, 4, 5];
+// const removeValue = numbers.pop();
+// console.log("Removed Number :",removeValue);
+// console.log(numbers);
 
 
+// Q3> Create an array of five student names. Remove the first student from the array
+// Sol :
+// const studentsName = ['Ayush', 'Vinod', 'Priya', 'Shagun', 'Shilpa'];
+// studentsName.shift();
+// console.log(studentsName);
 
 
+// Q4> Create an array of three colors. Add two new colors at the beginning of the array.
+// Sol :
+// const colors = ['Red', 'Blue', 'Green'];
+// colors.unshift('Purple', 'Orange')
+// console.log(colors);
 
 
+// Q5> Given an array of numbers, create a new array containing only the elements from index 1 to index 4 without changing the original array.
+// Sol :
+// const numbers = [45, 73, 63, 63, 95, 23, 63, 74];
+// const output = numbers.slice(1,4);
+// console.log(output);
 
 
+// Q6> Given an array of fruits, remove two elements starting from index 2 and display the updated array.
+// Sol :
+// const fruits = ['Apple', 'Mango', 'Graphes', 'PineApple', 'Litchi', 'Papaya', 'Onion'];
+// const newArrayFruits = fruits.splice(2,2)
+// console.log(fruits);
 
 
+// Q7> Given an array of programming languages, check whether "JavaScript" exists in the array.
+// Sol :
+// const languages = ['JavaScript', 'Python', 'Java', 'C', 'C++', 'Kotlin'];
+// console.log("Result is :", languages.includes("JavaScript") );
 
 
+// Q8> Given an array of numbers, find the position of the first occurrence of number 50.
+// Sol :
+// const numbers = [45,87,63,83,64,24,85];
+// console.log("Index No is :", numbers.indexOf(83));
 
 
+// Q9> Create an array of numbers and add three new numbers at the end in one operation.
+// Sol :
+// const numbers = [45,87,63,83,64,24,85];
+// numbers.push(99,23,19);
+// console.log(numbers);
 
 
-
-
-
-
-
-
-
-
-
+// Q10> Create an array of names and remove the last two names one by one. Display the final array.
+// Sol :
+// const studentNames = ['Ayush', 'Goutam', 'Priya', 'Kashav', 'Rajpal', 'Mohal', 'Gopal'];
+// studentNames.pop();
+// studentNames.pop();
+// console.log("New Array is :",studentNames);
