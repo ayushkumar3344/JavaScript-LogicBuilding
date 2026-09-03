@@ -39,12 +39,12 @@
 // Here I understand how to create object in Singleton Way --->
 
 // const tinder = new Object();
-// const tinder = {}
+const tinder = {}
 
-// tinder.fullName = 'Ayush Kuamr'
-// tinder.age = 23
-// tinder.isLoggedIn = true
-// tinder.course = "MCA(Masters in Computer Applications)"
+tinder.fullName = 'Ayush Kuamr'
+tinder.age = 23
+tinder.isLoggedIn = true
+tinder.course = "MCA(Masters in Computer Applications)"
 
 // console.log(tinder);
 
@@ -60,6 +60,67 @@
 // }
 
 // console.log(regularUser.fullName?.userFullName.firstName);
+
+
+
+const obj1 = {
+    course : "MCA",
+    roomNo : 345,
+    department : "C",
+    state : "Punjab",
+}
+
+const obj2 = {
+    fullName : "Ayush Kumar",
+    rollNo : 35,
+    pincode : 176076,
+}
+
+const obj3 = {
+    isLoggedIn : true,
+    father : "Ram Lal Mishra",
+    mother : "Suman Devi"
+}
+
+// const returnObject = Object.assign({},obj1,obj2,obj3);
+// console.log(returnObject);
+
+
+// Sprad Operator --->
+// const returnObject = {...obj1,...obj2,...obj3};
+// console.log(returnObject);
+
+
+const users = [
+    {
+        id : 1,
+        name : "Rupesh",
+        course : "MCA",
+    },
+    {
+        id : 2,
+        name : "Priya",
+        course : "LLB",
+    },
+    {
+        id : 3,
+        name : "Krish",
+        course : "BBA",
+    },
+    {
+        id : 4,
+        name : "Jyoti",
+        course : "B.tech",
+    },
+]
+
+users[1].name
+console.log(tinder);
+
+console.log(Object.keys(tinder));
+console.log(Object.values(tinder));
+console.log(Object.entries(tinder));
+console.log(tinder.hasOwnProperty("fullName"));
 
 
 
