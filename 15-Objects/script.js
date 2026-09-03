@@ -18,8 +18,15 @@ const jsUser = {
 // console.log("Course :", jsUser['courseName']);
 
 
+jsUser.greeting = function(){
+    console.log('Hello JS User');
+}
 
+jsUser.greeting2 = function(){
+    console.log(`Hello Coders, ${this.fullName}`);
+}
 
+console.log(jsUser.greeting2());
 
 
 
