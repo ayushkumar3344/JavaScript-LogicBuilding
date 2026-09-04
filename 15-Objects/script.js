@@ -126,15 +126,15 @@
 
 // #OBJECT METHODS 
 
-const collegeStudent = {
-    fullname : "Ayush Kumar",
-    corseName : "MCA (Masters In Computer Application)",
-    isPassOut : false,
-    parentsDetail : {
-        fatherName : "Parveen Kumar",
-        motherName : "Neelam Kumari",
-    }
-}
+// const collegeStudent = {
+//     fullname : "Ayush Kumar",
+//     corseName : "MCA (Masters In Computer Application)",
+//     isPassOut : false,
+//     parentsDetail : {
+//         fatherName : "Parveen Kumar",
+//         motherName : "Neelam Kumari",
+//     }
+// }
 
 // console.log(collegeStudent);
 
@@ -196,6 +196,33 @@ const collegeStudent = {
 // Sol :
 // const output = Object.hasOwn(collegeStudent, "fullname");
 // console.log(output);
+
+
+// 7> Object.create()
+// Sol :
+// const tyotaCar = {
+//     carName : "Fortuner",
+//     prize : 5000000,
+//     color : "Navy Blue",
+//     isPowerStaring : true,
+//     toalSeats : 7,
+//     carDescription(){
+//         console.log(`This is a Fortuner car & This car is deliver to Mr. ${this.name} & the Person Email id is ${this.emailID} or Contact no of customer is : ( ${this.contactNo} )`);
+//     },
+// }
+
+// const customer = Object.create(tyotaCar);
+// customer.name = "Tarun Yadav"
+// customer.emailID = "kumarayush8117@gmail.com"
+// customer.contactNo = 8091077739
+// customer.carDescription()
+
+// console.log(customer);
+
+
+
+
+
 
 
 
