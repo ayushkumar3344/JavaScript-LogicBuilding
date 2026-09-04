@@ -220,6 +220,50 @@
 // console.log(customer);
 
 
+// 8> Object.freeze();
+// Sol :
+// const tyotaCar = {
+//     carName : "Fortuner",
+//     prize : 5000000,
+//     color : "Navy Blue",
+//     isPowerStaring : true,
+//     toalSeats : 7,
+// }
+
+
+// const output = Object.freeze(tyotaCar);
+
+// tyotaCar.carName = "Scorpio";
+// tyotaCar.prize = 200000;
+
+
+// console.log(tyotaCar);
+// console.log(output);
+
+
+// 9> Object.seal();
+// Sol :
+// const user = {
+//     name : "Ayush",
+//     isMarrid : false,
+//     collegeStudent : true,
+// }
+
+// user.rollNo = 35;
+// console.log(user);
+
+// Object.seal(user);
+// user.studyYear = 2;
+// user.name = "Shivam";
+
+
+// console.log(user);
+
+
+// 10> Object.is();
+// Sol :
+// console.log(Object.is(20,20));
+// console.log(Object.is(40,23));
 
 
 
