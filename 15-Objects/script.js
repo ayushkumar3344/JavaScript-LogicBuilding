@@ -267,6 +267,15 @@
 
 
 
+// ----------> #Object Video 3 <-----------
+
+// const course = {
+//     courseName : 'Python Programming',
+//     prize : 2999,
+//     courseInstructor : "Ayush",
+// }
+
+// const {} = course;
 
 
 
