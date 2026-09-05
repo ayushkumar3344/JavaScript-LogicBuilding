@@ -3,17 +3,67 @@
 // 🟢 Beginner Level  --->
 
 
+// Q1 > Create an object representing a student with properties for name, age, and course. Print all three values.
+// Sol :
+// const student = {
+//     name : "Ayush Saklani",
+//     age : 22,
+//     course : "MCA(Masters In Computer Applications)",
+// }
+
+// console.log(student.name);
+// console.log(student.age);
+// console.log(student.course);
 
 
+// Q2 > Create a car object with brand, model, and year. Change the year to a different value and print the updated object.
+// Sol :
+// const car = {
+//     brand : "Maruti",
+//     model : 2025,
+//     year : 2,
+// }
+
+// console.log("First Object", car);
+// car.year = 4;
+// console.log("New Object", car);
 
 
+// Q3 > Create a person object with name, age, and city. Add a new property called country and print the object.
+// Sol :
+// const person = {
+//     name : "Piyush Agarwal",
+//     age : 25,
+//     city : "Palampur",
+// }
+
+// console.log("Previous Object", person);
+// person.country = "India";
+// console.log("New Object", person);
 
 
+// Q4 > Create an object representing a mobile phone. Add properties for brand, price, and color. Then remove the color property.
+// Sol :
+// const iPhone18 = {
+//     brand : "Apple",
+//     prize : 130000,
+//     color : "Orange",
+// }
+
+// console.log('Pervious Object', iPhone18);
+// delete iPhone18.color;
+// console.log('New Object', iPhone18);
 
 
+// Q5 > Create a book object with title, author, and price. Check whether the object contains a property called author.
+// Sol :
+// const book = {
+//     title : "The last lesson",
+//     author : "Mr. Ayush",
+//     prize : 550,
+// }
 
-
-
+// console.log(Object.hasOwn(book, "author"));
 
 
 
