@@ -98,13 +98,39 @@
 // 🟡 Intermediate Level  --->
 
 
+// Q1 > Create an object representing a product with name, price, and quantity. Calculate and print the total price using price × quantity.
+// Sol :
+// const product = {
+//     name : "Sunscreen Cream",
+//     price : 120,
+//     quantity : 10,
+// }
+
+// const totalCost = product.price * product.quantity;
+// console.log(`Total Bill Amount is : ${totalCost}`);
 
 
+// Q2 > Create an object containing five different subjects and their marks. Calculate the total marks obtained by the student.
+// Sol :
+// const student = {
+//     english : 75,
+//     math : 46,
+//     sanskrit : 65,
+//     hindi : 37,
+//     sst : 89,
+// }
 
+// const OutOf = 400;
+// const totalMarks = student.english + student.math + student.sanskrit + student.hindi + student.sst;
+// console.log(`Therefore, the Student Scored ${totalMarks} out of ${OutOf}`);
 
-
-
-
+// if(totalMarks >= 300){
+//     console.log('Congrates 1st Division');
+// } else if (totalMarks > 200  && totalMarks < 300){
+//     console.log('2nd Division');
+// } else {
+//     console.log("3rd Division");
+// }
 
 
 
