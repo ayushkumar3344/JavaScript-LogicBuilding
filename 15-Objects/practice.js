@@ -66,12 +66,36 @@
 // console.log(Object.hasOwn(book, "author"));
 
 
+// Q6 > Create an object containing your favorite movie's name, year, rating, and genre. Print only the movie name and rating.
+// Sol :
+// const movie = {
+//     name : "Kaho na Payar Hai",
+//     year : 2020,
+//     rating : 5,
+//     genre : "Voilance",
+// }
+
+// console.log(`The Name of the Movie Is ${movie.name} & the Movie have ${movie.rating} Star Rating`);
+
+
+// Q7 > Create a student object with name, age, and marks. If the marks are greater than or equal to 40, print "Pass"; otherwise print "Fail".
+// Sol :
+// const student = {
+//     name : "Ayush",
+//     age : 22,
+//     marks : 41,
+// }
+
+// if(student.marks >= 40){
+//     console.log("Pass");
+// } else {
+//     console.log("Fail");
+// }
+ 
 
 
 
-
-
-
+// 🟡 Intermediate Level  --->
 
 
 
