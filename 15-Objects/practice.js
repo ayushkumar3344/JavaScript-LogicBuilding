@@ -133,17 +133,64 @@
 // }
 
 
+// Q3 > Create a user object containing name, email, and password. Print a message showing the user's name and email without displaying the password.
+// Sol :
+// const user = {
+//     fullName : "Ayush Kumar",
+//     email : "kumarayush8117@gmail.com",
+//     password : "ayush@176076",
+// }
+
+// const message = `User Name is ${user.fullName} and If you want to contact him. His Email ID is : ${user.email}`
+// console.log("Message is :" , message);
 
 
+// Q4 > Create an object representing a bank account with accountHolder, balance, and accountType. Add ₹5,000 to the balance and display the updated balance.
+// Sol :
+// const bankAccount = {
+//     accountHolder : "Ayush",
+//     balancs : 21000,
+//     accountType : "Saving Account",
+// }
+
+// const userDeposit = Number(prompt('Enter your Amount Here'));
+// const totalAmount = bankAccount.balancs + userDeposit;
+
+// console.log("Total Amount is : ", totalAmount);
 
 
+// Q5 > Create an object containing information about a laptop. Write a program that checks whether the laptop has a property named ram.
+// Sol :
+// const laptopConfig = {
+//     brandName : 'Lenovo',
+//     prize : 75000,
+//     modelDate : 2025,
+//     ram : 16,
+//     batteryMAH : 9000,
+// }
+
+// const result = Object.hasOwn(laptopConfig, "ram");
+// console.log("Is RAM Available :" ,result);
+
+// if('ram' in laptopConfig){
+//     console.log('Yes Ram Property is Exist on this Laptop Cconfiguration');
+// } else {
+//     console.log('Property not Exist Now');
+// }
 
 
+// Q6 > Create an object containing employee information: name, salary, department, and experience. Increase the salary by 10% and display the new salary.
+// Sol :
+// const employeeInfo = {
+//     name : 'Kesari Lal Yadav',
+//     salary : 35000,
+//     department : "B-Block",
+//     experience : 5,
+// }
 
-
-
-
-
+// console.log("Previous Salary is :", employeeInfo.salary);
+// const newSalary = employeeInfo.salary + (employeeInfo.salary * 25 / 100);
+// console.log(`New Pay Scale of ${employeeInfo.name} is : ${newSalary}`);
 
 
 
