@@ -326,7 +326,8 @@
 // console.log("Highest Prize is :", highestPrize);
 
 
-
+// Q3 > Create a person object containing name, age, and skills (an array). Add a new skill to the skills list and then display all skills.
+// Sol :
 
 
 
