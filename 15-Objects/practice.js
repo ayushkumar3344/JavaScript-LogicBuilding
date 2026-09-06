@@ -193,7 +193,44 @@
 // console.log(`New Pay Scale of ${employeeInfo.name} is : ${newSalary}`);
 
 
+// Q7 > Create an object representing a shopping cart with three products. Each product should contain a name and price. Calculate the total price of all products.
+// Sol :
+// const product1 = {
+//     name : 'teeth Brush',
+//     prize : 120,
+// }
 
+// const product2 = {
+//     name : 'Water Bottle',
+//     prize : 450,
+// }
+
+// const product3 = {
+//     name : 'Cap',
+//     prize : 365,
+// }
+
+
+// const totalCost = product1.prize + product2.prize + product3.prize;
+// console.log('Total Cost of All Three Product is :', totalCost);
+
+
+// Q8 > Create an object representing a student with a nested address object containing city, state, and pincode. Print the student's city and state.
+// Sol :
+// const studentInfo = {
+//     name : 'David Warner',
+//     age : 23,
+//     course : 'MCA(Masters In Computer Application)',
+//     hobbie : 'Cricket',
+//     permanentAddress : {
+//         city : 'Palampur',
+//         state : 'Himachal Pradesh',
+//         pinCode : 176076,
+//     }
+// }
+
+// console.log("City :", studentInfo.permanentAddress.city);
+// console.log("State :", studentInfo.permanentAddress.state);
 
 
 
