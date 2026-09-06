@@ -234,6 +234,46 @@
 
 
 
+// 🔴 Challenge Level --->
+
+
+// Q1 > Create an object representing a company with a name, location, and an employees array containing several employee objects. Print the names of all employees.
+// Sol :
+// const company = {
+
+//     name : 'SkyTeck Solutions',
+//     location : 'Banglore',
+
+//     employees : [
+
+//         {
+//             name : 'Rahul Sharma',
+//             position : 'Web Devloper'
+//         },
+
+//         {
+//             name : 'Kuldeep Yadav',
+//             position : 'Graphic Designer'
+//         },
+
+//         {
+//             name : 'Mohan Gupta',
+//             position : 'Software Engineer'
+//         },
+
+//         {
+//             name : 'Vinod Khanna',
+//             position : 'Data Analyst'
+//         },
+
+//     ]
+
+// }
+
+
+// console.log("Employe1 :", company.employees[0].name);
+// console.log("Employe1 :", company.employees[1].name);
+// console.log("Employe1 :", company.employees[2].name);
 
 
 
