@@ -276,8 +276,54 @@
 // console.log("Employe1 :", company.employees[2].name);
 
 
+// Q2 > Create an object containing information about several products. Find the product with the highest price.
+// Sol :
+// const items = {
 
+//     product1 : {
+//         name : 'Teeth Brush',
+//         prize : 300,
+//         expDate : 2027,
+//         quantity : 2,
+//     },
 
+//     product2 : {
+//         name : 'Fan',
+//         prize : 5000,
+//         expDate : Infinity,
+//         quantity : 1,
+//     },
+
+//     product3 : {
+//         name : 'T-Shirt',
+//         prize : 375,
+//         size : 'Large Size',
+//         quantity : 1,
+//     }
+
+// }
+
+// let highestProduct;
+// let highestPrize;
+
+// if(items.product1.prize > items.product2.prize &&
+//     items.product1.prize > items.product3.prize
+// ){
+//     highestProduct = items.product1.name;
+//     highestPrize = items.product1.prize;
+// } else if(
+//     items.product2.prize > items.product1.prize &&
+//     items.product2.prize > items.product3.prize
+// ){
+//     highestProduct = items.product2.name;
+//     highestPrize = items.product2.prize;
+// } else {
+//     highestProduct = items.product3.name;
+//     highestPrize = items.product3.prize;
+// }
+
+// console.log("Highest Product Name is :", highestProduct);
+// console.log("Highest Prize is :", highestPrize);
 
 
 
