@@ -371,34 +371,34 @@
 
 // Q5 > Create a student object containing name, marks for five subjects, and a method that calculates the student's total, average, and grade based on the marks.
 // Sol :
-const student = {
-    name : 'Subham Chudhary',
-    marks : {
+// const student = {
+//     name : 'Subham Chudhary',
+//     marks : {
 
-        maths : 57,
-        sanSkrit : 76,
-        hindi : 49,
-        science : 89,
-        geranlKnowledge : 88,
+//         maths : 57,
+//         sanSkrit : 76,
+//         hindi : 49,
+//         science : 89,
+//         geranlKnowledge : 88,
 
-    }
-}
+//     }
+// }
 
-const totalMarks = student.marks.maths + student.marks.sanSkrit + student.marks.hindi + student.marks.hindi + student.marks.science + student.marks.geranlKnowledge
+// const totalMarks = student.marks.maths + student.marks.sanSkrit + student.marks.hindi + student.marks.hindi + student.marks.science + student.marks.geranlKnowledge
 
-const outOf = 600;
-const average = (totalMarks / outOf) * 100;
-console.log(average.toFixed(1));
+// const outOf = 600;
+// const average = (totalMarks / outOf) * 100;
+// console.log(average.toFixed(1));
 
-if(average >= 80){
-    console.log("Grade A");
-} else if(average >= 60){
-    console.log("Grade B");
-} else if (average >= 40){
-    console.log("Grade C");
-} else{
-    console.log("Fail");
-}
+// if(average >= 80){
+//     console.log("Grade A");
+// } else if(average >= 60){
+//     console.log("Grade B");
+// } else if (average >= 40){
+//     console.log("Grade C");
+// } else{
+//     console.log("Fail");
+// }
 
 
 
