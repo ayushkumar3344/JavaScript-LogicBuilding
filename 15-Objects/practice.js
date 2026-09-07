@@ -464,23 +464,78 @@
 // console.log(finalObj);
 
 
+// Q4 > Object.hasOwn()
+// Sol : 
+// const student = {
+//     fullName : 'ayush Kumar',
+//     course : 'MCA(Masters In Computer Application)',
+//     collegeName : "SVITE",
+//     annualFess : 160000,
+// }
+
+// const finalDesision = Object.hasOwn(student, 'course');
+// console.log(finalDesision);
+
+// if(Object.hasOwn(student, "collegeName")){
+//     console.log('Yes ,this Property is Available');
+// }else {
+//     console.log('Nahi hia bhaiya : Try Next Time');
+// }
+
+
+// Q5 > Object.create()
+// Sol : 
+// const user = {
+//     fullName : 'Santosh Thakur',
+//     emailID : 'kumarayush8117@gmail.com',
+//     rollNo : 34,
+//     course : 'MCA(Masters In Computer Application)',
+// }
+
+// console.log(user);
+
+// const newUser = Object.create(user);
+// newUser.name = 'Shilpa Dogra';
+// newUser.city = "Kangra";
+// newUser.state = "Himachal Pradesh";
+
+// console.log(newUser);
 
 
 
+// Q5 > Object.freeze()
+// Sol :
+// const user = {
+//     fullName : 'Santosh Thakur',
+//     emailID : 'kumarayush8117@gmail.com',
+//     rollNo : 34,
+//     course : 'MCA(Masters In Computer Application)',
+// }
+
+// const userStop = Object.freeze(user);
+// console.log(userStop);
+
+// user.fullName = 'Sahil Saklani';
+// user.emailID = 'sahil3344@gmail.com';
+
+// console.log(user);
 
 
 
+// Q6 > Object.seal()
+// Sol :
+// const user = {
+//     fullName : 'Santosh Thakur',
+//     emailID : 'kumarayush8117@gmail.com',
+//     rollNo : 34,
+//     course : 'MCA(Masters In Computer Application)',
+// }
 
+// Object.seal(user);
+// user.emailID = 'santosh999@gmail.com';
+// user.country = 'India';
 
-
-
-
-
-
-
-
-
-
+// console.log(user);
 
 
 
