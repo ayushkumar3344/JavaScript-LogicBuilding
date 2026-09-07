@@ -408,8 +408,60 @@
 
 
 
+// Q1 > Object.keys()  && Object.values()
+// Sol : 
+// const student = {
+//     fullName : 'ayush Kumar',
+//     course : 'MCA(Masters In Computer Application)',
+//     collegeName : "SVITE",
+//     annualFess : 160000,
+// }
+
+// const output = Object.keys(student);
+// console.log(output);
+
+// const output2 = Object.values(student);
+// console.log(output2);
 
 
+// Q2 > Object.entries() && Object.fromentries();
+// Sol : 
+// const student = {
+//     fullName : 'ayush Kumar',
+//     course : 'MCA(Masters In Computer Application)',
+//     collegeName : "SVITE",
+//     annualFess : 160000,
+// }
+
+// const output = Object.entries(student);
+// console.log(output);
+
+// const output2 = Object.fromEntries(output);
+// console.log(output2);
+
+
+// Q3 > Object.assign()
+// Sol : 
+// const employee = {
+//     fullName : 'Rahul Mishra',
+//     course : 'M.tech',
+//     courseFees : 510000,
+// }
+
+// const company = {
+//     name : 'Teck Vision',
+//     role : 'Software Engineer',
+//     payScale : '15LPA'
+// }
+
+// const address = {
+//     pincode : 176076,
+//     city : 'Palampur',
+//     state : 'Banglore',
+// }
+
+// const finalObj = Object.assign({},employee,company,address);
+// console.log(finalObj);
 
 
 
