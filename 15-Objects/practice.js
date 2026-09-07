@@ -347,32 +347,58 @@
 
 // Q4 > Create an object representing a bank account with methods for depositing and withdrawing money. Make sure the withdrawal is not allowed when the requested amount is greater than the available balance.
 // Sol :
-const bankAccount = {
-    name : 'Akhilesh Dube',
-    branch : 'SBI(State Bank Of India)',
-    totalBalance : 10000,
-    parentsName : {
-        fatherName : 'Rohan Dube',
-        motherName : 'Sakshi Dube',
+// const bankAccount = {
+//     name : 'Akhilesh Dube',
+//     branch : 'SBI(State Bank Of India)',
+//     totalBalance : 10000,
+//     parentsName : {
+//         fatherName : 'Rohan Dube',
+//         motherName : 'Sakshi Dube',
+//     }
+// }
+
+// let withdrawalAmount = Number(prompt('Enter your Withdrawel Amount Here :'));
+// if(withdrawalAmount < bankAccount.totalBalance){
+//     let finalAmount = bankAccount.totalBalance - withdrawalAmount;
+//     console.log(`You Withdraw ${withdrawalAmount} Rupees Successfully`);
+//     console.log(`Now My Amount Is : ${finalAmount}`);
+    
+// } else {
+//     console.log('Sorry Insufficient Balance');
+//     console.log('Current Amount :', bankAccount.totalBalance);
+// }
+
+
+// Q5 > Create a student object containing name, marks for five subjects, and a method that calculates the student's total, average, and grade based on the marks.
+// Sol :
+const student = {
+    name : 'Subham Chudhary',
+    marks : {
+
+        maths : 57,
+        sanSkrit : 76,
+        hindi : 49,
+        science : 89,
+        geranlKnowledge : 88,
+
     }
 }
 
-let withdrawalAmount = Number(prompt('Enter your Withdrawel Amount Here :'));
-if(withdrawalAmount < bankAccount.totalBalance){
-    let finalAmount = bankAccount.totalBalance - withdrawalAmount;
-    console.log(`You Withdraw ${withdrawalAmount} Rupees Successfully`);
-    console.log(`Now My Amount Is : ${finalAmount}`);
-    
-} else {
-    console.log('Sorry Insufficient Balance');
-    console.log('Current Amount :', bankAccount.totalBalance);
+const totalMarks = student.marks.maths + student.marks.sanSkrit + student.marks.hindi + student.marks.hindi + student.marks.science + student.marks.geranlKnowledge
+
+const outOf = 600;
+const average = (totalMarks / outOf) * 100;
+console.log(average.toFixed(1));
+
+if(average >= 80){
+    console.log("Grade A");
+} else if(average >= 60){
+    console.log("Grade B");
+} else if (average >= 40){
+    console.log("Grade C");
+} else{
+    console.log("Fail");
 }
-
-
-
-
-
-
 
 
 
