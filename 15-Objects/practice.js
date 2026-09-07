@@ -328,15 +328,45 @@
 
 // Q3 > Create a person object containing name, age, and skills (an array). Add a new skill to the skills list and then display all skills.
 // Sol :
+// const person = {
+//     name : 'Rahul Gandhi',
+//     age : 31,
+//     skills : ['Javascript', 'Python', 'Java', 'Pandas', 'GitHub'],
+// }
 
 
+// console.log('Previous Array List', person.skills);
+// const newArray = person.skills.push('C Programming', 'C++', 'Figma Design', 'React');
+// console.log('New Array List', newArray);
 
 
+// for(let skill of person.skills){
+//     console.log("Skills Are :",skill);
+// }
 
 
+// Q4 > Create an object representing a bank account with methods for depositing and withdrawing money. Make sure the withdrawal is not allowed when the requested amount is greater than the available balance.
+// Sol :
+const bankAccount = {
+    name : 'Akhilesh Dube',
+    branch : 'SBI(State Bank Of India)',
+    totalBalance : 10000,
+    parentsName : {
+        fatherName : 'Rohan Dube',
+        motherName : 'Sakshi Dube',
+    }
+}
 
-
-
+let withdrawalAmount = Number(prompt('Enter your Withdrawel Amount Here :'));
+if(withdrawalAmount < bankAccount.totalBalance){
+    let finalAmount = bankAccount.totalBalance - withdrawalAmount;
+    console.log(`You Withdraw ${withdrawalAmount} Rupees Successfully`);
+    console.log(`Now My Amount Is : ${finalAmount}`);
+    
+} else {
+    console.log('Sorry Insufficient Balance');
+    console.log('Current Amount :', bankAccount.totalBalance);
+}
 
 
 
