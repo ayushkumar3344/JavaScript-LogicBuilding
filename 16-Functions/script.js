@@ -37,6 +37,18 @@
 
 
 
+// How If Else work in Functions --->
+
+function loginUserMessage(username){
+    if(username === undefined){
+        console.log('Please enter your username!');
+    }else {
+        return `${username} just logged In`
+    }
+}
+
+const output = loginUserMessage('Dube');
+console.log(output);
 
 
 
