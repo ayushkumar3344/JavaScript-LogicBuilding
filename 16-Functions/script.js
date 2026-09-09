@@ -53,20 +53,28 @@
 
 
 
-function loginUserMessage(username = "Surya"){
-    if(!username){
-        console.log('Please enter your username!');
-    }else {
-        return `${username} just logged In`
-    }
-}
+// function loginUserMessage(username = "Surya"){
+//     if(!username){
+//         console.log('Please enter your username!');
+//     }else {
+//         return `${username} just logged In`
+//     }
+// }
 
-const output = loginUserMessage();
-console.log(output);
-
-
+// const output = loginUserMessage();
+// console.log(output);
 
 
+
+
+// ------------> JavaScript With Object & Array In JavaScript <-------------
+
+// function shoppingCart(...num1){
+//     return num1;
+// }
+
+// const output = shoppingCart(44500, 3672, 8442, 1845, 8245);
+// console.log("OutPut is :", output.indexOf(3672))
 
 
 
