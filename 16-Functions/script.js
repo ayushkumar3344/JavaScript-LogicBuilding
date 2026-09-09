@@ -138,7 +138,13 @@
 
 
 
+// 3 Way -->
+// function handleAnyArray(universities){
+//     return universities[3];
+// }
 
+// const output = handleAnyArray(['IIT', 'NIT', 'MIT', 'IIT KANPUR', 'IIT HYDERABAAD']);
+// console.log(output);
 
 
 
