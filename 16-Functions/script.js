@@ -96,6 +96,19 @@
 
 
 
+// This is the Second way to put an object through the callback function -->
+
+// function handleObject(anyObject){
+//     console.log(`The Student Name is ${anyObject.fullName} and his gmail ID is : ${anyObject.gmailID} or He is the student of Chandigarh University Course Name is ${anyObject.course} and the annual Prize off Course is ${anyObject.annualFees}`);
+// }
+
+// handleObject({
+//     fullName : 'Goutam Buddh',
+//     gmailID : 'shivam9345@gmail.com',
+//     annualFees : 200000,
+//     course : 'BCA'
+// });
+
 
 
 
