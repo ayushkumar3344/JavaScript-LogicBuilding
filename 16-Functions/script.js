@@ -67,7 +67,7 @@
 
 
 
-// ------------> JavaScript With Object & Array In JavaScript <-------------
+// ------------> JavaScript Functions With Object & Array In JavaScript <-------------
 
 // function shoppingCart(...num1){
 //     return num1;
@@ -77,7 +77,20 @@
 // console.log("OutPut is :", output.indexOf(3672))
 
 
+// How function Receive An Array --->
 
+// const student = {
+//     fullName : 'Ayush Kumar',
+//     course : 'MCA(Masters In Computer Application)',
+//     annualFees : 210000,
+//     gmailID : 'kumarayush8117@gmail.com',
+// }
+
+// function handleObject(anyObject){
+//     console.log(`The Student Name is ${anyObject.fullName} and his gmail ID is : ${anyObject.gmailID} or He is the student of Chandigarh University Course Name is ${anyObject.course} and the annual Prize off Course is ${anyObject.annualFees}`);
+// }
+
+// handleObject(student);
 
 
 
