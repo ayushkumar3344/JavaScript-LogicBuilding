@@ -111,7 +111,29 @@
 
 
 
+// Now I Know how the data of an array received on function --->
 
+
+// // 1 Way -->
+// const studentName = ['Shivam Dube', 'Rahul Kishan', 'Vinod Khanna', 'Rohit Agarwal', 'Parshant Mishra', 'Rohit Gulati'];
+
+// function handleArray(students){
+//     console.log(`hello my name is ${students[2]} and i am from Hyderabad`);
+// }
+
+// handleArray(studentName);
+
+
+
+// 2 Way -->
+// const studentName = ['Shivam Dube', 'Rahul Kishan', 'Vinod Khanna', 'Rohit Agarwal', 'Parshant Mishra', 'Rohit Gulati'];
+
+// function handleArray(students){
+//     return students[4];
+// }
+
+// const output = handleArray(studentName);
+// console.log(output);
 
 
 
