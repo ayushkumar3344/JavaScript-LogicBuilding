@@ -46,30 +46,49 @@
 // Scope Level & Mini Hosting In Javascript --->
 
 
-function one(){
+// function one(){
 
-    const userName = "Ayush"
+//     const userName = "Ayush"
 
-    function two(){
+//     function two(){
 
-        const website = "Code With Harry Website"
-        console.log("Username is :", userName);
+//         const website = "Code With Harry Website"
+//         console.log("Username is :", userName);
         
+//     }
+
+//     // console.log("Website Name is :", website); 
+//     two();
+    
+// }
+
+// one()
+
+
+
+
+// How Scopes Work In Loop --->
+
+
+if(true){
+
+    let fullName = "Ayush Kumar"
+    let course = "MCA(Masters In Computer Applications)"
+
+    if(fullName === "Ayush Kumar" && course === "MCA(Masters In Computer Applications)"){
+        
+        const annualFees = 5200000;
+        console.log(`Hello my name is ${fullName} & I Am in Cu and My Course Name is ${course}`);
+
     }
 
-    // console.log("Website Name is :", website); 
-    two();
-    
+    // console.log("Full Course Fees is :", annualFees);
+
 }
 
-one()
 
-
-
-
-
-
-
+// console.log("Name :", fullName);
+// console.log("Course :", course);
 
 
 
