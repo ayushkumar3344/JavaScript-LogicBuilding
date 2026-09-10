@@ -46,6 +46,25 @@
 // Scope Level & Mini Hosting In Javascript --->
 
 
+function one(){
+
+    const userName = "Ayush"
+
+    function two(){
+
+        const website = "Code With Harry Website"
+        console.log("Username is :", userName);
+        
+    }
+
+    // console.log("Website Name is :", website); 
+    two();
+    
+}
+
+one()
+
+
 
 
 
