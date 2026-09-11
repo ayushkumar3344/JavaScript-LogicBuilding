@@ -70,21 +70,21 @@
 // How Scopes Work In Loop --->
 
 
-if(true){
+// if(true){
 
-    let fullName = "Ayush Kumar"
-    let course = "MCA(Masters In Computer Applications)"
+//     let fullName = "Ayush Kumar"
+//     let course = "MCA(Masters In Computer Applications)"
 
-    if(fullName === "Ayush Kumar" && course === "MCA(Masters In Computer Applications)"){
+//     if(fullName === "Ayush Kumar" && course === "MCA(Masters In Computer Applications)"){
         
-        const annualFees = 5200000;
-        console.log(`Hello my name is ${fullName} & I Am in Cu and My Course Name is ${course}`);
+//         const annualFees = 5200000;
+//         console.log(`Hello my name is ${fullName} & I Am in Cu and My Course Name is ${course}`);
 
-    }
+//     }
 
-    // console.log("Full Course Fees is :", annualFees);
+//     // console.log("Full Course Fees is :", annualFees);
 
-}
+// }
 
 
 // console.log("Name :", fullName);
@@ -92,6 +92,20 @@ if(true){
 
 
 
+// ++++++++++++ #INTERESTING ++++++++++
+
+console.log(numOne(24));
+
+function numOne(num){
+    return num + 1;
+}
+
+
+console.log(addTwo(64));
+
+const addTwo = function(plus){
+    return plus + 2;
+}
 
 
 
