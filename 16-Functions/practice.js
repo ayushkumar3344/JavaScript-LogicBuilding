@@ -41,21 +41,53 @@
 // Q4 : Find Square
 // Create a function that accepts a number and returns its square.
 // Sol :
-function sum(getNum){
-    return getNum * 2
-}
+// function sum(getNum){
+//     return getNum * 2
+// }
 
-const output = sum(5);
-console.log("Output is :", output);
-
-
+// const output = sum(5);
+// console.log("Output is :", output);
 
 
+// Q5 : Check Even or Odd
+// Create a function that accepts a number and returns whether it is even or odd.
+// Sol :
+// function count(num){
+//     if(num % 2 === 0){
+//         console.log(`Yes ${num} is Even Number`);
+//     } else {
+//         console.log(`${num} is Odd Number`);
+//     }
+// }
+
+// console.log(count(2222));
 
 
+// Q6 : Find Largest Number
+// Create a function that accepts two numbers and returns the larger number.
+// Sol :
+// function sum(num1, num2){
+//     if(num1 > num2){
+//         console.log(`${num1} is Greater Number`);
+//     } else{
+//         console.log(`${num2} is Greater Number`);
+//     }
+// }
+
+// const output = sum(498, 295);
+// console.log("Output is :", output);
 
 
+// Q7 : Calculate Age
+// Create a function that accepts a birth year and calculates the person's current age.
+// Sol :
+// function ageFinder(birthYear){
+//     const currentyear = new Date().getFullYear();
+//     return currentyear - birthYear
+// }
 
+// const output = ageFinder(prompt('Enter Your Birth Year Here :'))
+// console.log("Current Age is : ", output);
 
 
 
