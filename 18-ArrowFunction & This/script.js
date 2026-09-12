@@ -87,10 +87,15 @@
 
 
 
+// IIFE (Immediately Invoked Function Expressions) --->
 
+(function user(name){
+    console.log(`My Name is ${name} whiat is ur Name`);
+})("Ayush Thakur");
 
-
-
+( () => {
+    console.log("Hello, Ayush");
+})();
 
 
 
