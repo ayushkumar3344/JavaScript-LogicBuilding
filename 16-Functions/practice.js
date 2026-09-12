@@ -91,12 +91,9 @@
 
 
 
-// 🟡 Intermediate Function Tasks
 
 
-// Q1 : Calculate Age
-// Create a function that accepts a birth year and calculates the person's current age.
-// Sol :
+
 
 
 
