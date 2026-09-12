@@ -94,18 +94,18 @@
 
 // ++++++++++++ #INTERESTING ++++++++++
 
-console.log(numOne(24));
+// console.log(numOne(24));
 
-function numOne(num){
-    return num + 1;
-}
+// function numOne(num){
+//     return num + 1;
+// }
 
 
-console.log(addTwo(64));
+// console.log(addTwo(64));
 
-const addTwo = function(plus){
-    return plus + 2;
-}
+// const addTwo = function(plus){
+//     return plus + 2;
+// }
 
 
 
