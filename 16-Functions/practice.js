@@ -93,24 +93,58 @@
 
 
 
+// #PRACTICE QUESTIONS >>>> 
 
 
+// Q1> Greeting Function
+// Create a function greetUser() that prints "Hello, JavaScript!".
+// Solution : 
+// function greetUser(){
+//     console.log("Hello, JavaScript!!");
+// }
+// greetUser();
 
 
+// Q2> Personalized Greeting
+// Create a function that accepts a user's name and prints "Hello, Ayush!".
+// Solution : 
+// function user(name){
+//     console.log("Hello", name);
+// }
+// user('Ayush')
 
 
+// Q3> Add Two Numbers
+// Create a function addNumbers(a, b) that returns the sum of two numbers.
+// Solution :
+// function addNumbers(a,b){
+//     return a + b;
+// }
+
+// const output = addNumbers(34, 56);
+// console.log("Output is :", output);
 
 
+// Q4> Subtract Two Numbers
+// Create a function subtract(a, b) that returns the difference between two numbers.
+// Solution :
+// function subtract(a, b){
+//     return a - b;
+// }
+
+// const output = subtract(4690, 3945);
+// console.log("Output is :", output);
 
 
+// Q5> Square of a Number
+// Create a function square(num) that returns the square of a number.
+// Solution :
+function square(num){
+    return num * num;
+}
 
-
-
-
-
-
-
-
+const output = square(2);
+console.log("Output is :", output);
 
 
 
