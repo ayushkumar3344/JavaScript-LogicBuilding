@@ -232,27 +232,25 @@
 // Q4> Count Vowels
 // Create a function countVowels(str) that returns the total number of vowels (a, e, i, o, u) in a string.
 // Solution :
-function countVowels(str) {
-    let count = 0;
+// function countVowels(str) {
+//     let count = 0;
 
-    for (let char of str.toLowerCase()) {
-        if (
-            char === "a" ||
-            char === "e" ||
-            char === "i" ||
-            char === "o" ||
-            char === "u"
-        ) {
-            count++;
-        }
-    }
+//     for (let char of str.toLowerCase()) {
+//         if (
+//             char === "a" ||
+//             char === "e" ||
+//             char === "i" ||
+//             char === "o" ||
+//             char === "u"
+//         ) {
+//             count++;
+//         }
+//     }
 
-    return count;
-}
+//     return count;
+// }
 
-console.log(countVowels("Education"));
-
-
+// console.log(countVowels("Education"));
 
 
 
