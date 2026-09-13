@@ -139,22 +139,59 @@
 // Q5> Square of a Number
 // Create a function square(num) that returns the square of a number.
 // Solution :
-function square(num){
-    return num * num;
-}
+// function square(num){
+//     return num * num;
+// }
 
-const output = square(2);
-console.log("Output is :", output);
-
-
+// const output = square(2);
+// console.log("Output is :", output);
 
 
+// Q6> Check Even or Odd
+// Create a function checkEvenOdd(num) that returns "Even" if the number is even and "Odd" otherwise.
+// Solution :
+// function checkEvenOdd(num){
+//     if(num % 2 === 0){
+//         console.log(`${num} is even number`);
+//     } else {
+//         console.log(`${num} is odd number`);
+//     }
+// }
+// checkEvenOdd(prompt('Enter Any Number Here :'))
 
 
+// Q7> Find the Larger Number
+// Create a function findMax(a, b) that returns the larger of the two numbers.
+// Solution :
+// function findMax(a, b, c, d ,e){
+//     return Math.max(a,b,c,d,e)
+// }
+// const output = findMax(484, 284, 694, 938, 485);
+// console.log("Output is :",output);
 
 
+// Q8> Calculate Area of Rectangle
+// Create a function rectangleArea(length, width) that returns the area of a rectangle.
+// Solution :
+// function rectangleArea(length, width){
+//     return length * width;
+// }
+// const output = rectangleArea(455, 635);
+// console.log("Output is :", output);
 
 
+// Q9> Check Voting Eligibility
+// Create a function checkVotingAge(age) that returns "Eligible" if age is 18 or above, otherwise "Not Eligible".
+// Solution :
+// function checkVotingAge(age){
+//     if(age < 18){
+//         console.log("Not Eligible for Voting");
+//     } else {
+//         console.log("You are Eligible");
+//     }
+// }
+
+// checkVotingAge(72);
 
 
 
