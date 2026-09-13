@@ -196,14 +196,37 @@
 
 
 
+// 🟡 Intermediate Level ---> 
 
 
+// Q1> Find the Largest of Three Numbers
+// Create a function largestOfThree(a, b, c) that returns the largest number.
+// Solution :
+// function largestOfThree(a, b, c){
+//     return Math.max(a,b,c)
+// }
+// const output = largestOfThree(34, 53, 29);
+// console.log("Largest Number is :", output);
 
 
+// Q2> Count Characters
+// Create a function countCharacters(str) that returns the number of characters in a string.
+// Solution :
+// function countCharacters(str){
+//     return str.length
+// }
+// const output = countCharacters("Ayush Kumar");
+// console.log("Total Character are : ", output);
 
 
-
-
+// Q3> Reverse a String
+// Create a function reverseString(str) that returns the reversed string.
+// Solution :
+// function reverseString(str){
+//     return str.split('').reverse().join('');
+// }
+// const output = reverseString("Ayush")
+// console.log("Reverse string is :", output);
 
 
 
