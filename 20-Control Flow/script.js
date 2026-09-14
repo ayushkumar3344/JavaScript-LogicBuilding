@@ -70,42 +70,62 @@
 
 // Switch Case In Javscript ::::
 
-const month = Number(prompt('Enter Your Month Here :'));
+// const month = Number(prompt('Enter Your Month Here :'));
 
-switch(month){
+// switch(month){
 
-    case 1 : console.log('January');
-    break;
-    case 2 : console.log('Feburary');
-    break;
-    case 3 : console.log('March');
-    break;
-    case 4 : console.log('April');
-    break;
-    case 5 : console.log('May');
-    break;
-    case 6 : console.log('June');
-    break;
-    case 7 : console.log('July');
-    break;
-    default : console.log('Please enter valid number');
-    break
+//     case 1 : console.log('January');
+//     break;
+//     case 2 : console.log('Feburary');
+//     break;
+//     case 3 : console.log('March');
+//     break;
+//     case 4 : console.log('April');
+//     break;
+//     case 5 : console.log('May');
+//     break;
+//     case 6 : console.log('June');
+//     break;
+//     case 7 : console.log('July');
+//     break;
+//     default : console.log('Please enter valid number');
+//     break
 
-}
-
-
+// }
 
 
 
+// const userEmail = '';
+
+// if(userEmail){
+//     console.log('I Got User Email');
+// } else {
+//     console.log('I am Not fount user Email Id');
+// }
 
 
+// Falsy Values ---->
+// false , 0, -0, BigInt On, "", Null, Undefined, NaN
 
 
+// Truth Values ---->
+// '0', 'False', " ", {}, [], function(){}
 
 
+// if(userEmail.length === 0){
+//     console.log("Array is Empty");
+// } else {
+//     console.log("Valid Email Id");
+// }
 
 
+// const emptyObject = {};
 
+// if(Object.keys(emptyObject).length === 0){
+//     console.log("Object is Empty");
+// } else {
+//     console.log("Object is Not Empty");
+// }
 
 
 
