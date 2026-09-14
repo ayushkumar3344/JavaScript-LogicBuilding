@@ -130,11 +130,22 @@
 
 
 
+// Nullish Coalescing Operator (??):: null undefined
+
+// let val1;
+// // val1 = 5 ?? 10;
+// val1 = null ?? 10
+
+// console.log("Val1 is", val1);
 
 
 
+// #TERNARY OPERATOR --->
 
+// Rule ( Condition ? true : False );
 
+// const age = 19;
+// age >= 18 ? console.log('yes you can vote') : console.log('you are underage');
 
 
 
