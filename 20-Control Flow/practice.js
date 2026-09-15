@@ -62,6 +62,31 @@
 
 
 
+// Q3 : Login Authentication
+// Store a correct username and password.
+// Check:
+// Both correct → "Login Successful"
+// Username correct but password wrong → "Incorrect Password"
+// Username wrong → "User Not Found"
+// If the account is blocked, print "Account Blocked" regardless of credentials
+// Sol ::
+// const username = 'Ayush'
+// const password = 'ayush@2004'
+
+// const typeduUserName = String(prompt('Enter your name here :'));
+// const typedPassword = String(prompt('Enter your password here :'));
+// const isAccountBlocked = false;
+
+// if(isAccountBlocked){
+//     console.log("Account Blocked");
+// } else if (typeduUserName === username && typedPassword === password){
+//     console.log("Login Successful");
+// } else if (typeduUserName === username && typedPassword !== password){
+//     console.log("Wrong Password");
+// } else {
+//     console.log("User Not Found");
+// }
+
 
 
 
