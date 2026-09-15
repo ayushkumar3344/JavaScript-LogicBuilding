@@ -89,8 +89,38 @@
 
 
 
+// Q4 : ATM Withdrawal System
+// Take:
+// Account balance
+// Withdrawal amount
+// Daily withdrawal limit
+// Conditions:
+// Amount must be a multiple of 500.
+// Amount must not exceed balance.
+// Amount must not exceed daily limit.
+// Minimum withdrawal = ₹500.
+// Print the appropriate error or success message.
+// Sol ::
 
+// let balance = 25000;
+// const withdrawalAmount = Number(prompt("Here Enter your withdrawal amount"));
+// const dailyLimit = 10000;
+// if(withdrawalAmount < 500){
+//     console.log("Minimum withdrawal is ₹500");
+// } else if(withdrawalAmount % 500 === 0){
+//     console.log("Amount must be a multiple of 500.");
+// } else if(withdrawalAmount > dailyLimit){
+//     console.log("Today you withdrawal limit is completed");
+// } else if(withdrawalAmount > balance){
+//     console.log("Insufficient balance");
+// } else {
+//     balance = balance - withdrawalAmount;
 
+//     console.log("Withdrawal Successful");
+//     console.log("Withdrawal Amount :", withdrawalAmount);
+//     console.log("Current Balance :",balance);
+    
+// }
 
 
 
