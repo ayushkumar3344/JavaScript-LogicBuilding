@@ -178,8 +178,22 @@
 
 
 
+// Example -->  [ Using Conditional Statemenet ]
 
+// const prize = 8000;
+// let discount;
 
+// if(prize > 5000){
+//     discount = 40
+// } else {
+//     discount = 10
+// }
+
+// const totalDiscount = prize * discount / 100;
+// const finalPrize = prize - discount;
+
+// console.log(`I gave you ${totalDiscount} Discount`);
+// console.log("Prize after Discount is :", finalPrize);
 
 
 
