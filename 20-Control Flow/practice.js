@@ -123,6 +123,39 @@
 // }
 
 
+// Q5 : Employee Bonus Calculator
+// Take salary, years of experience, and performance rating.
+// Bonus rules:
+// Experience ≥ 5 and rating ≥ 8 → 20%
+// Experience ≥ 3 and rating ≥ 7 → 15%
+// Experience ≥ 1 and rating ≥ 6 → 10%
+// Otherwise → 5%
+// If salary > ₹1,00,000, reduce the calculated bonus by 2 percentage points.
+// Sol ::
+// const salary = 80000;
+// const experience = 3;
+// const rating = 7
+
+// let bonesPercentage;
+
+// if(experience >= 5 && rating >= 8){
+//     bonesPercentage = 20;
+// } else if(experience > 3 && rating > 7){
+//     bonesPercentage = 15;
+// } else if(experience > 1 && rating > 6){
+//     bonesPercentage = 10;
+// } else{
+//     bonesPercentage = 5;
+// }
+
+// if(salary > 100000){
+//     bonesPercentage = bonesPercentage - 2;
+// }
+
+// let bones = salary * bonesPercentage / 100;
+
+// console.log("Bones Percentage: " + bones + '%');
+// console.log("Bones Amount: ₹" + bones);
 
 
 
