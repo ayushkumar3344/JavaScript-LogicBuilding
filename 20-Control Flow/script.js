@@ -178,7 +178,7 @@
 
 
 
-// Example -->  [ Using Conditional Statemenet ]
+// Example 1 -->  [ Using Conditional Statemenet ]
 
 // const prize = 8000;
 // let discount;
@@ -196,6 +196,8 @@
 // console.log("Prize after Discount is :", finalPrize);
 
 
+
+// Example 2 -->  [ Create Discount Using Multiple Condition ]
 
 
 
