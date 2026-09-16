@@ -157,6 +157,28 @@
 
 
 
+// ---> Here i Understanding about how percentage and discount formulas help to make discount <---
+
+// 1. Sabse pehle percentage samjho
+// Sol :: 
+
+// (((  Discount ka basic formula:  price * discount / 100; ))) 
+
+// const itemPrise = 1526;
+// const discount = 20;
+
+// const totalDiscount = itemPrise * discount / 100;
+// const finalPrize = itemPrise - totalDiscount;
+
+// console.log("Prize after discount is :", finalPrize);
+
+
+// console.log("Original Prize is :", itemPrise.toFixed(2));
+// console.log(`I Gave you ${totalDiscount} Discount on this product.`);
+
+
+
+
 
 
 
