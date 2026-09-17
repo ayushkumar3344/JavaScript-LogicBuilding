@@ -199,29 +199,29 @@
 
 // Example 2 -->  [ Create Discount Using Multiple Condition ]
 
-const itemPrize = Number(prompt("Enter Item Prize here :"));
-let discount;
+// const itemPrize = Number(prompt("Enter Item Prize here :"));
+// let discount;
 
-if(itemPrize >= 10000){
-    discount = 40;
-} else if(itemPrize >= 8000){
-    discount = 35;
-} else if(itemPrize >= 6000){
-    discount = 30;
-} else if(itemPrize >= 4000){
-    discount = 25;
-} else if(itemPrize >= 2000){
-    discount = 20;
-} else{
-    discount = 10;;
-}
+// if(itemPrize >= 10000){
+//     discount = 40;
+// } else if(itemPrize >= 8000){
+//     discount = 35;
+// } else if(itemPrize >= 6000){
+//     discount = 30;
+// } else if(itemPrize >= 4000){
+//     discount = 25;
+// } else if(itemPrize >= 2000){
+//     discount = 20;
+// } else{
+//     discount = 10;;
+// }
 
-const discountVal = itemPrize * discount / 100;
-const newPrize = itemPrize - discountVal;
+// const discountVal = itemPrize * discount / 100;
+// const newPrize = itemPrize - discountVal;
 
-console.log("Previous Item Prize :", itemPrize);
-console.log("Apply Discount Coupon :", discount + '%');
-console.log("Total Prize after Discount :", newPrize);
+// console.log("Previous Item Prize :", itemPrize);
+// console.log("Apply Discount Coupon :", discount + '%');
+// console.log("Total Prize after Discount :", newPrize);
 
 
 
