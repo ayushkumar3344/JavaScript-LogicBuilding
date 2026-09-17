@@ -241,9 +241,30 @@
 
 
 
+// Q8 : Driving License Eligibility
+// Take age, test score, and number of previous violations.
+// Conditions:
+// Age must be ≥ 18.
+// Test score must be ≥ 70.
+// Violations must be less than 3.
+// If age ≥ 60, require a test score of at least 80.
+// Sol ::
+// const age = 35;
+// const testScore = 129;
+// const violations = 2;
 
 
-
+// if(age < 18){
+//     console.log("You are not Eligible for Driving Licence");
+// } else if(testScore < 70 && testScore > 80){
+//     console.log("Atleast your score is upto 80");
+// } else if( violations > 3){
+//     console.log("Too much violations, Sorry Not Eligible");
+// } else if(age >= 60){
+//     console.log("your age is greater than 60, sorry out of age [ Not Eligible ]");
+// } else{
+//     console.log("Congraluation, you are eligible for driving licence");
+// }
 
 
 
