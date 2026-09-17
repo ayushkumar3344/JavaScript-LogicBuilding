@@ -197,11 +197,47 @@
 
 
 
+// Q7 : Online Shopping Discount
+// Take cart amount and membership status.
+// Discount:
+// ₹10,000+ → 20%
+// ₹5,000–₹9,999 → 15%
+// ₹2,000–₹4,999 → 10%
+// Below ₹2,000 → No discount
+// Premium members get an additional 5% discount.
+// If final amount after discount is ≥ ₹8,000, provide "Free Delivery".
+// Sol ::
+// const cartAmount = 77745;
+// const membershipStatus = 'Premium';
 
+// let discount;
 
+// if( cartAmount > 10000 ){
+//     discount = 20;
+// } else if( cartAmount >= 5000 && cartAmount <= 9999 ){
+//     discount = 15;
+// } else if( cartAmount >= 2000 && cartAmount <= 4999 ){
+//     discount = 10;
+// } else {
+//     discount = 0;
+// }
 
+// if( membershipStatus.includes('Premium') ){
+//     discount = discount + 5;
+// }
 
+// const lessCoupon = cartAmount * discount / 100;
+// const finalAmount = cartAmount - lessCoupon;
 
+// console.log("CartAmount is :", '₹' + cartAmount );
+// console.log("Coupon Applied :", discount + '%');
+// console.log("Final Amount :", '₹' + finalAmount );
+
+// if(finalAmount >= 8000){
+//     console.log('₹' + finalAmount , "Free Delevery");
+// } else{
+//     console.log('Delivery Charges Applicable');
+// }
 
 
 
