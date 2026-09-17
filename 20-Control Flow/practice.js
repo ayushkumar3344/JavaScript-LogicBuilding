@@ -268,6 +268,41 @@
 
 
 
+// Q9 : Movie Ticket Pricing
+// Take age, show time, and weekend status.
+// Base ticket = ₹250.
+// Rules:
+// Age < 12 → 50% discount
+// Age ≥ 60 → 30% discount
+// Before 12 PM → additional 20% discount
+// Weekend → ₹50 extra
+// Calculate the final ticket price.
+// Sol ::
+// const age = 10;
+// const showTime = 10;
+// const isWeekend = false;
+
+// let price = 250;
+
+// // Age Discount -->
+// if(age < 12){
+//     price = price - (price * 50 / 100);
+// } else if(age >= 60){
+//     price = price - (price * 30 / 100);
+// }
+
+// // Time Discount -->
+// if(showTime < 12){
+//     price = price - (price * 20 / 100);
+// }
+
+// // Weekend Prize -->
+// if(isWeekend){
+//     price = price + 50;
+// }
+
+// console.log("Final Ticket Price is :", price);
+
 
 
 
