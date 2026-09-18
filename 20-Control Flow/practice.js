@@ -374,9 +374,29 @@
 
 
 
+// Q12 : Weather-Based Activity Recommendation
+// Take temperature, raining status, and humidity.
+// Rules should determine whether the user should:
+// "Go for a walk"
+// "Stay indoors"
+// "Carry an umbrella"
+// "Avoid outdoor activity"
+// Sol ::
+// let temperature = 35;
+// let isRaining = true;
+// let humidity = 80;
 
-
-
+// if (isRaining && humidity >= 70) {
+//     console.log("Stay indoors");
+// } else if (isRaining) {
+//     console.log("Carry an umbrella");
+// } else if (temperature >= 40 || humidity >= 90) {
+//     console.log("Avoid outdoor activity");
+// } else if (temperature >= 15 && temperature <= 35) {
+//     console.log("Go for a walk");
+// } else {
+//     console.log("Stay indoors");
+// }
 
 
 
