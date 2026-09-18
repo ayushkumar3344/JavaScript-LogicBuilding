@@ -340,6 +340,37 @@
 
 
 
+// Q11 : Tax Calculator
+// Take annual income:
+// Up to ₹3 lakh → 0%
+// ₹3–6 lakh → 5%
+// ₹6–12 lakh → 10%
+// ₹12–20 lakh → 20%
+// Above ₹20 lakh → 30%
+// If the person is a senior citizen, apply a different rule for income below ₹5 lakh.
+// Calculate the final tax amount.
+// Sol ::
+// const income = 400000;
+// const seniorCitizen = false;
+
+// let tax;
+
+// if( seniorCitizen && income < 500000){
+//     tax = 0;
+// } else if(income <= 300000){
+//     tax = 0;
+// } else if(income <= 600000){
+//     tax = income * 5 / 100;
+// } else if(income <= 1200000){
+//     tax = income * 10 / 100;
+// } else if(income <= 2000000){
+//     tax = income * 20 / 100;
+// } else {
+//     tax = income * 30 / 100;
+// } 
+
+// console.log("Annual Salary :", income);
+// console.log("Tax Apply :", tax);
 
 
 
