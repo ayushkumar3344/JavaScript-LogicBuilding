@@ -415,7 +415,32 @@
 // Age above 60
 // Print "Loan Approved", "Loan Rejected", or the exact reason for rejection.
 // Sol ::
+// const age = 32;
+// const monthlySalary = 80000;
+// const creditScore = 900;
+// const existingEMI = 10000;
+// const experience = 4;
 
+// if(age < 21){
+//     console.log("Loan Rejected : age is too low");
+// } else if (age > 60){
+//     console.log("Loan Rejected : age is above than 60");
+// } else if(monthlySalary < 30000){
+//     console.log("Loan Rejected : Salary is too low");
+// } else if(creditScore < 650){
+//     console.log("Loan Rejected : Credit score is less than 650");
+// } else if(existingEMI > monthlySalary * 40 / 100){
+//     console.log("Loan Rejected : Existing EMI is too High");
+// } else if(experience < 1){
+//     console.log("Loan Rejected : Insufficient Job Experience");
+// } else{
+//     console.log("Loan Approved [ Congrauations ]");
+
+//     if(creditScore >= 750 && monthlySalary >= 60000){
+//         console.log("You Are Eligible for Better loan Terms");
+//     }
+
+// }
 
 
 
