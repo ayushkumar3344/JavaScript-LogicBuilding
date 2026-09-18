@@ -400,7 +400,21 @@
 
 
 
-
+// Q13 : Bank Loan Eligibility
+// Take:
+// Age
+// Monthly salary
+// Credit score
+// Existing EMI
+// Employment experience
+// Loan is approved only if multiple conditions are satisfied.
+// Add special conditions for:
+// High credit score
+// High salary
+// Existing high EMI
+// Age above 60
+// Print "Loan Approved", "Loan Rejected", or the exact reason for rejection.
+// Sol ::
 
 
 
