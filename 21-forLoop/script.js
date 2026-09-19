@@ -9,8 +9,18 @@
 // }
 
 
+// --------->
 
+// for (let i = 0; i <= 10; i++) {
 
+//     console.log(`Outer Loop Value is : ${i}`);
+    
+//     for (let j = 0; j <= 10; j++) {
+//         // console.log(`Inner Loop Value is : ${j} and inner loop ${i}`);
+//         console.log(i + '*' + j + '=' + i*j);
+//     }
+
+// }
 
 
 
