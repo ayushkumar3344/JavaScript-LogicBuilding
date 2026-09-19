@@ -35,7 +35,26 @@
 
 
 
+// ---------> [ Break & Continue Keywords In Loop ];
 
+
+// // #Break;
+// for (let i = 0; i <= 20; i++) {
+//     if(i == 12){
+//         console.log(`12 is Detected`);
+//         break;
+//     }
+//     console.log(`Value of i is : ${i}`);
+// }
+
+// // #Continue:
+// for (let i = 0; i <= 20; i++) {
+//     if(i == 12){
+//         console.log(`12 is Detected`);
+//         continue;
+//     }
+//     console.log(`Value of i is : ${i}`);
+// }
 
 
 
