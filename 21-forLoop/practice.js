@@ -1,6 +1,7 @@
 // #Practice Examples --->
 
 
+// --------------------------->
 // 🟢 Level 1 — Basic Logic
 
 
@@ -34,11 +35,33 @@
 
 
 
+// Q4 > Multiplication Table
+// Take a number:
+// [ let num = 7; ]
+// Print its multiplication table from 1 to 10.
+// Sol : 
+// let num = Number(prompt('If you wants any multiply table of any number [ Type That Number Here ] '))
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(num + "*" + i + "=" + num * i);
+// }
 
 
 
+// Q5 > Count Multiples
+// Count how many numbers between 1 and 100 are divisible by both 3 and 5.
+// Sol :
+// let count = 0;
 
+// for(let i=1; i<=100 ; i++){
+//     if(i % 3 === 0 && i % 5 ===0){
+//         count++
+//         console.log("Num Values are :", i);
+        
+//     }
+// }
 
+// console.log("Values Are :", count);
 
 
 
