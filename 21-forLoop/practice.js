@@ -92,17 +92,70 @@
 
 
 
+// Q2 > Find the Largest Number
+// Given:
+// let numbers = [12, 45, 7, 89, 23, 67, 34];
+// Use a for loop to find the largest number without using Math.max().
+// Sol :
+// let numbers = [12, 45, 7, 89, 23, 67, 34];
+// let largest = numbers[0];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] > largest){
+//         largest = numbers[i];
+//     }
+// }
+
+// console.log("Largest Number is :", largest);
 
 
 
+// Q3 > Find the Smallest Number
+// Given:
+// let numbers = [34, 12, 56, 8, 91, 23, 5];
+// Find the smallest number using a for loop.
+// Sol :
+// let numbers = [34, 12, 56, 8, 91, 23, 5];
+// let smallest = numbers[0];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] < smallest){
+//         smallest = numbers[i];
+//     }
+// }
+
+// console.log("Smallest Value is :", smallest);
 
 
 
+// Q4 > Count Positive, Negative and Zero
+// let numbers = [10, -5, 0, 7, -2, 0, 15, -8];
+// Count how many numbers are:
+// Positive
+// Negative
+// Zero
+// Sol :
+// let numbers = [10, -5, 0, 7, -2, 0, 15, -8];
 
+// let positiveNum = 0;
+// let negativeNum = 0;
+// let zeroNum = 0;
 
+// for (let i = 0; i < numbers.length; i++) {
+    
+//     if(numbers[i] > 0){
+//         positiveNum++;
+//     } else if(numbers[i] < 0){
+//         negativeNum++;
+//     } else{
+//         zeroNum++;
+//     }
+    
+// }
 
-
-
+// console.log("Positive Numbers are :", positiveNum);
+// console.log("Negative Numbers are :", negativeNum);
+// console.log("Zero Numbers are :", zeroNum);
 
 
 
