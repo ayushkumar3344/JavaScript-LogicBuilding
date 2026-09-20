@@ -67,10 +67,28 @@
 
 
 
+// ---------------------------------->
+// 🟡 Level 2 — Problem Solving
 
 
+// Q1 > Sum of Even and Odd Numbers
+// From 1 to 100, calculate separately:
+// Sum of even numbers
+// Sum of odd numbers
+// Sol :
+// let evenNumber = 0;
+// let oddNumber = 0;
 
+// for (let i = 1; i <= 100; i++) {
+//     if(i % 2 === 0){
+//         evenNumber = evenNumber + i;       
+//     } else{
+//         oddNumber= oddNumber + i;
+//     }
+// }
 
+// console.log("Even Numbers :", evenNumber);
+// console.log("Odd Numbers :", oddNumber);
 
 
 
