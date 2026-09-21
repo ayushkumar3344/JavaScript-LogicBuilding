@@ -170,25 +170,48 @@
 // FOR LOOP PRACTICE START HERE :---------------------------->
 
 
+// 🟢 Level 1 — Basic Foundation
 
 
+// Example 1 : Print numbers from 1 to 10.
+// sol :
+// for (let i = 0; i <= 10; i++) {
+//     console.log("Value os i is :", i);
+// }
 
 
+// Example 2 : Print numbers from 10 to 1.
+// sol :
+// for (let i = 10; i >= 1; i--) {
+//     console.log("Reverse Value of i is :", i);
+// }
 
 
+// Example 3 : Print all even numbers from 1 to 50
+// sol :
+// for (let i = 0; i <= 50; i++) {
+//     if ( i % 2 === 0 ){
+//         console.log(" Even Numbers Are :", i);
+//     }
+// }
 
 
+// Example 4 : Print all odd numbers from 1 to 50
+// sol :
+// for (let i = 0; i <= 50; i++) {
+//     if(i % 2 !== 0){
+//         console.log("Odd Numbers Are :", i);
+//     }
+// }
 
 
-
-
-
-
-
-
-
-
-
+// Example 5 : Print multiples of 5 from 1 to 100
+// sol :
+// for (let i = 0; i <= 100; i++) {
+//     if(i % 5 === 0){
+//         console.log("Multiples of 5 Are :", i);
+//     }
+// }
 
 
 
