@@ -214,21 +214,53 @@
 // }
 
 
+// Example 6 : Print the square of numbers from 1 to 10.
+// sol :
+// for (let i = 0; i <= 10 ; i++) {
+//     let squareOutput = i * i;
+//     console.log("Square Outputs Are :", squareOutput);
+// }
 
 
+// Example 7 : Print cube of numbers from 1 to 10
+// sol :
+// for (let i = 0; i <= 10; i++) {
+//     console.log("Cube Values Are :", i * i * i);
+// }
 
 
+// Example 8 : Sum of numbers from 1 to 100
+// sol :
+// let sum = 0;
+
+// for (let i = 1; i <= 100; i++) {
+//     sum = sum + i;
+// }
+
+// console.log("Sum is :", sum);
 
 
+// Example 9 : Sum of even numbers from 1 to 100
+// sol :
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if(i % 2 === 0){
+//         sum = sum + i;
+//     }
+// }
+// console.log("Total Sum is :", sum);
 
 
+// Example 10 : Sum of even numbers from 1 to 100
+// sol :
+// const number = Number(prompt("If you want the factorial of any number please type that number here :"))
+// let factorial = 1;
 
+// for (let i = 1; i <= number; i++) {
+//     factorial = factorial * i;
+// }
 
-
-
-
-
-
+// console.log(`Factorial of ${number} are :`, factorial);
 
 
 
