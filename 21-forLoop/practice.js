@@ -295,10 +295,16 @@
 
 
 
+// Example 3 : Print the multiplication table of any number.
+// sol :
+// const userNum = Number(prompt("If you want the multiple of any number typed here :"));
+// for (let i = 1; i <= 10; i++) {
+//     console.log(userNum + '*' + i + "=" + userNum*i);
+// }
 
 
-
-
+// Example 4 : Find the largest number between 10 given numbers.
+// sol :
 
 
 
