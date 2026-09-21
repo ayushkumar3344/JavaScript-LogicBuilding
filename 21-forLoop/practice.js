@@ -265,13 +265,33 @@
 
 
 
+// 🟡 Level 2 — Logic Building
 
 
+// Example 1 : Count how many even numbers exist between 1 and 100.
+// sol :
+// let evenNum = 0;
+
+// for (let i = 1; i <= 100; i++) {
+//     if(i % 2 === 0){
+//         evenNum++;
+//     }
+// }
+
+// console.log("Total Count Of Even Numbers Are :", evenNum);
 
 
+// Example 2 : Count how many numbers between 1 and 100 are divisible by both 3 and 5.
+// sol :
+// let countDivisible = 0;
 
+// for (let i = 1; i <= 100; i++) {
+//     if(i % 3 === 0 && i % 5 === 0){
+//         countDivisible++;
+//     }
+// }
 
-
+// console.log("Total Count is :", countDivisible);
 
 
 
