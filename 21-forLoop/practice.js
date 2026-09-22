@@ -409,13 +409,43 @@
 // console.log("Smallest Value is :", smallest);
 
 
+// Example 4 : Calculate the total price of all products.
+// sol :
+// let prices = [499, 799, 299, 999, 599];
+// let total = 0;
+
+// for (let i = 0; i < prices.length; i++) {
+//     total = total + prices[i];
+// }
+
+// console.log("Total is :", total);
 
 
+// Example 5 : Find the average price of products.
+// sol :
+// let prices = [499, 799, 299, 999, 599];
+// let total = 0;
+
+// for (let i = 0; i < prices.length; i++) {
+//     total = total + prices[i];
+// }
+
+// let avgPrize = total / prices.length;
+// console.log("Average :", avgPrize);
 
 
+// Example 6 : Count how many products cost more than ₹500.
+// sol :
+// let prices = [499, 799, 299, 999, 599];
+// let expensiveCount = 0;
 
+// for (let i = 0; i < prices.length; i++) {
+//     if(prices[i] > 500){
+//         expensiveCount++
+//     }
+// }
 
-
+// console.log("Expensive Count is :", expensiveCount);
 
 
 
