@@ -305,7 +305,30 @@
 
 // Example 4 : Find the largest number between 10 given numbers.
 // sol :
+// const dataNum = [34, 56, 83, 23, 65];
+// let largest = dataNum[0];
 
+// for (let i = 0; i < dataNum.length; i++) {
+//     if(dataNum[i] > largest){
+//         largest = dataNum[i];
+//     }
+// }
+
+// console.log("Largest Number is :", largest);
+
+
+// Example 5 : Find the smallest number between 10 given numbers.
+// sol :
+// const dataNum = [34, 56, 83, 23, 65];
+// let smallest = dataNum[0];
+
+// for (let i = 0; i < dataNum.length; i++) {
+//     if(dataNum[i] < smallest){
+//         smallest = dataNum[i];
+//     }
+// }
+
+// console.log("Smallest Value is :", smallest);
 
 
 
