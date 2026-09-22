@@ -372,12 +372,41 @@
 // 🟠 Level 3 — Arrays ⭐ Very Important for Full Stack
 
 
+// Example 1 : Print every element of an array.
+// sol :
+// let users = ["Ayush", "Rahul", "Aman", "Rohit"];
+
+// for (let i = 0; i < users.length; i++) {
+//     console.log("Name :", users[i]);
+// };
 
 
+// Example 2 : Find the largest number in an array.
+// sol :
+// const marks = [56,82,45,65,22,76];
+// let largest = marks[0];
+
+// for (let i = 0; i < marks.length; i++) {
+//     if(marks[i] > largest){
+//         largest = marks[i];
+//     }
+// }
+
+// console.log("Largest Number is :", largest);
 
 
+// Example 3 : Find the smallest number in an array.
+// sol :
+// const marks = [56,82,45,65,22,76];
+// let smallest = marks[0];
 
+// for (let i = 0; i < marks.length; i++) {
+//     if(marks[i] < smallest){
+//         smallest = marks[i];
+//     }
+// }
 
+// console.log("Smallest Value is :", smallest);
 
 
 
