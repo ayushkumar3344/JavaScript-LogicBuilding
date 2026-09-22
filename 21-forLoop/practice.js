@@ -331,12 +331,39 @@
 // console.log("Smallest Value is :", smallest);
 
 
+// Example 6 : Calculate the average of numbers stored in an array.
+// sol :
+// const marks = [34, 56, 83, 23, 65];
+// let total = 0;
+
+// for (let i = 0; i < marks.length; i++) {
+//     total = total + marks[i];
+// }
+
+// const average = total / marks.length;
+// console.log("Total Average is  :", average.toFixed(2));
 
 
+// Example 7 : Count how many positive, negative and zero values are present in an array.
+// sol :
+// const identifyArray = [-67,30,92,-78,0,24,-19,0];
+// let positiveVal = 0;
+// let negativeVal = 0;
+// let zeroVal = 0;
 
+// for (let i = 0; i < identifyArray.length; i++) {
+//     if(identifyArray[i] > 0){
+//         positiveVal++;
+//     } else if(identifyArray[i] < 0){
+//         negativeVal++;
+//     } else{
+//         zeroVal++
+//     }
+// }
 
-
-
+// console.log("Total Of Positive Values is :", positiveVal);
+// console.log("Total Of Positive Values is :", negativeVal);
+// console.log("Total Of Positive Values is :", zeroVal);
 
 
 
