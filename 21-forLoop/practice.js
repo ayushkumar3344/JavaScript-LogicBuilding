@@ -448,16 +448,77 @@
 // console.log("Expensive Count is :", expensiveCount);
 
 
+// Example 7 : Create a new array containing only even numbers.
+// sol :
+// let price = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+
+// for (let i = 0; i < price.length; i++) {
+//     if(price[i] % 2 === 0){
+//         console.log("Even Numbers are :", price[i]);
+//     }
+// }
+
+// let price = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+// let evenNum = [];
+
+// for (let i = 0; i < price.length; i++) {
+//     if(price[i] % 2 === 0){
+//         evenNum.push(price[i])
+//     }
+// }
+
+// console.log(evenNum);
 
 
 
+// Example 8 : Create a new array containing only odd numbers.
+// sol :
+// let price = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+
+// for (let i = 0; i < price.length; i++) {
+//     if(price[i] % 2 !== 0){
+//         console.log("Even Numbers Are :", price[i]);
+//     }
+// }
 
 
+// let price = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+// let oddNum = [];
+
+// for (let i = 0; i < price.length; i++) {
+//     if(price[i] % 2 !== 0){
+//         oddNum.push(price[i])
+//     }
+// }
+
+// console.log(oddNum);
 
 
+// Example 9 : Search for a specific user inside an array.
+// sol :
+// const studentNames = ["Rahul", 'Shivam', 'Gourav', 'Shiwali', 'Vinod', "Krishna", 'Megha'];
+
+// for (let i = 0; i < studentNames.length; i++) {
+//     if(studentNames[i].includes("Shiwali")){
+//         console.log("Yes Shiwali is available  on this array");
+//     }
+// }
 
 
+// const studentNames = ["Rahul", 'Shivam', 'Gourav', 'Shiwali', 'Vinod', "Krishna", 'Megha'];
 
+// let searchUser = "Krishna";
+// let found = false;
+
+// for (let i = 0; i < studentNames.length; i++) {
+//     if(studentNames[i] === searchUser){
+//         found = true;
+//         break;
+//     }
+// }
+
+// const output = found ? 'User Found' : 'User Not Found';
+// console.log("Output is :", output);
 
 
 
