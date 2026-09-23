@@ -521,7 +521,21 @@
 // console.log("Output is :", output);
 
 
+// Example 10 : Count how many times a particular value occurs in an array.
+// Find how many times 10 appears.
+// sol :
+// let numbers = [10, 20, 10, 30, 10, 40];
 
+// let target = 10;
+// let repeatValue = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] === target){
+//         repeatValue++
+//     }
+// }
+
+// console.log(` ${target} is repeat ${repeatValue} time.`);
 
 
 
