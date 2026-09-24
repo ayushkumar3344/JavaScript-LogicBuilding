@@ -563,11 +563,66 @@
 // console.log("Total Count of character is :", characterCount);
 
 
+// Example 3 : Count how many vowels are present in a string.
+// sol :
+// const userName = "Preeti Zinta";
+// let countVowel = 0;
+
+// for (let i = 0; i < userName.length; i++) {
+//     if(userName[i] === "a" || userName[i] === "e" || userName[i] === "i" || userName[i] === "o" || userName[i] === "u" ){
+//         countVowel++;
+//     } 
+// }
+
+// console.log("Total Vowels in your string is", countVowel);
 
 
+// Example 4 : Count how many consonants are present in a string.
+// sol :
+// const userName = "Sonu Mishra";
+// let countConsonants = 0;
+
+// for (let i = 0; i < userName.length; i++) {
+//     if(userName[i] !== 'a' &&
+//         userName[i] !== 'e' &&
+//         userName[i] !== 'i' &&
+//         userName[i] !== 'o' &&
+//         userName[i] !== 'u' 
+//      ){
+//         countConsonants++;
+//     }
+// }
+
+// console.log("Total Number of Consonants Present in :" , countConsonants);
 
 
+// Example 5 : Count how many times a particular character occurs.
+// sol :
+// const userName = "sushma goutamafa";
+// let target = "a";
+// let countTargetItteration = 0;
 
+// for (let i = 0; i < userName.length; i++) {
+//     if(userName[i] === target){
+//         countTargetItteration++;
+//     }
+// }
+
+// console.log("Total Count is :", countTargetItteration);
+
+
+// Example 6 : Remove spaces from a string using a loop.
+// sol :
+// const sentence = "Hello Bhai kese ho main toh hyderabad sai hun";
+// let result = "";
+
+// for (let i = 0; i < sentence.length; i++) {
+//     if(sentence[i] !== " "){
+//         result = result + sentence[i];
+//     }
+// }
+
+// console.log("New String is :", result);
 
 
 
