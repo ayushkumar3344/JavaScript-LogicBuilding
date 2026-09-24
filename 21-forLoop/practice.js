@@ -538,10 +538,29 @@
 // console.log(` ${target} is repeat ${repeatValue} time.`);
 
 
+// ------------------------------------------------------->
+// 🔵 Level 4 — Strings 👁️
 
 
+// Example 1 : Print every character of a string.
+// sol :
+// let userName = "Ayush";
+
+// for (let i = 0; i < userName.length; i++) {
+//     console.log("All Characters are :", userName[i]);
+// }
 
 
+// Example 2 : Count the number of characters in a string.
+// sol :
+// const fullName = "AyushKumar";
+// let characterCount = 0;
+
+// for (let i = 0; i < fullName.length; i++) {
+//     characterCount++;
+// }
+
+// console.log("Total Count of character is :", characterCount);
 
 
 
