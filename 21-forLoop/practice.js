@@ -625,7 +625,20 @@
 // console.log("New String is :", result);
 
 
+// Example 7 : Remove spaces from a string using a loop.
+// sol :
+// let sentence3 = "I am learning JavaScript sharuk";
 
+// let words = 1;
+
+// for (let i = 0; i < sentence3.length; i++) {
+
+//     if (sentence3[i] === " ") {
+//         words++;
+//     }
+// }
+
+// console.log(words);
 
 
 
