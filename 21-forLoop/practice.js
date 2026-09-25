@@ -838,24 +838,45 @@
 // Use a for loop to find the employee with the highest salary.
 // sol :
 
-let employees = [
-    { name: "Ayush", salary: 30000 },
-    { name: "Rahul", salary: 40000 },
-    { name: "Aman", salary: 35000 }
-];
+// let employees = [
+//     { name: "Ayush", salary: 30000 },
+//     { name: "Rahul", salary: 40000 },
+//     { name: "Aman", salary: 35000 }
+// ];
 
-let highestSalary = employees[0].salary;
+// let highestSalary = employees[0].salary;
 
-for (let i = 0; i < employees.length; i++) {
-    if(employees[i].salary > highestSalary){
-        highestSalary = employees[i].salary;
-    }
-}
+// for (let i = 0; i < employees.length; i++) {
+//     if(employees[i].salary > highestSalary){
+//         highestSalary = employees[i].salary;
+//     }
+// }
 
-console.log("Highest salary is :", highestSalary);
+// console.log("Highest salary is :", highestSalary);
 
 
+// Example 9 : Count Active Users
+// let users = [
+//     { name: "Ayush", active: true },
+//     { name: "Rahul", active: false },
+//     { name: "Aman", active: true }
+// ];
+// Count the number of active users.
+// sol :
 
+// let users = [
+//     { name: "Ayush", active: true },
+//     { name: "Rahul", active: false },
+//     { name: "Aman", active: true }
+// ];
+
+// for (let i = 0; i < users.length; i++) {
+//     if(users[i].active === true){
+//         console.log(users[i].name, "Yes is a Active User.");
+//     } else {
+//         console.log(users[i].name,"Not a Active User");
+//     }
+// }
 
 
 
