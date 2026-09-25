@@ -819,6 +819,24 @@
 // ];
 // Calculate the total salary expense.
 // sol :
+// let employees = [
+//     { name: "Ayush", salary: 30000 },
+//     { name: "Rahul", salary: 40000 },
+//     { name: "Aman", salary: 35000 }
+// ];
+
+// let totalSalary = 0;
+
+// for (let i = 0; i < employees.length; i++) {
+//     totalSalary = totalSalary + employees[i].salary
+// }
+
+// console.log("Total salaries of our employes is :", totalSalary);
+
+
+// Example 8 : Find Highest Paid Employee
+// Use a for loop to find the employee with the highest salary.
+// sol :
 
 let employees = [
     { name: "Ayush", salary: 30000 },
@@ -826,19 +844,15 @@ let employees = [
     { name: "Aman", salary: 35000 }
 ];
 
-let totalSalary = 0;
+let highestSalary = employees[0].salary;
 
 for (let i = 0; i < employees.length; i++) {
-    totalSalary = totalSalary + employees[i].salary
+    if(employees[i].salary > highestSalary){
+        highestSalary = employees[i].salary;
+    }
 }
 
-console.log("Total salaries of our employes is :", totalSalary);
-
-
-
-
-
-
+console.log("Highest salary is :", highestSalary);
 
 
 
