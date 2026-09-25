@@ -708,6 +708,149 @@
 // }
 
 
+// Example 4 : Calculate Cart Total 🛒
+// let cart = [
+//     { product: "Laptop", price: 50000, quantity: 1 },
+//     { product: "Mouse", price: 1000, quantity: 2 },
+//     { product: "Keyboard", price: 2000, quantity: 1 }
+// ];
+// sol :
+// let cart = [
+//     { product: "Laptop", price: 50000, quantity: 1 },
+//     { product: "Mouse", price: 1000, quantity: 2 },
+//     { product: "Keyboard", price: 2000, quantity: 1 }
+// ];
+
+// let total = 0;
+
+// for (let i = 0; i < cart.length; i++) {
+//     total = cart[i].price * cart[i].quantity
+// }
+
+// console.log("Total Cart Prise is :", total);
+
+
+// Example 5 : Apply Discount
+// Given product prices, apply:
+// ₹5000+ → 10% discount
+// ₹10000+ → 15% discount
+// ₹20000+ → 20% discount
+// Calculate final prices.
+// sol :
+// let productPrices2 = [4000, 7000, 15000, 25000];
+
+// for (let i = 0; i < productPrices2.length; i++) {
+    
+//     let prize = productPrices2[i];
+//     let discount = 0;
+
+//     if(prize >= 5000){
+//         discount = 10
+//     } else if(prize >= 10000){
+//         discount = 15
+//     } else if(prize >= 20000){
+//         discount = 20
+//     }
+
+//     let discountAmount = prize * discount / 100;
+//     let finalPrize = prize - discountAmount;
+
+//     console.log("Original", prize);
+//     console.log("Discount", discount);
+//     console.log("Final Prize", finalPrize);
+
+
+// }
+
+
+// Example 6 : Find Out-of-Stock Products
+// let products = [
+//     { name: "Laptop", stock: 10 },
+//     { name: "Mouse", stock: 0 },
+//     { name: "Keyboard", stock: 5 }
+// ];
+// Print products whose stock is 0.
+// sol :
+// let products = [
+//     { name: "Laptop", stock: 10 },
+//     { name: "Mouse", stock: 0 },
+//     { name: "Keyboard", stock: 5 }
+// ];
+
+// for (let i = 0; i < products.length; i++) {
+//     if(products[i].stock === 0){
+//         console.log("Product is out of stock");
+//     } else {
+//         console.log(`Yes ${products[i].stock} Stock available`);
+//     }
+// }
+
+
+// Example 7 : User Login Search
+// Given:
+// let users = [
+//     { username: "ayush", password: "1234" },
+//     { username: "rahul", password: "5678" }
+// ];
+// Search for a username and verify its password.
+// sol :
+// let users = [
+//     { username: "ayush", password: "1234" },
+//     { username: "rahul", password: "5678" }
+// ];
+
+// let userTyped = "rahul";
+// let passTyped = "5678";
+
+// for (let i = 0; i < users.length; i++) {
+//     if(userTyped == users[i].username && passTyped == users[i].password){
+//         console.log("Logged In");
+//     } else{
+//         console.log("Please try again");
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
