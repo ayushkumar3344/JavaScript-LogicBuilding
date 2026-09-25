@@ -811,9 +811,28 @@
 // }
 
 
+// Example 8 : Calculate Employee Salary
+// let employees = [
+//     { name: "Ayush", salary: 30000 },
+//     { name: "Rahul", salary: 40000 },
+//     { name: "Aman", salary: 35000 }
+// ];
+// Calculate the total salary expense.
+// sol :
 
+let employees = [
+    { name: "Ayush", salary: 30000 },
+    { name: "Rahul", salary: 40000 },
+    { name: "Aman", salary: 35000 }
+];
 
+let totalSalary = 0;
 
+for (let i = 0; i < employees.length; i++) {
+    totalSalary = totalSalary + employees[i].salary
+}
+
+console.log("Total salaries of our employes is :", totalSalary);
 
 
 
