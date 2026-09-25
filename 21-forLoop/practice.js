@@ -647,11 +647,44 @@
 // Ab yahan se questions real development logic ke close hone lagte hain.
 
 
+// Example 1 : Product Price Calculator
+// Given:
+// let products = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Keyboard", price: 2000 }
+// ];
+// Use a for loop to calculate the total price.
+// sol :
+// let products = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Keyboard", price: 2000 }
+// ];
+
+// let totalPrice = 0;
+
+// for (let i = 0; i < products.length; i++) {
+//     totalPrice = totalPrice + products[i].price
+// }
+
+// console.log("Total Price is :", totalPrice);
 
 
+// Example 2 : Find Expensive Products
+// Given products, print only products whose price is greater than ₹10,000.
+// sol :
+// let products2 = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Phone", price: 30000 }
+// ];
 
-
-
+// for (let i = 0; i < products2.length; i++) {
+//     if(products2[i].price > 10000){
+//         console.log("Product is :", products2[i].price);
+//     }
+// }
 
 
 
