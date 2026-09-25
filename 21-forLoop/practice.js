@@ -687,7 +687,25 @@
 // }
 
 
+// Example 3 : User Age Filter
+// let users = [
+//     { name: "Ayush", age: 22 },
+//     { name: "Rahul", age: 17 },
+//     { name: "Aman", age: 25 }
+// ];
+// Print users who are 18 or older.
+// sol :
+// let users = [
+//     { name: "Ayush", age: 22 },
+//     { name: "Rahul", age: 17 },
+//     { name: "Aman", age: 25 }
+// ];
 
+// for (let i = 0; i < users.length; i++) {
+//     if(users[i].age >= 18){
+//         console.log("User they are 18 or older than 18 :", users[i].age );
+//     }
+// }
 
 
 
