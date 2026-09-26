@@ -53,16 +53,47 @@
 // }
 
 
+// Q5: Print Multiplication Table
+// Take a number from the user and print its multiplication table from 1 to 10.
+// Sol :
+// let num = Number(prompt('If you want the multiple of any number please typed here that number :'));
+// let i = 1;
+
+// while(i <= 10){
+//     console.log(`${num} * ${i} = ${num * i}`);
+//     i++;
+// }
 
 
+// Q6: Calculate the Sum from 1 to N
+// Take a number n and calculate the sum of all numbers from 1 to n.
+// Sol :
+// let n = 20;
+// let i = 1;
+
+// let sum = 0;
+
+// while(i <= n){
+//     sum = sum + i;
+//     i++;
+// }
+
+// console.log("Total Value of Sum is :", sum);
 
 
+// Q7: Count from 1 to 100
+// Print numbers from 1 to 100, but print "Fizz" for multiples of 3.
+// Sol :
+// let i = 1;
 
-
-
-
-
-
+// while(i <= 100){
+//     if(i % 3 === 0){
+//         console.log("Fizz");
+//     } else{
+//         console.log(i);
+//     }
+//     i++;
+// }
 
 
 
