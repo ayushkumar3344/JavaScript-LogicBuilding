@@ -97,14 +97,39 @@
 
 
 
+// ---------------------------->
+// Intermediate Level --->
 
 
+// Q1: Find the Factorial
+// Take a number and calculate its factorial using a while loop.
+// Example: 5 → 120
+// Sol :
+// let num = 45;
+// let factorial = 1;
+// let i = 1;
+
+// while(i <= num){
+//     factorial = factorial * i;
+//     i++;
+// }
+
+// console.log("Factorials are :", factorial);
 
 
+// Q2: Count Digits in a Number
+// Count how many digits are present in a number.
+// Example: 45678 → 5 digits
+// Sol :
+// let num = 45678;
+// let count = 0;
 
+// while(num > 0){
+//     num = Math.floor(num / 10)
+//     count++;
+// }
 
-
-
+// console.log("Total Digits are =", count);
 
 
 
