@@ -135,7 +135,16 @@
 
 
 
+// for (let i = 1; i <= 20; i++) {
 
+//     if(i === 8){
+//         console.log(`${i} is Detected`);
+//         continue;
+//     }
+
+//     console.log(i);
+    
+// }
 
 
 
