@@ -93,10 +93,23 @@
 // --------> #ForEach Loop <---------
 
 
+// const coading = ["Python","JavaScript","C++","Java","Kotline","React"];
 
+// coading.forEach((language) => {
+//     console.log(`Languages area :- ${language}`);
+// })
 
+// ----> 2nd way to print
+// function printCoading(item){
+//     console.log(item);
+// }
 
+// coading.forEach(printCoading)
 
+// ----> 3rd way to print
+// coading.forEach((item,index,arr) => {
+//     console.log(item,index,arr);
+// })
 
 
 
