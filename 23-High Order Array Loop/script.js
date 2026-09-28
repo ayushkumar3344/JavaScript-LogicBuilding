@@ -113,10 +113,32 @@
 
 
 
+// New Way To User ForEach Loop ---->
+
+// const coading = [
+//     {
+//         language : "JavaScript",
+//         extention : "js",
+//     },
+//     {
+//         language : "Python",
+//         extention : "php",
+//     },
+//     {
+//         language : "Kotline",
+//         extention : "Kot",
+//     },
+//     {
+//         language : "Futter",
+//         extention : "fttr"
+//     },
+// ]
 
 
-
-
+// coading.forEach((item) => {
+//     console.log(`Languages Are :- ${item.language}`);
+//     console.log(`Extentions Are :- ${item.extention}`);
+// })
 
 
 
