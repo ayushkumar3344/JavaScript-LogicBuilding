@@ -41,7 +41,25 @@
 
 
 
-// Maps In Javascript Loop -->
+// Maps --->
+
+// const map = new Map();
+// map.set("IN","India")
+// map.set("PAK","Pakistan")
+// map.set("CHIN","China")
+// map.set("JAP","Japnease")
+
+// // console.log(map);
+// for(const [key,val] of map){
+//     console.log(key, ":-", val);
+// }
+
+
+
+
+// --------------------------->
+// Perform this same task in Object Format :->
+
 
 
 
