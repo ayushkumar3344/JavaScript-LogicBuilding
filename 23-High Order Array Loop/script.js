@@ -60,15 +60,32 @@
 // --------------------------->
 // Perform this same task in Object Format :->
 
+// const myObject = {
+//     fullName : "Ayush Kumar",
+//     rollNo : 32,
+//     emailID : "Kumarayush8117@gmail.com",
+//     isLoggedIn : true,
+// }
+
+// ------> For Of Loop is Not working in Objects its only working on [Arrays]. 
+// for(const [key,val] of myObject){
+//     console.log(key, ":-", val);
+// }
+
+// For In Loop :-
+// for(let val in myObject){
+//     console.log(`keys are :- ${val} or Values are :- ${myObject[val]} `);
+// }
 
 
 
+// Now try for using for in loop for array -->
 
+// const languages = ["c++","JavaScript","python","Java","ruby","react"];
 
-
-
-
-
+// for (const key in languages) {
+//     console.log(languages[key]);
+// }
 
 
 
