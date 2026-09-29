@@ -125,7 +125,17 @@
 // console.log("Total Sum is :", sum);
 
 
- 
+// Q4 : Find Even Numbers
+// Given an array of numbers, print only the even numbers.
+// Sol : 
+// const marks = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+
+// for (const num of marks) {
+//     if(num % 2 === 0){
+//         console.log(num);
+//     }
+// }
+
 
 
 
