@@ -84,11 +84,22 @@
 
 
 
+// -------------------------------------------->
+// ------- #Practice Example Start Here :------>
 
 
 
+// 🟢 Part 1 — for...of Loop
 
 
+// Q1 : Print Array Elements
+// Given an array of fruits, use for...of to print each fruit.
+// Sol : 
+// const fruits = ['Apple','Mango','Bnana','Litchi','Pineapple','Graphes'];
+
+// for(let item of fruits){
+//     console.log("Fruits Name Are :", item);
+// }
 
 
 
