@@ -149,6 +149,17 @@
 // }
 
 
+// Q6 : Count Names
+// Given an array of names, count how many names are present.
+// Sol : 
+// const names = ['Rahul','Ayush','Shivam','Shiwali','Megha','Shiwangi'];
+// let count = 0;
+
+// for (const user of names) {
+//     count++
+// }
+
+// console.log("Total Length is :", count);
 
 
 
