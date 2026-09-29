@@ -1,2 +1,186 @@
 // #Practice Work --->
 
+
+
+// First Learning Step --->
+// const userNames = ["Haris", "Prabhjot", "Sourabh", "Jasmin", "Khushboo"];
+
+// for (const name of userNames) {
+//     if(name.includes("Sourabh")){
+//         console.log("Sourabh is Available");
+//         continue;
+//     }
+//     console.log("User Name is :-", name);
+// }
+
+
+
+// Second Learning Steps ---> For Of Loop --> Array (Map)
+// let student = new Map();
+
+// student.set("userName","Ayush Kumar");
+// student.set("emailID","kumarayush8117@gmail.com");
+// student.set("course","Masters In Computer Applications");
+// student.set("isPass","true");
+
+// for (const [key,values] of student) {
+//     console.log(key, ":-", values);
+// }
+
+
+
+// Third Learning Steps ---> For In Loop ---> Objects
+// const address = {
+//     state : "Himachal Pradesh",
+//     pincode : 176076,
+//     phNo : 8091077739,
+//     helpLineEmail : "villa3344@gmail.com",
+// }
+
+// for (const info in address) {
+//     console.log(`Keys are :- ${info} & Values are :- ${address[info]}`);
+// }
+
+
+// #ForEach Loop Revision --------> Array
+// const userName = ["Ayush", "Shivam", "Rishika", "Shiwali", "Naaz", "Neha", "Pakkavi", "Surbhi", "Gulshan", "Ravi"];
+
+// userName.forEach((name) => {
+//     console.log("Name is :-", name);
+// })
+
+// ForEach Loop Revision -----------> Object
+
+// const studentInfo = [
+//     {
+//         fullName : "Ayush Kumar",
+//         age : 22,
+//         course : "Mca",
+//         state : "Himachal Pradesh",
+//     },
+//     {
+//         fullName : "Shivam Dube",
+//         age : 20,
+//         course : "BBA",
+//         state : "Uttra Khand",
+//     },
+//     {
+//         fullName : "Amit Yadav",
+//         age : 27,
+//         course : "Archi.t",
+//         state : "Himachal Pradesh",
+//     },
+//     {
+//         fullName : "Vinod Gulshan",
+//         age : 25,
+//         course : "BA.LLB",
+//         state : "Andhra Pradesh",
+//     },
+// ]
+
+// studentInfo.forEach((data) => {
+//     console.log(`Student Names is :- ${data.fullName} or its age are ${data.age} and he study in ${data.course} in ${data.state} `);
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
