@@ -102,7 +102,14 @@
 // }
 
 
+// Q2 : Print Numbers
+// Given [10, 20, 30, 40, 50], print every number using for...of.
+// Sol : 
+// let count = [10, 20, 30, 40, 50];
 
+// for(let num of count){
+//     console.log(`Numbers are : ${num}`);
+// }
 
 
 
