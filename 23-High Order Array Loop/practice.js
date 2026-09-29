@@ -112,8 +112,20 @@
 // }
 
 
+// Q3 : Calculate Sum
+// Use for...of to calculate the sum of all numbers in an array.
+// Sol : 
+// let count = [10, 20, 30, 40, 50];
+// let sum = 0;
+
+// for(let num of count){
+//     sum = sum + num;
+// }
+
+// console.log("Total Sum is :", sum);
 
 
+ 
 
 
 
