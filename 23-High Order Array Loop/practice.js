@@ -229,17 +229,55 @@
 
 
 
+// Q1 : Print Object Keys
+// Given:
+// const user = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh"
+// };
+// Print all keys using for...in.
+// Sol : 
+// const user = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh"
+// };
+
+// for(let info in user){
+//     console.log("Keys of Object are :-", info);
+// }
 
 
+// Q2 : Print Object Values
+// Use for...in to print all values from the same object.
+// Sol : 
+// const user = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh"
+// };
+
+// for(let info in user){
+//     console.log("Values are :", user[info]);
+// }
 
 
+// Q3 : Print Key + Value
+// Print output like:
+// name: Ayush
+// age: 22
+// city: Chandigarh
+// Sol : 
+// const studentID = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh"
+// };
 
-
-
-
-
-
-
+// for(let info in studentID){
+//     console.log(`${info} : ${studentID[info]}`);
+// }
 
 
 
