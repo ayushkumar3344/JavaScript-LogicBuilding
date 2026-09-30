@@ -280,14 +280,45 @@
 // }
 
 
+// Q4 : Count Object Properties
+// Count how many properties an object contains using for...in.
+// Sol : 
+// const studentID = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh"
+// };
+
+// let countLength = 0;
+
+// for(let info in studentID){
+//     countLength++;
+// }
+
+// console.log("Total Property length of Object is : ", countLength);
 
 
+// Q5 : Find a Specific Property
+// Check whether an object contains a "salary" property.
+// Sol : 
+// const user = {
+//     fullName : "Vishal Mishra",
+//     jobPosition : "Software Developer",
+//     location : "Hyderabaad Pune",
+//     salary : 45000,
+// }
 
+// let found = false;
 
+// for(let info in user){
+//     if(info === "salary"){
+//         found = true;
+//     } else {
+//         found = false;
+//     }
+// }
 
-
-
-
+// console.log(found ? "Property Found" : "Property Not Found");
 
 
 
