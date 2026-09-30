@@ -321,30 +321,117 @@
 // console.log(found ? "Property Found" : "Property Not Found");
 
 
+// Q6 : Calculate Total Marks
+// Given:
+// const marks = {
+//     math: 80,
+//     english: 75,
+//     science: 90,
+//     computer: 85
+// };
+// Calculate the total marks using for...in.
+// Sol : 
+// const marks = {
+//     math: 80,
+//     english: 75,
+//     science: 90,
+//     computer: 85
+// };
+
+// let totalMarks = 0;
+
+// for(let val in marks){
+//     totalMarks = totalMarks + marks[val];
+// }
+
+// console.log(`Total Marks is : ${totalMarks}`);
+
+
+// Q7 : Calculate Average Marks
+// Using the same object, calculate the average marks.
+// Sol : 
+// const marks = {
+//     math: 80,
+//     english: 75,
+//     science: 90,
+//     computer: 85
+// };
+
+// let average = 0;
+
+// for(let val in marks){
+//     average = average + marks[val] / 100;
+// }
+
+// console.log(`Average is : ${average.toFixed(2)}`);
+
+
+// Q8 : Find Highest Marks
+// Find which subject has the highest marks.
+// Sol : 
+// const marks = {
+//     math: 80,
+//     english: 75,
+//     science: 90,
+//     computer: 85
+// };
+
+// let highestMarks = marks.math;
+
+// for(let val in marks){
+//     if(marks[val] > highestMarks){
+//         highestMarks = marks[val];
+//     }
+// }
+
+// console.log("Highest Marks is :", highestMarks);
 
 
 
+// Q9 : Find Lowest Marks
+// Find which subject has the lowest marks.
+// Sol : 
+// const marks = {
+//     math: 80,
+//     english: 75,
+//     science: 90,
+//     computer: 85
+// };
+
+// let smallestMarks = marks.math;
+
+// for(let val in marks){
+//     if(marks[val] < smallestMarks){
+//         smallestMarks = marks[val];
+//     }
+// }
+
+// console.log("Highest Marks is :", smallestMarks);
 
 
 
+// Q10 : Filter Object Properties
+// Given:
+// const user = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh",
+//     salary: 30000
+// };
+// Print only properties whose values are numbers.
+// Sol : 
+// const user = {
+//     name: "Ayush",
+//     age: 22,
+//     city: "Chandigarh",
+//     salary: 30000
+// };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// for(let data in user){
+//     if(typeof user[data] === "number"){
+//         console.log(data + ":" + user[data]);
+//     }
+// }
 
 
 
