@@ -162,7 +162,22 @@
 // console.log("Total Length is :", count);
 
 
+// Q7 : Find the Largest Number
+// Use for...of to find the largest number in an array.
+// Sol : 
+// const marks = [45,35,76,85,34,56];
+// let largestNum = marks[0];
 
+// for(let num of marks){
+//     // if(marks[num] > largestNum){
+//     //     largestNum = marks[num];
+//     // }
+//     if(num > largestNum){
+//         largestNum = num;
+//     }
+// }
+
+// console.log(`Largest Number is : ${largestNum}`);
 
 
 
