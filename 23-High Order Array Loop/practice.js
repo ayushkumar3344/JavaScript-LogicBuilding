@@ -1,7 +1,6 @@
 // #Practice Work --->
 
 
-
 // First Learning Step --->
 // const userNames = ["Haris", "Prabhjot", "Sourabh", "Jasmin", "Khushboo"];
 
@@ -181,7 +180,19 @@
 
 
 
+// Q8 : Find the Smallest Number
+// Use for...of to find the smallest number in an array.
+// Sol : 
+// const marks = [45,35,76,85,34,56];
+// let smallestVal = marks[0];
 
+// for(let num of marks){
+//     if(num < smallestVal){
+//         smallestVal = num;
+//     }
+// }
+
+// console.log("Smallest Value is :", smallestVal);
 
 
 
