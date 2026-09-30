@@ -196,10 +196,30 @@
 
 
 
+// Q9 : Print String Characters
+// Given "JavaScript", print each character separately using for...of.
+// Sol : 
+// const language = "JavaScript";
+
+// for(let char of language){
+//     console.log(`Char are :- ${char}`);
+// }
 
 
 
+// Q10 : Count Vowels
+// Given a string, use for...of to count how many vowels it contains.
+// Sol : 
+// const language = "JavaScript".toLowerCase();
+// let vowels = 0;
 
+// for(let char of language){
+//     if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+//         vowels++;
+//     }
+// }
+
+// console.log(`Total No. of Vowel present in your string are : ${vowels}`);
 
 
 
