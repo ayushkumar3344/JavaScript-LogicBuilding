@@ -7,7 +7,7 @@
 // ---------------------------------->
 // ------------------------------>
 // ------------------------->
-// 1> Filter 
+// 1> Filter Method
 
 
 // --->
@@ -158,7 +158,7 @@
 // ---------------------------------->
 // ------------------------------>
 // ------------------------->
-// 2> Map
+// 2> Map Method
 
 // const myNumbers = [1,2,3,4,5,6,7,8,9,10];
 
@@ -177,9 +177,67 @@
 
 
 
+// ---------------------------------->
+// ------------------------------>
+// ------------------------->
+// 3> Reduce Method
+
+// -->
+// const myNums = [1,2,3];
+
+// const myTotal = myNums.reduce((acc,currVal) => {
+//   console.log(`Acc value : ${acc} and currVal is : ${currVal}`);
+//   return acc + currVal;
+// }, 0)
+
+// console.log(myTotal);
 
 
+// -->
+// const shoppingCart = [
+//     {
+//         id: 1,
+//         name: "Nike Air Max",
+//         category: "Shoes",
+//         price: 4999,
+//         quantity: 1
+//     },
+//     {
+//         id: 2,
+//         name: "Levi's T-Shirt",
+//         category: "Clothing",
+//         price: 1499,
+//         quantity: 2
+//     },
+//     {
+//         id: 3,
+//         name: "Samsung Galaxy Buds",
+//         category: "Electronics",
+//         price: 7999,
+//         quantity: 1
+//     },
+//     {
+//         id: 4,
+//         name: "Wildcraft Backpack",
+//         category: "Bags",
+//         price: 2299,
+//         quantity: 1
+//     },
+//     {
+//         id: 5,
+//         name: "Casio Watch",
+//         category: "Accessories",
+//         price: 3499,
+//         quantity: 1
+//     }
+// ];
 
+
+// const totalBill = shoppingCart.reduce((acc,item) => {
+//   return acc + item.price
+// }, 0)
+
+// console.log("Total Bill is :", totalBill);
 
 
 
