@@ -535,18 +535,71 @@
 // console.log("New Array is ;", newArr);
 
 
+// Q8 : Find the Longest Name
+// Given:
+// const names = ["Rahul", "Ayush", "Alexander", "John"];
+// Use forEach() to find the longest name.
+// Sol :
+// const names = ["Rahul", "Ayush", "Alexander", "John"];
+// let longestName = names[0].length;
+
+// names.forEach((user) => {
+//     if(user.length > longestName){
+//         longestName = user;
+//     }
+// })
+
+// console.log("Longest Name is :", longestName);
 
 
+// Q9 : Product Cart Total ⭐
+// Given:
+// const cart = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Keyboard", price: 2000 }
+// ];
+// Use forEach() to calculate the total cart price.
+// Sol :
+// const cart = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Keyboard", price: 2000 }
+// ];
+
+// let totalPrize = 0;
+
+// cart.forEach((data) => {
+//     totalPrize = totalPrize + data.price;
+// })
+
+// console.log("Total Prize is :", totalPrize);
 
 
+// Q10 : Student Result System 🔥
+// Given:
+// const students = [
+//     { name: "Ayush", marks: 85 },
+//     { name: "Rahul", marks: 42 },
+//     { name: "Priya", marks: 76 },
+//     { name: "Aman", marks: 33 }
+// ];
+// Use forEach() to print:
+// Sol :
+// const students = [
+//     { name: "Ayush", marks: 85 },
+//     { name: "Rahul", marks: 42 },
+//     { name: "Priya", marks: 76 },
+//     { name: "Aman", marks: 33 }
+// ];
 
-
-
-
-
-
-
-
+// students.forEach((data) => {
+//     if(data.marks > 40){
+//         console.log(`Name : ${data.name} and Marks ${data.marks} is Passed`);
+//     } else {
+//         console.log(`Name : ${data.name} and Marks ${data.marks} is Fail`); 
+//     }
+// })
 
 
 
