@@ -439,6 +439,208 @@
 
 
 
+// ------------------------> 
+// --------------------->
+// 🔵 21–30: forEach()
+
+
+
+// Q1 : Print Every Element
+// Given an array of names, print every name using forEach().
+// Sol :
+// const names = ["Shivam","Jyoti","Goutam","Rahul","Aman","Gourav","Sakshi"];
+
+// names.forEach((data) => {
+//     console.log(data);
+// })
+
+
+// Q2 : Print Numbers with Index
+// Given:
+// [10, 20, 30, 40, 50]
+// Sol :
+// const numbers = [10, 20, 30, 40, 50];
+
+// numbers.forEach((num,index) => {
+//     console.log(`Number is ${num} and the Index of that number is ${index}`);
+// })
+
+
+// Q3 : Calculate Sum
+// Use forEach() to calculate the sum of an array.
+// Sol :
+// const numbers = [10, 20, 30, 40, 50];
+// let totalSum = 0;
+// numbers.forEach((num) => {
+//     totalSum = totalSum + num;
+// })
+
+// console.log("Total Sun is :", totalSum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
