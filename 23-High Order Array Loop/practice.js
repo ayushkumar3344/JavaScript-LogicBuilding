@@ -478,13 +478,61 @@
 // console.log("Total Sun is :", totalSum);
 
 
+// Q4 : Print Even Numbers
+// Use forEach() to print only even numbers.
+// Sol :
+// const numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+
+// numbers.forEach((num) => {
+//     if(num % 2 === 0){
+//         console.log("Even Numbers Are :", num);
+//     }
+// })
 
 
+// Q5 : Print Numbers Greater Than 50
+// Given an array of numbers, print numbers greater than 50.
+// Sol :
+// const recordData = [73,24,46,94,88,74,32,93];
+
+// recordData.forEach((num) => {
+//     if(num > 50){
+//         console.log("Greater Than 50 :", num);
+//     }
+// })
 
 
+// Q6 : Convert Prices with Discount
+// Given:
+// const prices = [100, 200, 300, 400];
+// Use forEach() to calculate a 10% discounted price for each item.
+// Sol :
+// const prices = [100, 200, 300, 400];
+// prices.forEach((item) => {
+//     discount = item * 10 / 100;
+//     finalPrize = item - discount;
 
 
+//     console.log("Original Prize :", item);
+//     console.log("Total Discount is :", discount);
+//     console.log("Final Prize is :", finalPrize);
+//     console.log("--------------------------------");
+// })
 
+
+// Q7 : Create a New Array
+// Given:
+// const numbers = [1, 2, 3, 4, 5];
+// Use forEach() to create:
+// Sol :
+// const numbers = [1, 2, 3, 4, 5];
+// let newArr = [];
+
+// numbers.forEach((num) => {
+//     newArr.push(num * 2)
+// })
+
+// console.log("New Array is ;", newArr);
 
 
 
