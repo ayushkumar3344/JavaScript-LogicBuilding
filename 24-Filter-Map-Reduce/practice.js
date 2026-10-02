@@ -57,11 +57,37 @@
 // console.log("Output is :", output);
 
 
+// Q6 : Given an array of numbers, use map() to create a new array containing their squares.
+// // Sol :
+// const myNumbers = [5, 10, 15, 25, 50, 60, 75];
+
+// const newArray = myNumbers.map((num) => {
+//     return num * num;
+// })
+
+// console.log("New Array is :", newArray);
 
 
+// Q7 : Use map() to double every number in an array.
+// // Sol :
+// const myNumbers = [5, 10, 15, 25, 50, 60, 75];
+
+// const newArray = myNumbers.map((num) => {
+//     return num * 2;
+// })
+
+// console.log("New Array is :", newArray);
 
 
+// Q8 : Given an array of names, use map() to convert every name to uppercase.
+// // Sol :
+// const names = ["rahul", "sourabh", "gagan", "ravinder", "mohit", "karan", "vinod"];
 
+// const newArray = names.map((user) => {
+//     return user.toUpperCase();
+// })
+
+// console.log("New Array is :", newArray);
 
 
 
