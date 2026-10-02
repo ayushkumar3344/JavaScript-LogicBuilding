@@ -273,6 +273,18 @@
 // console.log("New array with Add 20% Discount Coupon :", output);
 
 
+// Q24 : Given an array of numbers, use map() to convert each number into an object 
+// like { number: 5, square: 25 }.
+// // Sol :
+// const numbers = [45,83,69,93,54,33,70];
+
+// const output = numbers.map((num,index) => ({
+//     number : num,
+//     square : num * num,
+// }))
+
+// console.log(output);
+
 
 
 
