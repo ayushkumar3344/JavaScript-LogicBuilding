@@ -113,14 +113,41 @@
 // console.log("Final Prizea are :", finalprize);
 
 
+// Q11 : Use reduce() to find the sum of all numbers in an array.
+// // Sol :
+// const myArray = [0,1,2,3,4,5,6,7,8,9,10];
+
+// const output = myArray.reduce((acc,curr) => {
+//     return acc + curr;
+// },0)
+
+// console.log("Output is :", output);
 
 
+// Q12 : Use reduce() to find the product of all numbers.
+// // Sol :
+// const myArray = [2,3,4,5,6,7,8,9,10];
+
+// const output = myArray.reduce((acc,curr) => { 
+//     console.log(`Value of ${acc} or current num is ${curr}`);
+//     return acc * curr
+// }, 2)
+
+// console.log(output)
 
 
+// Q13 : Use reduce() to find the largest number in an array.
+// // Sol :
+// const numbers = [23,76,93,64,84,33,56];
 
+// const output = numbers.reduce((acc,currentVal) => {
+//     if(currentVal > acc){
+//         return currentVal;
+//     }
+//     return acc;
+// })
 
-
-
+// console.log(`Largest Number is : ${output}`);
 
 
 
