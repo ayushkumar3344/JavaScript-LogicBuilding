@@ -230,20 +230,47 @@
 
 // Q20 : Given an array of ages, filter people who are 18 or older.
 // // Sol :
-const ages = [45,23,11,69,6,66,17,63];
+// const ages = [45,23,11,69,6,66,17,63];
 
-const output = ages.filter((age) => {
-    return age >= 18 ;
-})
+// const output = ages.filter((age) => {
+//     return age >= 18 ;
+// })
 
-console.log("Ouput is :", output);
-
-
+// console.log("Ouput is :", output);
 
 
+// Q21 : Given an array of numbers, use map() to convert every number into its cube
+// // Sol :
+// const numbers = [45,24,83,58,38,54,84,97];
+
+// const output = numbers.map((num) => {
+//     return num * num * num;
+// })
+
+// console.log("New Arrayy is :", output);
 
 
+// Q22 : Given an array of names, use map() to create "Hello, Name" for each name.
+// // Sol :
+// const names = ['Rahul', 'Sourabh', 'Goutam', 'Jaggu', 'Vinod', 'Sahil', 'Krishna'];
 
+// const output = names.map((user) => {
+//     return console.log("Hello,", user);
+    
+// })
+
+// console.log(output);
+
+
+// Q23 : Given an array of prices, use map() to apply a 20% discount.
+// // Sol :
+// const prices = [499,300,550,246,600,785];
+
+// const output = prices.map((amount) => {
+//     return amount - (amount * 20 / 100);
+// })
+
+// console.log("New array with Add 20% Discount Coupon :", output);
 
 
 
