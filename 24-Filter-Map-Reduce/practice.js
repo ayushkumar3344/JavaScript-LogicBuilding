@@ -181,6 +181,189 @@
 
 
 
+// 🟡 Intermediate — 16–30
+
+
+// Q16 : Given [10, 15, 20, 25, 30, 35], use filter() to get numbers divisible by 5.
+// // Sol :
+// const myNum = [10, 15, 20, 25, 30, 35];
+
+// const output = myNum.filter((num) => {
+//     return num % 5 === 0;
+// })
+
+// console.log("Numbers are that devide by 5 are :", output);
+
+
+// Q17 : Given an array of names, filter names that start with "A".
+// // Sol :
+// const names = ["Rahul", "Abhiiyush" , "Ayush", "Gourav", "Aryan", "Shiwali"];
+
+// const output = names.filter((user) => {
+//     return user.startsWith('A');
+// })
+
+// console.log("All Names Start With A are :", output);
+
+
+// Q18 : Given an array of strings, filter strings that contain the letter "a".
+// // Sol :
+// const names = ["Rahul", "Jyoti" , "Khushi", "Gourav", "Aryan", "Shiwali"];
+
+// const output = names.filter((user) => {
+//     return user.includes('a');
+// })
+
+// console.log("The array of Names that Includes a Are :", output);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
