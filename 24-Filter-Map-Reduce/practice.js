@@ -150,10 +150,32 @@
 // console.log(`Largest Number is : ${output}`);
 
 
+// Q14 : Use reduce() to find the smallest number in an array.
+// // Sol :
+// const numbers = [23,76,93,64,84,33,56];
+
+// const output = numbers.reduce((total,num) => {
+//     if(num < total){
+//         return num;
+//     }
+//     return total;
+// })
+
+// console.log("Smallest Value is :", output);
 
 
+// Q15 : Use reduce() to count how many numbers are even.
+// // Sol :
+// const myArray = [23,76,93,64,84,33,56];
 
+// const output = myArray.reduce((acc,curr) => {
+//     if(curr % 2 === 0){
+//         return acc + 1;
+//     }
+//     return acc;
+// }, 0)
 
+// console.log(output);
 
 
 
