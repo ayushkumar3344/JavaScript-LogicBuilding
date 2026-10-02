@@ -90,8 +90,27 @@
 // console.log("New Array is :", newArray);
 
 
+// Q9 : Use map() to add 10 to every number.
+// // Sol :
+// const myNumbers = [5, 10, 15, 25, 50, 60, 75];
+
+// const output = myNumbers.map((num) => {
+//     return num + 10;
+// })
+
+// console.log("New Array is :", output);
 
 
+// Q10 : Given an array of prices, use map() to add 18% GST to every price.
+// // Sol :
+// const prices = [3000,5830,2330,5848,3849,2994];
+// let discount = 18;
+
+// const finalprize = prices.map((amount) => {
+//     return amount + (amount * 18 / 100);
+// })
+
+// console.log("Final Prizea are :", finalprize);
 
 
 
