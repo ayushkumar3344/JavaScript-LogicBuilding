@@ -217,8 +217,26 @@
 // console.log("The array of Names that Includes a Are :", output);
 
 
+// Q19 : Given an array of numbers, filter numbers that are odd and greater than 20.
+// // Sol :
+// const myNumbers = [23,76,93,64,84,33,56];
+
+// const output = myNumbers.filter((num) => {
+//     return num % 2 !== 0 && num > 20;
+// })
+
+// console.log("Ouput Array Values is :", output);
 
 
+// Q20 : Given an array of ages, filter people who are 18 or older.
+// // Sol :
+const ages = [45,23,11,69,6,66,17,63];
+
+const output = ages.filter((age) => {
+    return age >= 18 ;
+})
+
+console.log("Ouput is :", output);
 
 
 
