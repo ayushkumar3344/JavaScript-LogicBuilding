@@ -35,10 +35,26 @@
 // console.log(output);
 
 
+// Q4 : Given an array of names, use filter() to return names having more than 5 characters.
+// Sol :
+// const names = ["Ayush", "Shva", "Goya", "Ravinder", "RaviKaran", "Shiwali"];
+
+// const output = names.filter((user) => {
+//     return user.length > 5;
+// })
+
+// console.log("Output is :", output);
 
 
+// Q5 : Use filter() to return numbers between 10 and 50.
+// Sol :
+// const myNumbers = [5, 10, 15, 25, 50, 60, 75];
 
+// const output = myNumbers.filter((num) => {
+//     return num >= 10 && num <= 50
+// })
 
+// console.log("Output is :", output);
 
 
 
