@@ -459,23 +459,75 @@
 
 
 
+// --------------------------------> Final Tasks 
+// 🔴 Challenging — 41–50
+
+// This Is the array format syntax of these all Problem Solving Questions --->
+// -------------------------------------------------------------------------->
+// const products = [
+//     { name: "Laptop", price: 60000, category: "Electronics", stock: 5 },
+//     { name: "Phone", price: 30000, category: "Electronics", stock: 10 },
+//     { name: "Shirt", price: 1500, category: "Clothing", stock: 20 },
+//     { name: "Shoes", price: 3000, category: "Clothing", stock: 0 },
+//     { name: "Watch", price: 5000, category: "Accessories", stock: 8 }
+// ];
 
 
 
+// Q1 : Use filter() to get products that are in stock.
+// // Sol :
+// const products = [
+//     { name: "Laptop", price: 60000, category: "Electronics", stock: 5 },
+//     { name: "Phone", price: 30000, category: "Electronics", stock: 10 },
+//     { name: "Shirt", price: 1500, category: "Clothing", stock: 20 },
+//     { name: "Shoes", price: 3000, category: "Clothing", stock: 0 },
+//     { name: "Watch", price: 5000, category: "Accessories", stock: 8 }
+// ];
 
 
+// const result = products.filter((item) => {
+//     return item.stock > 0;
+// })
+
+// console.log("These Stocks Are :", result);
 
 
+// Q2 : Use filter() to get products costing more than ₹5,000.
+// // Sol :
+// const products = [
+//     { name: "Laptop", price: 60000, category: "Electronics", stock: 5 },
+//     { name: "Phone", price: 30000, category: "Electronics", stock: 10 },
+//     { name: "Shirt", price: 1500, category: "Clothing", stock: 20 },
+//     { name: "Shoes", price: 3000, category: "Clothing", stock: 0 },
+//     { name: "Watch", price: 5000, category: "Accessories", stock: 8 }
+// ];
+
+// const result = products.filter((item) => {
+//     return item.price > 5000;
+// })
+
+// console.log("Items That Cost More Than 5000 Are :", result);
 
 
+// Q3 : Use filter() + map() to get the names of all Electronics products.
+// // Sol :
+// const products = [
+//     { name: "Laptop", price: 60000, category: "Electronics", stock: 5 },
+//     { name: "Phone", price: 30000, category: "Electronics", stock: 10 },
+//     { name: "Shirt", price: 1500, category: "Clothing", stock: 20 },
+//     { name: "Shoes", price: 3000, category: "Clothing", stock: 0 },
+//     { name: "Watch", price: 5000, category: "Accessories", stock: 8 }
+// ];
 
+// const result = products
+// .filter((item) => {
+//     return item.category === 'Electronics';
+// })
+// .map((item) => {
+//     return item.name;
+// })
 
-
-
-
-
-
-
+// console.log(result);
 
 
 
