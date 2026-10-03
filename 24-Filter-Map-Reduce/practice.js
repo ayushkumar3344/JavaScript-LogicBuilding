@@ -286,6 +286,31 @@
 // console.log(output);
 
 
+// Q26 : Given an array of numbers, use reduce() to calculate their average.
+// // Sol :
+// const numbers = [44,87,35,93,64,63,59];
+
+// const total = numbers.reduce((acc, curr) => {
+//     return acc + curr;
+// })
+
+// let average = total / numbers.length;
+// console.log("Average is :", average.toFixed(2));
+
+
+
+// ---------> This Example Is Performed by My Own Login <--------
+// const myNumbers = [56,73,93,44,20,54];
+
+// let result = myNumbers.reduce(findMax);
+
+// console.log("Result is :", result);
+
+// function findMax(accumulator ,element){
+//     return Math.max(accumulator ,element)
+// }
+
+
 
 
 
