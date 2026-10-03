@@ -568,8 +568,6 @@
 // console.log("Result is :", result);
 
 
-// Q6 : Use map() to create a new array where every product has a 10% discounted price.
-// // Sol :
 
 
 
