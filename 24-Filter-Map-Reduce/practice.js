@@ -433,9 +433,29 @@
 // console.log(response);
 
 
+// --------------> Chain Logic Implementation <-------------------
 
+// Q1 : Use filter() + map() to get the names of users aged 18 or above.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
 
+// let total = 0;
 
+// const result = users
+// .filter((user) => {
+//     return user.age >= 18;
+// })
+// .map((user) => {
+//     return user.name
+// })
+
+// console.log("Total Salary is :", result);
 
 
 
