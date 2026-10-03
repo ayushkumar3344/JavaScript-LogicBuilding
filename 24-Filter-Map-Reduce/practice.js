@@ -312,22 +312,70 @@
 
 
 
+// --------------------------------------------------->
+
+// 🔵 Arrays of Objects — 31–40
+
+// Use This Data For All Questions ---------------------------------->
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
 
 
 
+// Q1 : Use filter() to get users whose age is 18 or above.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
+
+// const response = users.filter( (data) => {
+//     return data.age >= 18;
+// })
+
+// console.log("New Data Array is :", response);
 
 
+// Q2 : Use filter() to get users who live in Chandigarh.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
+
+// const response = users.filter( (data) => {
+//     return data.city === "Chandigarh";
+// })
+
+// console.log("There People record they live in chandigarh Right Now :", response);
 
 
+// Q3 : Use filter() to get users whose salary is greater than ₹30,000.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
 
+// const result = users.filter((data) => {
+//     return data.salary > 30000;
+// })
 
-
-
-
-
-
-
-
+// console.log("Record Find :", result);
 
 
 
