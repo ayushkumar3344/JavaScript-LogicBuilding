@@ -530,16 +530,46 @@
 // console.log(result);
 
 
+// Q4 : Use filter() + map() to get the names of products that are in stock and cost more than ₹2,000.
+// // Sol :
+// const products = [
+//     { name: "Laptop", price: 60000, category: "Electronics", stock: 5 },
+//     { name: "Phone", price: 30000, category: "Electronics", stock: 10 },
+//     { name: "Shirt", price: 1500, category: "Clothing", stock: 20 },
+//     { name: "Shoes", price: 3000, category: "Clothing", stock: 0 },
+//     { name: "Watch", price: 5000, category: "Accessories", stock: 8 }
+// ];
+
+// const result = products
+// .filter( (product) => {
+//     return product.stock > 2 && product.price > 2000
+// })
+// .map((product) => {
+//     return product.name
+// })
+
+// console.log("New Array is :", result);
 
 
+// Q5 : Use map() to create a new array where every product has a 10% discounted price.
+// // Sol :
+// const products = [
+//     { name: "Laptop", price: 60000, category: "Electronics", stock: 5 },
+//     { name: "Phone", price: 30000, category: "Electronics", stock: 10 },
+//     { name: "Shirt", price: 1500, category: "Clothing", stock: 20 },
+//     { name: "Shoes", price: 3000, category: "Clothing", stock: 0 },
+//     { name: "Watch", price: 5000, category: "Accessories", stock: 8 }
+// ];
+
+// const result = products.map((product) => {
+//     return product.price - (product.price * 10 / 100)
+// })
+
+// console.log("Result is :", result);
 
 
-
-
-
-
-
-
+// Q6 : Use map() to create a new array where every product has a 10% discounted price.
+// // Sol :
 
 
 
