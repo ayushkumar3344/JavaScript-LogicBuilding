@@ -378,20 +378,59 @@
 // console.log("Record Find :", result);
 
 
+// Q4 : Use map() to create an array containing only the names.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
 
 
+// const response = users.map((data) => {
+//     return data.name
+// })
+
+// console.log("New Array is :", response);
 
 
+// Q5 : Use map() to create an array containing only the salaries.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
+
+// const response = users.map((data) => {
+//     return data.salary;
+// });
+
+// console.log("Salaries are :", response);
 
 
+// Q6 : Use map() to create objects containing only name and city.
+// // Sol :
+// const users = [
+//     { name: "Ayush", age: 22, city: "Chandigarh", salary: 30000 },
+//     { name: "Rahul", age: 17, city: "Delhi", salary: 20000 },
+//     { name: "Priya", age: 25, city: "Mumbai", salary: 45000 },
+//     { name: "Neha", age: 19, city: "Chandigarh", salary: 35000 },
+//     { name: "Aman", age: 16, city: "Delhi", salary: 15000 }
+// ];
 
+// const response = users.map((user) => {
+//     return {
+//         name : user.name,
+//         city : user.city,
+//     }
+// })
 
-
-
-
-
-
-
+// console.log(response);
 
 
 
