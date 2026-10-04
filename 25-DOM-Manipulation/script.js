@@ -3,7 +3,10 @@
 
 
 
-
+// 1> getElementById
+// 2> getElementByClass
+// 3> getAttribute
+// 4> setAttribute
 
 
 
