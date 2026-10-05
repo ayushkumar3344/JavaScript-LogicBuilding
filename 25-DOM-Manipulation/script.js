@@ -23,7 +23,11 @@
 // 3> innerHTML --> Its Same as innerText but include HTML element inside the Element with all Text Content you can simple change the inner text with adding some HTML functionality.
 
 
-// ------> Now Start how I Access HTML Elements with class :
+// ------> Now Start
+
+// 1> ForEach Loop Done
+// 2> Style Properties Done
+// 3> Access Intex Element Done
 
 
 
