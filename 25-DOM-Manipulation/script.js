@@ -30,7 +30,9 @@
 // 3> Access Intex Element Done
 
 
-// ------> Dom Concepts
+// ------> Now We understand about getElementByClassName <------
+
+
 
 
 
