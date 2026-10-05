@@ -32,6 +32,7 @@
 
 // ------> Now We understand about getElementByClassName <------
 
+// ---> here i understand how classList converted in array using [ Array.from(...Valrable Name) ];
 
 
 
