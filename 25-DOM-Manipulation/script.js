@@ -44,17 +44,20 @@ const parent = document.querySelector('.parent');
 // console.log(parent.children[2].innerHTML);
 
 
-for (let i = 0; i < parent.children.length; i++) {
-    console.log(parent.children[i].innerHTML);
-}
-parent.children[2].style.color = "Orange"
+// for (let i = 0; i < parent.children.length; i++) {
+//     console.log(parent.children[i].innerHTML);
+// }
+// parent.children[2].style.color = "Orange"
 // console.log(parent.firstElementChild);
 // console.log(parent.lastElementChild);
 
-const dayOne = document.querySelector('.day');
-console.log(dayOne.parentElement);
-console.log(dayOne);
-console.log(dayOne.nextElementSibling);
+// const dayOne = document.querySelector('.day');
+// console.log(dayOne.parentElement);
+// console.log(dayOne);
+// console.log(dayOne.nextElementSibling);
+
+// console.log('NODES :', parent.childNodes);
+
 
 
 
