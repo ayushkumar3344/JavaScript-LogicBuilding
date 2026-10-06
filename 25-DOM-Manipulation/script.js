@@ -40,7 +40,7 @@
 // --------------------------> Create A New Element In DOM :
 
 
-const parent = document.querySelector('.parent');
+// const parent = document.querySelector('.parent');
 // console.log(parent.children[2].innerHTML);
 
 
@@ -61,6 +61,12 @@ const parent = document.querySelector('.parent');
 
 
 
+// ----------------------------------------------->
+// ----------------------------------------------->
+// ----------------------------------------------->
+// ----------------------------------------------->
+
+// Here I Creating A Div Element By only Using Javascript Properties -->
 
 
 
