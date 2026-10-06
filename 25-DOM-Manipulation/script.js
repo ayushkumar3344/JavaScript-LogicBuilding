@@ -53,6 +53,8 @@ parent.children[2].style.color = "Orange"
 
 const dayOne = document.querySelector('.day');
 console.log(dayOne.parentElement);
+console.log(dayOne);
+console.log(dayOne.nextElementSibling);
 
 
 
