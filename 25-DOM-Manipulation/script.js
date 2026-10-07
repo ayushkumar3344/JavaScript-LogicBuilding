@@ -82,8 +82,29 @@
 // div.appendChild(addText);
 
 
+// ----------------------------------------------------->
+// ----------------------------------------------------->
+// ----------------------------------------------------->
 
+// function handleLang(language){
+//     const li = document.createElement('li');
+//     li.innerHTML = language;
+//     const ul = document.querySelector('.language');
+//     ul.appendChild(li);
+// }
 
+// handleLang("C++");
+// handleLang("Python");
+// handleLang("Kotline");
+// handleLang("Flutter");
+// handleLang("React");
+
+// const paretEl = document.querySelector('.language');
+// console.log(paretEl.children);
+// paretEl.children[2].style.backgroundColor = "Purple";
+// paretEl.children[2].style.borderRadius = "15px";
+// paretEl.children[2].style.padding = "5px 20px";
+// paretEl.children[2].style.cursor = "pointer";
 
 
 
