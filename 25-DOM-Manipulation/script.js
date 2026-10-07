@@ -99,6 +99,32 @@
 // handleLang("Flutter");
 // handleLang("React");
 
+
+// // ---------------------------------------------------->
+// // ---------------------------------------------------->
+// // Now I Understanding the Edit && Delete Concept In DOM JS Manipulation.
+
+
+// function handleOptiLanguage(langName){
+//     const li = document.createElement('li');
+//     li.appendChild(document.createTextNode(langName));
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const paretEl = document.querySelector('.language');
 // console.log(paretEl.children);
 // paretEl.children[2].style.backgroundColor = "Purple";
