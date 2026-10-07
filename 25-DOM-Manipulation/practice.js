@@ -45,9 +45,22 @@
 // console.log(childNodeEl.parentElement);
 
 
+// ----------------------------------------------->
+// here i access and manage ClassList node child and using forEach loop at all -->
 
+// const allDays = document.getElementsByClassName('day')
+// // console.log(allDays);
 
+// const arraysDay = Array.from(allDays);
+// console.log(arraysDay);
 
+// arraysDay.forEach( (days) => {
+//     days.style.backgroundColor = "purple";
+//     days.style.padding = '20px 20px'
+//     days.style.margin = '20px'
+//     days.style.borderRadius = '10px'
+//     days.style.cursor = 'pointer'
+// } )
 
 
 
