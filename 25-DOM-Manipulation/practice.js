@@ -28,8 +28,21 @@
 // console.log(parentEl.children[2].innerText = "Hello: Javascript");
 
 
+// ----------------------------------------------->
+// Acces FirstChild and LastChild or parent Element  -->
+
+// const parentEl = document.querySelector('.parent');
+// console.log(parentEl);
+// console.log(parentEl.children);
 
 
+// const parentEl = document.querySelector('.parent');
+// console.log(parentEl.firstElementChild.innerText);
+// console.log(parentEl.lastElementChild.innerText);
+
+// const childNodeEl = document.querySelector('.day');
+// console.log(childNodeEl);
+// console.log(childNodeEl.parentElement);
 
 
 
