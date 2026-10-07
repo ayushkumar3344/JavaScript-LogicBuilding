@@ -68,16 +68,16 @@
 
 // Here I Creating A Div Element By only Using Javascript Properties -->
 
-const div = document.createElement('div');
-console.log(div);
-div.className = "main";
-div.id = Math.floor((Math.random() * 10) + 1);
-div.setAttribute('title','generated-title');
-div.style.backgroundColor = "Purple"
-div.style.padding = '12px';
-div.innerText = "Hello, JavaScript";
+// const div = document.createElement('div');
+// console.log(div);
+// div.className = "main";
+// div.id = Math.floor((Math.random() * 10) + 1);
+// div.setAttribute('title','generated-title');
+// div.style.backgroundColor = "Purple"
+// div.style.padding = '12px';
+// div.innerText = "Hello, JavaScript";
 
-document.body.appendChild(div);
+// document.body.appendChild(div);
 // const addText = document.createTextNode('Hello, JavaScript');
 // div.appendChild(addText);
 
