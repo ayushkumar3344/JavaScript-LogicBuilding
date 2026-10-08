@@ -102,18 +102,41 @@
 // })
 
 
+// Q5: Create a button that changes the text of a paragraph when clicked.
+// Sol ::
+// function handlePara(){
+//     const para = document.querySelector('p');
+//     para.style.color = "orange";
+// }
 
 
+// Q6: Create a button that hides a paragraph when clicked.
+// Sol ::
+// function handlePara(){
+//     const para = document.querySelector('p');
+//     para.style.display = 'none';
+// }
 
 
+// Q7: Create a button that shows a hidden paragraph when clicked.
+// Sol ::
+// function handleClose(){
+//     const para = document.querySelector('p');
+//     para.style.display = 'inline';
+// }
 
 
+// Q8: Create two buttons: Hide and Show. Make them hide/show a <div>.
+// Sol ::
+// function handlePara(){
+//     const para = document.querySelector('p');
+//     para.style.display = 'none';
+// }
 
-
-
-
-
-
+// function handleClose(){
+//     const para = document.querySelector('p');
+//     para.style.display = 'inline';
+// }
 
 
 
