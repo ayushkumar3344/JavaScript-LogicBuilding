@@ -139,10 +139,30 @@
 // }
 
 
+// Q9: Create a button that toggles the visibility of a <div> every time it is clicked.
+// Sol ::
+// const h1 = document.querySelector('h1');
+
+// function handleToggle(){
+//     if(h1.style.display === "inline"){
+//         h1.style.display = "none"
+//     } else{
+//         h1.style.display = 'inline';
+//     }
+// }
 
 
+// Q10: Create a button that changes a heading between "Light Mode" and "Dark Mode".
+// Sol ::
+// const h1 = document.querySelector('h1');
 
-
+// function handleToggle(){
+//     if(h1.style.color === 'black'){
+//         h1.style.color = 'white';
+//     }else{
+//         h1.style.color = "black";
+//     } 
+// }
 
 
 
