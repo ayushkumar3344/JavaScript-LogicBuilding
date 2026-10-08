@@ -63,12 +63,43 @@
 // } )
 
 
-// -------------------------------------------------------?
 
 
+// ------------------------------------------------------->
+// ------------------------------------------------------->
+// ##Practice Task Questions of DOM Manupulation Start here :: 
+// DOM Manipulation — 40 Practice Tasks ::
 
 
+// 🟢 Level 1: DOM Selection & Text — 1–10
 
+
+// Q1: Select a heading and change its text from "Hello World" to "Welcome to JavaScript".
+// Sol ::
+// const headingEl = document.querySelector('h1');
+// console.log(headingEl);
+// headingEl.innerText = 'JavaScript';
+
+
+// Q2: Select a paragraph and change its text color using JavaScript.
+// Sol ::
+// const para = document.querySelector('p');
+// para.style.color = "yellow"
+
+
+// Q3: Select an element by its id and change its background color.
+// Sol ::
+// const paragraph = document.querySelector('#paragraph');
+// paragraph.style.backgroundColor = "purple"
+
+
+// Q4: Select all <p> elements and change their font size.
+// Sol ::
+// const para = document.querySelectorAll('p');
+// console.log(para);
+// para.forEach((el) => {
+//     el.style.fontSize = '30px'
+// })
 
 
 
