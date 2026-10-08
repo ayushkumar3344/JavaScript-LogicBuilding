@@ -166,15 +166,27 @@
 
 
 
+// 🟢 Level 1: DOM Selection & Text — 1–10
 
 
+// Q1: Create a button that adds a CSS class to a paragraph.
+// Sol ::
+// const h1 = document.querySelector('h1');
+// const button = document.querySelector('button');
+
+// button.addEventListener('click', () => {
+//     h1.classList.add('newVal')
+// })
 
 
+// Q2: Create a button that removes a CSS class from a paragraph.
+// Sol ::
+// const h1 = document.querySelector('h1');
+// const button = document.querySelector('button');
 
-
-
-
-
+// button.addEventListener('click', () => {
+//     h1.classList.remove('dataSolo')
+// })
 
 
 
