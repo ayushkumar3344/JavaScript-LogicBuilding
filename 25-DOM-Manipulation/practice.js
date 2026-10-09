@@ -279,14 +279,36 @@
 // })
 
 
+// Q18: Create a button that adds a border to a box and another button that removes it.
+// Sol ::
+// const boxEl = document.querySelector('#box');
+// const addBtn = document.querySelector('#add');
+// const removeBtn = document.querySelector('#remove');
+
+// console.log(boxEl, addBtn, removeBtn);
+
+// addBtn.addEventListener('click', () => {
+//     boxEl.classList.add('addborder')
+// })
+
+// removeBtn.addEventListener('click', () => {
+//     boxEl.classList.remove('addborder') 
+// })
 
 
+// Q19: Create a button that randomly changes the background color of a box.
+// Sol ::
+// const box = document.querySelector('#box');
+// const btn = document.querySelector('#btn');
 
 
+// btn.addEventListener('click', () => {
 
+//     const colors = [ "red", "blue", "green", "yellow", "purple", "orange" ];
+//     let randomIndex = Math.floor(Math.random() * colors.length);
+//     box.style.backgroundColor = colors[randomIndex];
 
-
-
+// })
 
 
 
