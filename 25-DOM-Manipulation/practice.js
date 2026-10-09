@@ -257,17 +257,26 @@
 
 // Q17: Create a Dark Mode / Light Mode toggle using classList.
 // Sol ::
-const btn = document.querySelector('button');
+// const btn = document.querySelector('button');
 
-btn.addEventListener('click', () => {
-    document.body.classList.toggle('active');
-    btn.classList.toggle('change')
-})
-
-
+// btn.addEventListener('click', () => {
+//     document.body.classList.toggle('active');
+//     btn.classList.toggle('change')
+// })
 
 
+// Q17: Create a button that changes the text color of every paragraph on the page.
+// Sol ::
+// const para = document.querySelectorAll('.para');
+// const btn = document.querySelector('button');
 
+// console.log(para, btn);
+
+// btn.addEventListener('click', () => {
+//     para.forEach((content) => {
+//         content.style.color = "Red";
+//     })
+// })
 
 
 
