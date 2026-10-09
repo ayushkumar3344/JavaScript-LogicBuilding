@@ -257,7 +257,12 @@
 
 // Q17: Create a Dark Mode / Light Mode toggle using classList.
 // Sol ::
+const btn = document.querySelector('button');
 
+btn.addEventListener('click', () => {
+    document.body.classList.toggle('active');
+    btn.classList.toggle('change')
+})
 
 
 
