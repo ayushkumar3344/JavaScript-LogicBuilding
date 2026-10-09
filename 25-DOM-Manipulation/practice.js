@@ -166,10 +166,10 @@
 
 
 
-// 🟢 Level 1: DOM Selection & Text — 1–10
+// 🟡 Level 2: Classes & Styles — 11–20
 
 
-// Q1: Create a button that adds a CSS class to a paragraph.
+// Q11: Create a button that adds a CSS class to a paragraph.
 // Sol ::
 // const h1 = document.querySelector('h1');
 // const button = document.querySelector('button');
@@ -179,7 +179,7 @@
 // })
 
 
-// Q2: Create a button that removes a CSS class from a paragraph.
+// Q12: Create a button that removes a CSS class from a paragraph.
 // Sol ::
 // const h1 = document.querySelector('h1');
 // const button = document.querySelector('button');
@@ -189,22 +189,74 @@
 // })
 
 
+// Q13: Create a button that toggles a CSS class on a <div>.
+// Sol ::
+// const h1El = document.querySelector('h1');
+// const toggleBtn = document.querySelector('#btn');
+
+// console.log(h1El, toggleBtn);
 
 
+// toggleBtn.addEventListener('click', () => {
+//     h1El.classList.toggle('active')
+// })
 
 
+// Q14: Create a button that toggles a CSS class on a <div>.
+// Sol ::
+
+// const h1 = document.querySelector('h1');
+
+// const button = document.querySelectorAll('button');
+// console.log(button);
+
+// button[0].addEventListener('click', () => {
+//     h1.classList.toggle('red')
+// })
+
+// button[1].addEventListener('click', () => {
+//     h1.classList.toggle('blue')
+// })
+
+// button[2].addEventListener('click', () => {
+//     h1.classList.toggle('orange')
+// })
 
 
+// Q15: Create three buttons: Red, Green, Blue. Clicking each button should change the background color of a box.
+// Sol ::
+
+// const h1 = document.querySelector('h1');
+// const buttons = document.querySelectorAll('.btn');
+
+// buttons[0].addEventListener('click', () => {
+//     h1.style.backgroundColor = 'red';
+// })
+
+// buttons[1].addEventListener('click', () => {
+//     h1.style.backgroundColor = 'green';
+// })
+
+// buttons[2].addEventListener('click', () => {
+//     h1.style.backgroundColor = 'Blue';
+// })
 
 
+// Q16: Create a button that increases the font size of a paragraph by 2px every time you click it.
+// Sol ::
+// const para = document.querySelector('#para');
+// const btn = document.querySelector('#btn');
+// let size = 16;
+
+// btn.addEventListener('click', () => {
+//     size = size + 2
+
+//     para.style.fontSize = size + 'px';
+// })
 
 
-
-
-
-
-
-
+// Q17: Create a Dark Mode / Light Mode toggle using classList.
+// Sol ::
 
 
 
