@@ -315,6 +315,20 @@
 // 🟠 Level 3: Creating & Removing Elements — 21–30
 
 
+// Q21: Create a button that adds a new <li> item to an existing <ul>.
+// Sol ::
+// const ul = document.querySelector('#parent');
+
+// const handleLists = (fruit) => {
+//     const li = document.createElement('li');
+//     li.innerText = fruit;
+//     ul.appendChild(li);
+// }
+
+// handleLists("Graphes")
+// handleLists('Mango')
+// handleLists('Orange')
+
 
 
 
