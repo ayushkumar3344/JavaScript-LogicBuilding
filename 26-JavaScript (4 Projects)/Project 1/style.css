@@ -78,6 +78,7 @@ span {
   margin: 100px auto 100px;
   width: 80%;
   text-align: center;
+  border: 2px solid black;
 }
 
 .button {
@@ -87,8 +88,8 @@ span {
   display: inline-block;
 }
 
-#grey {
-  background: grey;
+#green {
+  background: green;
 }
 
 #white {
