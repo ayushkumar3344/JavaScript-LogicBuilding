@@ -1,11 +1,11 @@
 // Build JavaScript Logic ------->
 
-const clock = document.getElementById('#clock');
+// const clock = document.getElementById('clock');
 
-setInterval(() => {
-    let date = new Date();
-    clock.innerHTML = date.toLocaleTimeString()
-}, 1000)
+// setInterval(() => {
+//     let date = new Date();
+//     clock.innerHTML = date.toLocaleTimeString()
+// }, 1000)
 
 
 
