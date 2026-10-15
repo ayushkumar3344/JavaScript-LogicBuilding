@@ -22,7 +22,7 @@ if(playGame){
     submitBtn.addEventListener('click', (e) => {
         e.preventDefault();
         const guess = parseInt(userInput.value);
-        validateGuess(guess)
+        validateGuess(guess);
     })
 
 }
@@ -45,7 +45,6 @@ function validateGuess(guess){
         } else{
             displayGuess(guess);
             checkGuess(guess);
-
         }
     }
 }
@@ -72,6 +71,7 @@ function displayMessage(){
 function endGame(){
     //
 }
+
 
 function newGame(){
     // 
