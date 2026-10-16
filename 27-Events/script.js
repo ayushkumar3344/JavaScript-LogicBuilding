@@ -1,6 +1,12 @@
 // Understanding About Events In JavaScript -------->
 
 
+// First Getting All Html Elements ----->
+// const owl = document.getElementById('owl');
+
+// owl.addEventListener('click', (e) => {
+//     alert('Owl Clicked')
+// })
 
 
 
