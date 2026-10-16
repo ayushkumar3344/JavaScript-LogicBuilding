@@ -8,10 +8,12 @@
 //     alert('Owl Clicked')
 // })
 
+// const images = document.getElementById('Images');
 
-owl.addEventListener('click', (e) => {
-    console.log(e);
-})
+
+// images.addEventListener('click', (e) => {
+//     console.log('Clicked Inside the UL');
+// })
 
 
 // Need to Learn -->
