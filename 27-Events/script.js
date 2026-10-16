@@ -8,8 +8,6 @@
 //     alert('Owl Clicked')
 // })
 
-// const images = document.getElementById('Images');
-
 
 // images.addEventListener('click', (e) => {
 //     console.log('Clicked Inside the UL');
@@ -23,8 +21,12 @@
 // 3> clientX, clientY, screenX, screenY
 // 4> AltKey, CtrlKey, ShiftKey, KeyCode
 
+// const images = document.getElementById('Images');
 
-
+// images.addEventListener('click', (e) => {
+//     const element = e.target.parentNode;
+//     element.remove();
+// })
 
 
 
