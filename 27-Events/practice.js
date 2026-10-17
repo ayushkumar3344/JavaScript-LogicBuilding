@@ -91,8 +91,18 @@
 // })
 
 
+// 8. Mouseout Effect
+// Restore the original box color when the mouse leaves it.
+// Sol :
+const heading = document.querySelector('#heading');
 
+heading.addEventListener('mouseover', () => {
+    heading.style.backgroundColor = 'purple' 
+})
 
+heading.addEventListener('mouseleave', () => {
+    heading.style.backgroundColor = 'gray'
+})
 
 
 
