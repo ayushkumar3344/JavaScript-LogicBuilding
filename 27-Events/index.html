@@ -7,7 +7,7 @@
 
     <style>
 
-        button{
+        /* button{
             padding: 10px 20px;
             border-radius: 10px;
             border: none;
@@ -22,6 +22,19 @@
 
         .hide{
             display: none;
+        } */
+
+        .space{
+            height: 250px;
+            width: 600px;
+            resize: none;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #para{
+            border: 2px solid black;
+            margin-top: 50px;
         }
 
     </style>
@@ -29,9 +42,8 @@
 <body style="background-color: #414141; color: aliceblue;">
 
 
-    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia temporibus nemo ipsam architecto eligendi at iure tempora velit fuga nostrum, eos iusto excepturi. Molestiae voluptatum officia alias sequi fuga.</p>
-
-    <button id="btn">Click</button>
+    <textarea name="data" id="space" class="space" placeholder="Take your notes here..."></textarea>
+    <p id="para"></p>
 
 
     <!-- Link JavaScript File -->

@@ -58,13 +58,27 @@
 // })
       
 
+// 5. Live Input Preview
+// Display the text in an input field inside a paragraph while the user types.
+// Sol :
+// const textArea = document.querySelector('#space'),
+//       para = document.querySelector('#para');
+      
+
+// textArea.addEventListener('input', () => {
+//     para.textContent = textArea.value
+// })
 
 
+// 6. Character Counter
+// Count the number of characters entered into a textarea in real time.
+// Sol :
+// const textArea = document.querySelector('#space'),
+//       para = document.querySelector('#para');
 
-
-
-
-
+// textArea.addEventListener('input' , () => {
+//     para.textContent = textArea.value.length
+// })
 
 
 
