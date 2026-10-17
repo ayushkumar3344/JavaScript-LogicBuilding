@@ -81,7 +81,14 @@
 // })
 
 
+// 7. Mouseover Effect
+// Change a box's background color when the mouse enters it.
+// Sol :
+// const box = document.querySelector('#heading');
 
+// box.addEventListener('mouseover', () => {
+//     box.style.backgroundColor = "yellow"
+// })
 
 
 
