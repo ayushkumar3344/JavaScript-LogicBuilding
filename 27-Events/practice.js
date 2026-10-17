@@ -116,8 +116,13 @@
 // })
       
 
-
-
+// 10. Input Value Display
+// Create an input and a button. Display the input value only when the button is clicked.
+// Sol :
+// document.querySelector("#showBtn").addEventListener("click", () => {
+//   const value = document.querySelector("#userInput").value;
+//   document.querySelector("#result").textContent = value;
+// });
 
 
 
