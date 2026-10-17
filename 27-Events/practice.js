@@ -94,19 +94,27 @@
 // 8. Mouseout Effect
 // Restore the original box color when the mouse leaves it.
 // Sol :
-const heading = document.querySelector('#heading');
+// const heading = document.querySelector('#heading');
 
-heading.addEventListener('mouseover', () => {
-    heading.style.backgroundColor = 'purple' 
-})
+// heading.addEventListener('mouseover', () => {
+//     heading.style.backgroundColor = 'purple' 
+// })
 
-heading.addEventListener('mouseleave', () => {
-    heading.style.backgroundColor = 'gray'
-})
-
-
+// heading.addEventListener('mouseleave', () => {
+//     heading.style.backgroundColor = 'gray'
+// })
 
 
+// 9. Image Switcher
+// Change an image when a user clicks a button.
+// Sol :
+// const image = document.querySelector('#markit'),
+//       btn = document.querySelector('#btn');
+      
+// btn.addEventListener('click', () => {
+//     image.src = "https://images.unsplash.com/photo-1789758489727-40dc88d25a62?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDE%3D"
+// })
+      
 
 
 
