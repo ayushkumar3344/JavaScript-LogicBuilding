@@ -127,12 +127,33 @@
 
 
 
+// ----------------------------------------------------------------->
+// Level 2: Intermediate (11–20)
+// Focus: form submission, keyboard events, event objects, and event delegation.
 
 
+// 11. Login Form Validation
+// Check whether the username and password fields are empty when the form is submitted.
+// Sol :
+const username = document.querySelector('#username').value.trim(),
+      password = document.querySelector('#password').value,
+      loginMessage = document.querySelector('#loginMessage'),
+      button = document.querySelector('#submitBtn');
+
+    //   console.log(username,password,loginMessage,button);
+      
 
 
-
-
+      
+    
+button.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if(!username || !password){
+        loginMessage.innerText = "Please fill Both Field";
+    } else{
+        loginMessage.textContent = "Form Submitted Successfully";
+    }
+})
 
 
 

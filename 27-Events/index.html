@@ -35,14 +35,46 @@
 
         button{
             padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
         }
+
+        form{
+            border: 2px solid white;
+            width: fit-content;
+            padding: 30px;
+            margin: 40px;
+            border-radius: 15px;
+            background-color: rgb(81, 77, 77);
+        }
+
+
+        input{
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        
 
     </style>
 </head>
 <body style="background-color: #414141; color: aliceblue;">
 
 
-    
+    <form action="#">
+
+        <input type="text" id="username" placeholder="enter username">
+        <input type="password" id="password" placeholder="password">
+        <button id="submitBtn" type="submit">Submit Form</button>
+
+    </form>
+
+    <p id="loginMessage"></p>
 
 
 
