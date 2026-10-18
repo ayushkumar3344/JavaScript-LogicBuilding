@@ -140,17 +140,7 @@ const username = document.querySelector('#username').value.trim(),
       loginMessage = document.querySelector('#loginMessage'),
       button = document.querySelector('#submitBtn');
 
-    //   console.log(username,password,loginMessage,button);
-    
-    
-// button.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     if(!username || !password){
-//         loginMessage.innerText = "Please fill Both Field";
-//     } else{
-//         loginMessage.textContent = "Form Submitted Successfully";
-//     }
-// })
+
 
 
 
