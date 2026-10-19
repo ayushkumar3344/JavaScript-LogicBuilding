@@ -135,10 +135,23 @@
 // 11. Login Form Validation
 // Check whether the username and password fields are empty when the form is submitted.
 // Sol :
-const username = document.querySelector('#username').value.trim(),
-      password = document.querySelector('#password').value,
-      loginMessage = document.querySelector('#loginMessage'),
-      button = document.querySelector('#submitBtn');
+// const form = document.querySelector('#loginForm');
+
+// form.addEventListener('submit', (e) => {
+
+//     e.preventDefault();
+
+//     const username = document.querySelector('#username').value.trim();
+//     const password = document.querySelector('#password').value;
+//     const message = document.querySelector('#loginMessage');
+
+//     if(!username || !password){
+//         message.textContent = "Please Filled Both Field";
+//     }else{
+//         message.textContent = "Form Submitted";
+//     }
+
+// })
 
 
 
