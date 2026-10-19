@@ -132,6 +132,7 @@
 // Focus: form submission, keyboard events, event objects, and event delegation.
 
 
+
 // 11. Login Form Validation
 // Check whether the username and password fields are empty when the form is submitted.
 // Sol :
@@ -154,8 +155,15 @@
 // })
 
 
+// 12. Password Show/Hide
+// Add a checkbox that toggles the password input between visible and hidden.
+// Sol :
+// const passwordField = document.querySelector('#password');
+// const checkBox = document.querySelector('#showPassword');
 
-
+// checkBox.addEventListener('change', () => {
+//     passwordField.type = checkBox.checked ? "text" : "password" 
+// })
 
 
 
