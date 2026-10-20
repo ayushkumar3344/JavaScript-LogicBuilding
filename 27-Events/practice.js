@@ -178,7 +178,14 @@
 // 14. Enter Key Submit
 // Submit an input value when the user presses Enter.
 // Sol :
+const inputEl = document.querySelector('#inputField');
 
+inputEl.addEventListener('keydown' , (e) => {
+    if(e.key === 'Enter'){
+        let output = document.querySelector('#output');
+        output.textContent = `${inputEl.value}`;
+    }
+})
 
 
 
