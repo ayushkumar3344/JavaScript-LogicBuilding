@@ -202,8 +202,15 @@
 // });
 
 
-
-
+// 16. Live Word Counter
+// Count words entered into a textarea as the user types.
+// Sol :
+// document.querySelector("#country").addEventListener("change", (event) => {
+//   document.querySelector("#selectedCountry").textContent =
+//     event.target.value
+//       ? `Selected: ${event.target.value}`
+//       : "No country selected";
+// });
 
 
 
