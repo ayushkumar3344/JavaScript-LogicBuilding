@@ -213,8 +213,23 @@
 // });
 
 
+// 17. Add Items to a List
+// Take text from an input and add it to a list when a button is clicked.
+// Sol :
+// const input = document.querySelector("#itemInput");
+// const list = document.querySelector("#itemList");
 
+// document.querySelector("#addBtn").addEventListener("click", () => {
+//   const value = input.value.trim();
 
+//   if (value === "") return;
+
+//   const li = document.createElement("li");
+//   li.textContent = value;
+//   list.appendChild(li);
+
+//   input.value = "";
+// });
 
 
 
