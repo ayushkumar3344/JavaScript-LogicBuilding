@@ -169,7 +169,10 @@
 // 13. Keyboard Key Detector
 // Display the key pressed by the user using a keyboard event.
 // Sol :
-
+document.addEventListener('keydown', (e) => {
+    let message = document.querySelector('#keyOutput');
+    message.textContent = `Key is ${e.key}`
+})
 
 
 
