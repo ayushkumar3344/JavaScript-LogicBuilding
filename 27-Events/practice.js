@@ -178,16 +178,19 @@
 // 14. Enter Key Submit
 // Submit an input value when the user presses Enter.
 // Sol :
-const inputEl = document.querySelector('#inputField');
+// const inputEl = document.querySelector('#inputField');
 
-inputEl.addEventListener('keydown' , (e) => {
-    if(e.key === 'Enter'){
-        let output = document.querySelector('#output');
-        output.textContent = `${inputEl.value}`;
-    }
-})
+// inputEl.addEventListener('keydown' , (e) => {
+//     if(e.key === 'Enter'){
+//         let output = document.querySelector('#output');
+//         output.textContent = `${inputEl.value}`;
+//     }
+// })
 
 
+// 15. Live Word Counter
+// Count words entered into a textarea as the user types.
+// Sol :
 
 
 
