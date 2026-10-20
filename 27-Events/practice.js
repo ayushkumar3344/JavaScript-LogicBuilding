@@ -169,14 +169,15 @@
 // 13. Keyboard Key Detector
 // Display the key pressed by the user using a keyboard event.
 // Sol :
-document.addEventListener('keydown', (e) => {
-    let message = document.querySelector('#keyOutput');
-    message.textContent = `Key is ${e.key}`
-})
+// document.addEventListener('keydown', (e) => {
+//     let message = document.querySelector('#keyOutput');
+//     message.textContent = `Key is ${e.key}`
+// })
 
 
-
-
+// 14. Enter Key Submit
+// Submit an input value when the user presses Enter.
+// Sol :
 
 
 
