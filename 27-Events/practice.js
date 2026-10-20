@@ -191,7 +191,15 @@
 // 15. Live Word Counter
 // Count words entered into a textarea as the user types.
 // Sol :
+const textInput = document.querySelector("#textInput");
+const wordCount = document.querySelector("#wordCount");
 
+textInput.addEventListener("input", () => {
+  const text = textInput.value.trim();
+
+  const words = text ? text.split(/\s+/) : [];
+  wordCount.textContent = words.length;
+});
 
 
 
